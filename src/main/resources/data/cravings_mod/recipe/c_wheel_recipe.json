@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cravings_mod:cheese_curds"
+    }
+  },
+  "result": {
+    "id": "cravings_mod:cheese_wheel",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Cravings",
+    "icon": {
+      "value": "CUSTOM:Cheese"
+    },
+    "showSearch": false
+  }
+}

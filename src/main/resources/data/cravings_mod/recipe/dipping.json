@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "item": "cravings_mod:flour"
+    },
+    "b": {
+      "item": "minecraft:milk_bucket"
+    },
+    "c": {
+      "item": "cravings_mod:cheese_curds"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "cravings_mod:dipped_curds",
+    "count": 1
+  }
+}

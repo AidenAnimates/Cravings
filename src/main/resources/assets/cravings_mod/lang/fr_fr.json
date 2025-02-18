@@ -1,0 +1,22 @@
+{
+  "item.cravings_mod.cheese_slice": "Tranche de fromage",
+  "block.cravings_mod.cheese_wheel": "Meule de fromage",
+  "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
+  "item.cravings_mod.olive": "Olive",
+  "item.cravings_mod.cheese_curds": "Fromage en grains",
+  "block.cravings_mod.fryer": "Friteuse",
+  "item.cravings_mod.cheese": "Fromage",
+  "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
+  "item.cravings_mod.ricotta": "Ricotta",
+  "item.cravings_mod.flour": "Farine",
+  "item.cravings_mod.dipped_curds": "Caillé trempé",
+  "item.cravings_mod.flour_sack": "Sac de farine",
+  "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
+  "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
+  "item.cravings_mod.fabric": "Tissu",
+  "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
+  "item_group.cravings_mod.cravings": "Envies",
+  "item.cravings_mod.fried_curds": "Caillé frit",
+  "block.cravings_mod.olive_sapling": "Jeune olivier",
+  "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse"
+}

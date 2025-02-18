@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cravings_mod:cheese"
+    },
+    {
+      "item": "cravings_mod:cheese"
+    },
+    {
+      "item": "cravings_mod:cheese"
+    },
+    {
+      "item": "cravings_mod:cheese"
+    }
+  ],
+  "result": {
+    "id": "cravings_mod:cheese_wheel",
+    "count": 1
+  }
+}

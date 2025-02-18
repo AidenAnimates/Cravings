@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cravings_mod:block/fryer"
+    },
+    "facing=east": {
+      "model": "cravings_mod:block/fryer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cravings_mod:block/fryer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cravings_mod:block/fryer",
+      "y": 270
+    }
+  }
+}

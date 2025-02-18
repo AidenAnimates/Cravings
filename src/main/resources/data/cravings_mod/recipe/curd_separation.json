@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cravings_mod:bucket_of_curdy_milk"
+    }
+  ],
+  "result": {
+    "id": "cravings_mod:cheese_curds",
+    "count": 1
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "mod_elements": [
+    {
+      "name": "BucketOfCurdyMilk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_curdy_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/BucketOfCurdyMilkItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/bucket_of_curdy_milk.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CurdRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curd_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/CurdRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "BucketOfWhey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_whey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/BucketOfWheyItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/bucket_of_whey.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CheeseCurds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_curds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseCurdsItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/cheese_curds.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CheeseWheel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/blockstates/cheese_wheel.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/cheese_wheel.json",
+          "src/main/resources/assets/cravings_mod/models/block/cheese_wheel.json",
+          "src/main/java/net/mcreator/cravingsmod/block/CheeseWheelBlock.java",
+          "src/main/resources/assets/cravings_mod/models/item/cheese_wheel.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CWheelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_wheel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/c_wheel_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CurdSeparation",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curd_separation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/curd_separation.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/cheese.json",
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "SlicedCheese",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliced_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/sliced_cheese.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CheeseFusing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_fusing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/cheese_fusing.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/flour.json",
+          "src/main/java/net/mcreator/cravingsmod/item/FlourItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "FlourRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/flour_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Ricotta",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ricotta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/ricotta.json",
+          "src/main/java/net/mcreator/cravingsmod/item/RicottaItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "RicottaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ricotta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/ricotta_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CheeseSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseSliceItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/cheese_slice.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "Fabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/FabricItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/fabric.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "FabricRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabric_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/fabric_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "SackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/client/gui/SackGUIScreen.java",
+          "src/main/java/net/mcreator/cravingsmod/world/inventory/SackGUIMenu.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "FlourSack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour_sack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/flour_sack.json",
+          "src/main/java/net/mcreator/cravingsmod/item/inventory/FlourSackInventoryCapability.java",
+          "src/main/java/net/mcreator/cravingsmod/item/FlourSackItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Sackrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sackrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/sackrecipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Cravings",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cravings",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheTradeThingy",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_trade_thingy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DippedCurds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dipped_curds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/DippedCurdsItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/dipped_curds.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "FriedCurds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_curds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/fried_curds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/FriedCurdsItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "Dipping",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dipping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/dipping.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "Olive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/OliveItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/olive.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "BucketOfOliveOil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_olive_oil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/bucket_of_olive_oil.json",
+          "src/main/java/net/mcreator/cravingsmod/item/BucketOfOliveOilItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "FryerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/world/inventory/FryerGUIMenu.java",
+          "src/main/java/net/mcreator/cravingsmod/client/gui/FryerGUIScreen.java"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "FryerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/FryerTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "Fryer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/loot_table/blocks/fryer.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/FryerBlockEntity.java",
+          "src/main/resources/assets/cravings_mod/models/item/fryer.json",
+          "src/main/resources/assets/cravings_mod/blockstates/fryer.json",
+          "src/main/java/net/mcreator/cravingsmod/block/FryerBlock.java",
+          "src/main/resources/assets/cravings_mod/models/block/fryer.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "FryerGUITick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer_gui_tick",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/FryerGUITickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "FryerGUITick2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer_gui_tick_2",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/FryerGUITick2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "FryerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/fryer_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "OliveOilRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_oil_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/olive_oil_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "OliveLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/block/OliveLeavesBlock.java",
+          "src/main/resources/assets/cravings_mod/blockstates/olive_leaves.json",
+          "src/main/resources/assets/cravings_mod/models/block/olive_leaves.json",
+          "src/main/resources/assets/cravings_mod/models/item/olive_leaves.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "OliveTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/olive_tree_biome_modifier.json",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/olive_tree.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/olive_tree.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "OliveSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/olive_sapling.json",
+          "src/main/resources/assets/cravings_mod/blockstates/olive_sapling.json",
+          "src/main/java/net/mcreator/cravingsmod/block/OliveSaplingBlock.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/olive_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/item/olive_sapling.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    },
+    {
+      "name": "OliveLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/loot_table/blocks/olive_leaves.json"
+        ]
+      },
+      "path": "~/Ingredients/Oil Stuff"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:OliveLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Fryer"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:OliveLeaves"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:OliveSapling"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "it_it": {
+      "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
+      "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
+      "item.cravings_mod.olive": "Oliva",
+      "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
+      "block.cravings_mod.fryer": "Friggitore",
+      "item.cravings_mod.cheese": "Formaggio",
+      "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.flour": "Farina",
+      "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
+      "item.cravings_mod.flour_sack": "Sacco Di Farina",
+      "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
+      "block.cravings_mod.olive_leaves": "Foglie di olivo",
+      "item.cravings_mod.fabric": "Tessuto",
+      "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
+      "item_group.cravings_mod.cravings": "Voglie",
+      "item.cravings_mod.fried_curds": "Cagliata fritta",
+      "block.cravings_mod.olive_sapling": "Alberello d\u0027olivo",
+      "gui.cravings_mod.fryer_gui.label_fryer": "Friggitore"
+    },
+    "en_us": {
+      "item.cravings_mod.cheese_slice": "Cheese Slice",
+      "block.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.cheese_curds": "Cheese Curds",
+      "block.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.cheese": "Cheese",
+      "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.flour": "Flour",
+      "item.cravings_mod.dipped_curds": "Dipped Curds",
+      "item.cravings_mod.flour_sack": "Flour Sack",
+      "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
+      "block.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.fabric": "Fabric",
+      "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
+      "item_group.cravings_mod.cravings": "Cravings",
+      "item.cravings_mod.fried_curds": "Fried Curds",
+      "block.cravings_mod.olive_sapling": "Olive Sapling",
+      "gui.cravings_mod.fryer_gui.label_fryer": "Fryer"
+    },
+    "fr_fr": {
+      "item.cravings_mod.cheese_slice": "Tranche de fromage",
+      "block.cravings_mod.cheese_wheel": "Meule de fromage",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.cheese_curds": "Fromage en grains",
+      "block.cravings_mod.fryer": "Friteuse",
+      "item.cravings_mod.cheese": "Fromage",
+      "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.flour": "Farine",
+      "item.cravings_mod.dipped_curds": "Caillé trempé",
+      "item.cravings_mod.flour_sack": "Sac de farine",
+      "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
+      "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
+      "item.cravings_mod.fabric": "Tissu",
+      "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
+      "item_group.cravings_mod.cravings": "Envies",
+      "item.cravings_mod.fried_curds": "Caillé frit",
+      "block.cravings_mod.olive_sapling": "Jeune olivier",
+      "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse"
+    },
+    "de_de": {
+      "item.cravings_mod.cheese_slice": "Käsescheibe",
+      "block.cravings_mod.cheese_wheel": "Käserad",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.cheese_curds": "Käsebruch",
+      "block.cravings_mod.fryer": "Fritteuse",
+      "item.cravings_mod.cheese": "Käse",
+      "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.flour": "Mehl",
+      "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
+      "item.cravings_mod.flour_sack": "Mehlsack",
+      "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
+      "block.cravings_mod.olive_leaves": "Olivenblätter",
+      "item.cravings_mod.fabric": "Stoff",
+      "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
+      "item_group.cravings_mod.cravings": "Heißhunger",
+      "item.cravings_mod.fried_curds": "Gebratener Quark",
+      "block.cravings_mod.olive_sapling": "Olivensetzling",
+      "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ingredients",
+        "children": [
+          {
+            "name": "Cheese",
+            "children": []
+          },
+          {
+            "name": "Wheat based",
+            "children": []
+          },
+          {
+            "name": "Oil Stuff",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "cravings_mod",
+    "modName": "Cravings",
+    "version": "0.1.0A",
+    "description": "A mod for all your food needs!",
+    "author": "AidenAnimates",
+    "websiteURL": "https://en.wikipedia.org/wiki/Cheese",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "updateURL": "https://pastebin.com/raw/8dqiTUxX",
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made by AidenAnimates",
+    "modElementsPackage": "net.mcreator.cravingsmod"
+  },
+  "mcreatorVersion": 202400451119
+}

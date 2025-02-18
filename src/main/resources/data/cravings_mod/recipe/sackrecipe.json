@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "cravings_mod:fabric"
+    },
+    "c": {
+      "item": "cravings_mod:flour"
+    }
+  },
+  "result": {
+    "id": "cravings_mod:flour_sack",
+    "count": 1
+  }
+}

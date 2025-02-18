@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="cravings_mod"
+version="0.1.0"
+displayName="Cravings"
+updateJSONURL="https://pastebin.com/raw/8dqiTUxX"
+displayURL="https://en.wikipedia.org/wiki/Cheese"
+logoFile="logo.png"
+credits="Made by AidenAnimates"
+authors="AidenAnimates"
+description="A mod for all your food needs!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.cravings_mod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.cravings_mod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

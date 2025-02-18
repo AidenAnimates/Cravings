@@ -1,0 +1,22 @@
+{
+  "item.cravings_mod.cheese_slice": "Käsescheibe",
+  "block.cravings_mod.cheese_wheel": "Käserad",
+  "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
+  "item.cravings_mod.olive": "Olive",
+  "item.cravings_mod.cheese_curds": "Käsebruch",
+  "block.cravings_mod.fryer": "Fritteuse",
+  "item.cravings_mod.cheese": "Käse",
+  "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
+  "item.cravings_mod.ricotta": "Ricotta",
+  "item.cravings_mod.flour": "Mehl",
+  "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
+  "item.cravings_mod.flour_sack": "Mehlsack",
+  "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
+  "block.cravings_mod.olive_leaves": "Olivenblätter",
+  "item.cravings_mod.fabric": "Stoff",
+  "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
+  "item_group.cravings_mod.cravings": "Heißhunger",
+  "item.cravings_mod.fried_curds": "Gebratener Quark",
+  "block.cravings_mod.olive_sapling": "Olivensetzling",
+  "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse"
+}

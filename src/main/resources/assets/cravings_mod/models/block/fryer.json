@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cravings_mod:block/fryer_sides",
+    "up": "cravings_mod:block/fryer_top",
+    "north": "cravings_mod:block/fryer_front",
+    "east": "cravings_mod:block/fryer_sides",
+    "south": "cravings_mod:block/fryer_sides",
+    "west": "cravings_mod:block/fryer_sides",
+    "particle": "cravings_mod:block/fryer_sides"
+  },
+  "render_type": "solid"
+}

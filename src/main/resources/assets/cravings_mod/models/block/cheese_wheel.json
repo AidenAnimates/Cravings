@@ -1,0 +1,9 @@
+{
+  "parent": "cravings_mod:custom/cheesewheel",
+  "textures": {
+    "all": "cravings_mod:block/cheesehweel",
+    "particle": "cravings_mod:block/cheesehweel",
+    "0": "cravings_mod:block/cheesehweel"
+  },
+  "render_type": "solid"
+}
