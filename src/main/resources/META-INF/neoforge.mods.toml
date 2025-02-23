@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="cravings_mod"
-version="0.1.1"
+version="0.2.0"
 displayName="Cravings"
 updateJSONURL="https://pastebin.com/raw/8dqiTUxX"
 displayURL="https://en.wikipedia.org/wiki/Cheese"
