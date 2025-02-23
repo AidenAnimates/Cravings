@@ -17,12 +17,27 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.cravingsmod.item.inventory.FlourSackInventoryCapability;
+import net.mcreator.cravingsmod.item.YeastItem;
+import net.mcreator.cravingsmod.item.WortBottleItem;
+import net.mcreator.cravingsmod.item.WineBottleItem;
+import net.mcreator.cravingsmod.item.VodkaItem;
+import net.mcreator.cravingsmod.item.ToolHandleItem;
 import net.mcreator.cravingsmod.item.RicottaItem;
+import net.mcreator.cravingsmod.item.PotatoMashItem;
 import net.mcreator.cravingsmod.item.OliveItem;
+import net.mcreator.cravingsmod.item.MustItem;
+import net.mcreator.cravingsmod.item.MeadBottleItem;
+import net.mcreator.cravingsmod.item.LemonItem;
+import net.mcreator.cravingsmod.item.KnifeItem;
+import net.mcreator.cravingsmod.item.GrapesItem;
+import net.mcreator.cravingsmod.item.GrapeSeedsItem;
+import net.mcreator.cravingsmod.item.GrapeJuiceItem;
 import net.mcreator.cravingsmod.item.FriedCurdsItem;
 import net.mcreator.cravingsmod.item.FlourSackItem;
 import net.mcreator.cravingsmod.item.FlourItem;
+import net.mcreator.cravingsmod.item.FermentedPotatoMashItem;
 import net.mcreator.cravingsmod.item.FabricItem;
+import net.mcreator.cravingsmod.item.DoughItem;
 import net.mcreator.cravingsmod.item.DippedCurdsItem;
 import net.mcreator.cravingsmod.item.CheeseSliceItem;
 import net.mcreator.cravingsmod.item.CheeseItem;
@@ -30,6 +45,7 @@ import net.mcreator.cravingsmod.item.CheeseCurdsItem;
 import net.mcreator.cravingsmod.item.BucketOfWheyItem;
 import net.mcreator.cravingsmod.item.BucketOfOliveOilItem;
 import net.mcreator.cravingsmod.item.BucketOfCurdyMilkItem;
+import net.mcreator.cravingsmod.item.BeerBottleItem;
 import net.mcreator.cravingsmod.CravingsModMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -52,6 +68,25 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> FRYER = block(CravingsModModBlocks.FRYER);
 	public static final DeferredItem<Item> OLIVE_LEAVES = block(CravingsModModBlocks.OLIVE_LEAVES);
 	public static final DeferredItem<Item> OLIVE_SAPLING = block(CravingsModModBlocks.OLIVE_SAPLING);
+	public static final DeferredItem<Item> TOOL_HANDLE = REGISTRY.register("tool_handle", ToolHandleItem::new);
+	public static final DeferredItem<Item> KNIFE = REGISTRY.register("knife", KnifeItem::new);
+	public static final DeferredItem<Item> DOUGH = REGISTRY.register("dough", DoughItem::new);
+	public static final DeferredItem<Item> LEMON = REGISTRY.register("lemon", LemonItem::new);
+	public static final DeferredItem<Item> LEMON_LEAVES = block(CravingsModModBlocks.LEMON_LEAVES);
+	public static final DeferredItem<Item> LEMON_SAPLING = block(CravingsModModBlocks.LEMON_SAPLING);
+	public static final DeferredItem<Item> GRAPES = REGISTRY.register("grapes", GrapesItem::new);
+	public static final DeferredItem<Item> WORT_BOTTLE = REGISTRY.register("wort_bottle", WortBottleItem::new);
+	public static final DeferredItem<Item> BEER_BOTTLE = REGISTRY.register("beer_bottle", BeerBottleItem::new);
+	public static final DeferredItem<Item> GRAPE_CROP = block(CravingsModModBlocks.GRAPE_CROP);
+	public static final DeferredItem<Item> GRAPE_SEEDS = REGISTRY.register("grape_seeds", GrapeSeedsItem::new);
+	public static final DeferredItem<Item> YEAST = REGISTRY.register("yeast", YeastItem::new);
+	public static final DeferredItem<Item> GRAPE_JUICE = REGISTRY.register("grape_juice", GrapeJuiceItem::new);
+	public static final DeferredItem<Item> WINE_BOTTLE = REGISTRY.register("wine_bottle", WineBottleItem::new);
+	public static final DeferredItem<Item> MUST = REGISTRY.register("must", MustItem::new);
+	public static final DeferredItem<Item> MEAD_BOTTLE = REGISTRY.register("mead_bottle", MeadBottleItem::new);
+	public static final DeferredItem<Item> POTATO_MASH = REGISTRY.register("potato_mash", PotatoMashItem::new);
+	public static final DeferredItem<Item> FERMENTED_POTATO_MASH = REGISTRY.register("fermented_potato_mash", FermentedPotatoMashItem::new);
+	public static final DeferredItem<Item> VODKA = REGISTRY.register("vodka", VodkaItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

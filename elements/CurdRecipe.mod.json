@@ -14,7 +14,7 @@
       "value": "Items.MILK_BUCKET"
     },
     "brewingIngredientStack": {
-      "value": "Items.FERMENTED_SPIDER_EYE"
+      "value": "CUSTOM:Lemon"
     },
     "brewingReturnStack": {
       "value": "CUSTOM:BucketOfCurdyMilk"

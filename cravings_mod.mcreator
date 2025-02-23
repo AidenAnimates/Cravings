@@ -348,7 +348,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Fruits and Trees/Olive"
     },
     {
       "name": "BucketOfOliveOil",
@@ -531,7 +531,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive_leaves.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Fruits and Trees/Olive"
     },
     {
       "name": "OliveTree",
@@ -546,7 +546,7 @@
           "src/main/resources/data/cravings_mod/worldgen/configured_feature/olive_tree.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Fruits and Trees/Olive"
     },
     {
       "name": "OliveSapling",
@@ -563,7 +563,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive_sapling.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Fruits and Trees/Olive"
     },
     {
       "name": "OliveLeavesLootTable",
@@ -576,115 +576,917 @@
           "src/main/resources/data/cravings_mod/loot_table/blocks/olive_leaves.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Fruits and Trees/Olive"
+    },
+    {
+      "name": "ToolHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/tool_handle.json",
+          "src/main/java/net/mcreator/cravingsmod/item/ToolHandleItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/knife.json",
+          "src/main/java/net/mcreator/cravingsmod/item/KnifeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "HandleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/handle_recipe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/knife_recipe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/DoughItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/dough.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "DoughRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/dough_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Lemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/lemon.json",
+          "src/main/java/net/mcreator/cravingsmod/item/LemonItem.java"
+        ]
+      },
+      "path": "~/Fruits and Trees/Lemon"
+    },
+    {
+      "name": "LemonLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/block/LemonLeavesBlock.java",
+          "src/main/resources/assets/cravings_mod/models/block/lemon_leaves.json",
+          "src/main/resources/assets/cravings_mod/models/item/lemon_leaves.json",
+          "src/main/resources/assets/cravings_mod/blockstates/lemon_leaves.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Lemon"
+    },
+    {
+      "name": "LemonTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/lemon_tree.json",
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/lemon_tree_biome_modifier.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/lemon_tree.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Lemon"
+    },
+    {
+      "name": "LemonSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/block/LemonSaplingBlock.java",
+          "src/main/resources/assets/cravings_mod/models/block/lemon_sapling.json",
+          "src/main/resources/assets/cravings_mod/blockstates/lemon_sapling.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/lemon_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/item/lemon_sapling.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Lemon"
+    },
+    {
+      "name": "LemonLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/loot_table/blocks/lemon_leaves.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Lemon"
+    },
+    {
+      "name": "Grapes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/GrapesItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/grapes.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "WortBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wort_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/WortBottleItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/wort_bottle.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "BeerBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/beer_bottle.json",
+          "src/main/java/net/mcreator/cravingsmod/item/BeerBottleItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "BeerBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/BeerBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "WortRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wort_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/wort_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "BeerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/BeerRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "GrapeCrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/grape_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/GrapeCropBlock.java",
+          "src/main/resources/assets/cravings_mod/blockstates/grape_crop.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/grape_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/GrapeCropBlockEntity.java"
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropBlockState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_block_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_1.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_4.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_5.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_2.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_6.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_seeds_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/GrapeSeedsItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/grape_seeds.json"
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropGrow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropCanBoneMealBeUsedOnThisBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_can_bone_meal_be_used_on_this_block",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropCanBoneMealBeUsedOnThisBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_bone_meal_success_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "GrapeCropOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_crop_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GrapeCropOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fruits and Trees/Grapes"
+    },
+    {
+      "name": "Yeast",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeast",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/yeast.json",
+          "src/main/java/net/mcreator/cravingsmod/item/YeastItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Yeast Production"
+    },
+    {
+      "name": "YeastScraping",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeast_scraping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/yeast_scraping.json"
+        ]
+      },
+      "path": "~/Ingredients/Yeast Production"
+    },
+    {
+      "name": "GrapeJuice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_juice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/grape_juice.json",
+          "src/main/java/net/mcreator/cravingsmod/item/GrapeJuiceItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wine"
+    },
+    {
+      "name": "WineBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/wine_bottle.json",
+          "src/main/java/net/mcreator/cravingsmod/item/WineBottleItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wine"
+    },
+    {
+      "name": "GrapeJuiceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_juice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/GrapeJuiceRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Wine"
+    },
+    {
+      "name": "WineRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/WineRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Wine"
+    },
+    {
+      "name": "Must",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "must",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/must.json",
+          "src/main/java/net/mcreator/cravingsmod/item/MustItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Mead"
+    },
+    {
+      "name": "MeadBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mead_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/MeadBottleItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/mead_bottle.json"
+        ]
+      },
+      "path": "~/Ingredients/Mead"
+    },
+    {
+      "name": "MustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "must_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/MustRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Mead"
+    },
+    {
+      "name": "MeadRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mead_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/MeadRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Mead"
+    },
+    {
+      "name": "PotatoMash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_mash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/potato_mash.json",
+          "src/main/java/net/mcreator/cravingsmod/item/PotatoMashItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "PotatoMashRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_mash_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/potato_mash_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "FermentedPotatoMash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermented_potato_mash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/FermentedPotatoMashItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/fermented_potato_mash.json"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "PotatoMashFermenting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_mash_fermenting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/recipe/brewing/PotatoMashFermentingBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "Vodka",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/vodka.json",
+          "src/main/java/net/mcreator/cravingsmod/item/VodkaItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "VodkaDistillation",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_distillation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/vodka_distillation.json"
+        ]
+      },
+      "path": "~/Ingredients/Vodka"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:LemonLeaves",
       "~CUSTOM:OliveLeaves"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Fryer"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:LemonLeaves",
       "~CUSTOM:OliveLeaves"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Knife"
     ],
     "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:LemonSapling",
       "~CUSTOM:OliveSapling"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "it_it": {
-      "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
-      "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
-      "item.cravings_mod.olive": "Oliva",
+      "item.cravings_mod.beer_bottle": "Wort Bottle",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
       "block.cravings_mod.fryer": "Friggitore",
-      "item.cravings_mod.cheese": "Formaggio",
-      "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
+      "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farina",
+      "item.cravings_mod.vodka": "Wine Bottle",
       "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
       "item.cravings_mod.flour_sack": "Sacco Di Farina",
       "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
-      "block.cravings_mod.olive_leaves": "Foglie di olivo",
       "item.cravings_mod.fabric": "Tessuto",
-      "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
+      "item.cravings_mod.grapes": "Grapes",
       "item_group.cravings_mod.cravings": "Voglie",
-      "item.cravings_mod.fried_curds": "Cagliata fritta",
       "block.cravings_mod.olive_sapling": "Alberello d\u0027olivo",
-      "gui.cravings_mod.fryer_gui.label_fryer": "Friggitore"
+      "gui.cravings_mod.fryer_gui.label_fryer": "Friggitore",
+      "item.cravings_mod.dough": "Dough",
+      "item.cravings_mod.potato_mash": "Honey Must Bottle",
+      "item.cravings_mod.wine_bottle": "Grape Juice",
+      "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
+      "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
+      "item.cravings_mod.fermented_potato_mash": "Bottle of Potato Mash",
+      "item.cravings_mod.olive": "Oliva",
+      "item.cravings_mod.knife": "Knife",
+      "item.cravings_mod.cheese": "Formaggio",
+      "item.cravings_mod.grape_seeds": "Grape Seeds",
+      "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
+      "block.cravings_mod.lemon_leaves": "Olive Leaves",
+      "block.cravings_mod.lemon_sapling": "Olive Sapling",
+      "item.cravings_mod.grape_juice": "Beer Bottle",
+      "block.cravings_mod.olive_leaves": "Foglie di olivo",
+      "item.cravings_mod.lemon": "Olive",
+      "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
+      "item.cravings_mod.must": "Wort Bottle",
+      "item.cravings_mod.yeast": "Yeast",
+      "item.cravings_mod.fried_curds": "Cagliata fritta",
+      "block.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.tool_handle": "Tool Handle",
+      "item.cravings_mod.mead_bottle": "Wine Bottle"
     },
     "en_us": {
-      "item.cravings_mod.cheese_slice": "Cheese Slice",
-      "block.cravings_mod.cheese_wheel": "Cheese Wheel",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
-      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.beer_bottle": "Beer Bottle",
       "item.cravings_mod.cheese_curds": "Cheese Curds",
       "block.cravings_mod.fryer": "Fryer",
-      "item.cravings_mod.cheese": "Cheese",
-      "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
+      "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Flour",
+      "item.cravings_mod.vodka": "Vodka Bottle",
       "item.cravings_mod.dipped_curds": "Dipped Curds",
       "item.cravings_mod.flour_sack": "Flour Sack",
       "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
-      "block.cravings_mod.olive_leaves": "Olive Leaves",
       "item.cravings_mod.fabric": "Fabric",
-      "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
+      "item.cravings_mod.grapes": "Grapes",
       "item_group.cravings_mod.cravings": "Cravings",
-      "item.cravings_mod.fried_curds": "Fried Curds",
       "block.cravings_mod.olive_sapling": "Olive Sapling",
-      "gui.cravings_mod.fryer_gui.label_fryer": "Fryer"
+      "gui.cravings_mod.fryer_gui.label_fryer": "Fryer",
+      "item.cravings_mod.dough": "Dough",
+      "item.cravings_mod.potato_mash": "Bottle of Potato Mash",
+      "item.cravings_mod.wine_bottle": "Wine Bottle",
+      "item.cravings_mod.cheese_slice": "Cheese Slice",
+      "block.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fermented_potato_mash": "Fermented Potato Mash",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.knife": "Knife",
+      "item.cravings_mod.cheese": "Cheese",
+      "item.cravings_mod.grape_seeds": "Grape Seeds",
+      "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
+      "block.cravings_mod.lemon_leaves": "Lemon Leaves",
+      "block.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.grape_juice": "Grape Juice",
+      "block.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.lemon": "Lemon",
+      "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
+      "item.cravings_mod.must": "Honey Must Bottle",
+      "item.cravings_mod.yeast": "Yeast",
+      "item.cravings_mod.fried_curds": "Fried Curds",
+      "block.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.tool_handle": "Tool Handle",
+      "item.cravings_mod.mead_bottle": "Mead Bottle"
     },
     "fr_fr": {
-      "item.cravings_mod.cheese_slice": "Tranche de fromage",
-      "block.cravings_mod.cheese_wheel": "Meule de fromage",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
-      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.beer_bottle": "Wort Bottle",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
       "block.cravings_mod.fryer": "Friteuse",
-      "item.cravings_mod.cheese": "Fromage",
-      "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
+      "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farine",
+      "item.cravings_mod.vodka": "Wine Bottle",
       "item.cravings_mod.dipped_curds": "Caillé trempé",
       "item.cravings_mod.flour_sack": "Sac de farine",
       "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
-      "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
       "item.cravings_mod.fabric": "Tissu",
-      "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
+      "item.cravings_mod.grapes": "Grapes",
       "item_group.cravings_mod.cravings": "Envies",
-      "item.cravings_mod.fried_curds": "Caillé frit",
       "block.cravings_mod.olive_sapling": "Jeune olivier",
-      "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse"
+      "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse",
+      "item.cravings_mod.dough": "Dough",
+      "item.cravings_mod.potato_mash": "Honey Must Bottle",
+      "item.cravings_mod.wine_bottle": "Grape Juice",
+      "item.cravings_mod.cheese_slice": "Tranche de fromage",
+      "block.cravings_mod.cheese_wheel": "Meule de fromage",
+      "item.cravings_mod.fermented_potato_mash": "Bottle of Potato Mash",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.knife": "Knife",
+      "item.cravings_mod.cheese": "Fromage",
+      "item.cravings_mod.grape_seeds": "Grape Seeds",
+      "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
+      "block.cravings_mod.lemon_leaves": "Olive Leaves",
+      "block.cravings_mod.lemon_sapling": "Olive Sapling",
+      "item.cravings_mod.grape_juice": "Beer Bottle",
+      "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
+      "item.cravings_mod.lemon": "Olive",
+      "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
+      "item.cravings_mod.must": "Wort Bottle",
+      "item.cravings_mod.yeast": "Yeast",
+      "item.cravings_mod.fried_curds": "Caillé frit",
+      "block.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.tool_handle": "Tool Handle",
+      "item.cravings_mod.mead_bottle": "Wine Bottle"
     },
     "de_de": {
-      "item.cravings_mod.cheese_slice": "Käsescheibe",
-      "block.cravings_mod.cheese_wheel": "Käserad",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
-      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.beer_bottle": "Wort Bottle",
       "item.cravings_mod.cheese_curds": "Käsebruch",
       "block.cravings_mod.fryer": "Fritteuse",
-      "item.cravings_mod.cheese": "Käse",
-      "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
+      "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Mehl",
+      "item.cravings_mod.vodka": "Wine Bottle",
       "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
       "item.cravings_mod.flour_sack": "Mehlsack",
       "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
-      "block.cravings_mod.olive_leaves": "Olivenblätter",
       "item.cravings_mod.fabric": "Stoff",
-      "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
+      "item.cravings_mod.grapes": "Grapes",
       "item_group.cravings_mod.cravings": "Heißhunger",
-      "item.cravings_mod.fried_curds": "Gebratener Quark",
       "block.cravings_mod.olive_sapling": "Olivensetzling",
-      "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse"
+      "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse",
+      "item.cravings_mod.dough": "Dough",
+      "item.cravings_mod.potato_mash": "Honey Must Bottle",
+      "item.cravings_mod.wine_bottle": "Grape Juice",
+      "item.cravings_mod.cheese_slice": "Käsescheibe",
+      "block.cravings_mod.cheese_wheel": "Käserad",
+      "item.cravings_mod.fermented_potato_mash": "Bottle of Potato Mash",
+      "item.cravings_mod.olive": "Olive",
+      "item.cravings_mod.knife": "Knife",
+      "item.cravings_mod.cheese": "Käse",
+      "item.cravings_mod.grape_seeds": "Grape Seeds",
+      "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
+      "block.cravings_mod.lemon_leaves": "Olive Leaves",
+      "block.cravings_mod.lemon_sapling": "Olive Sapling",
+      "item.cravings_mod.grape_juice": "Beer Bottle",
+      "block.cravings_mod.olive_leaves": "Olivenblätter",
+      "item.cravings_mod.lemon": "Olive",
+      "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
+      "item.cravings_mod.must": "Wort Bottle",
+      "item.cravings_mod.yeast": "Yeast",
+      "item.cravings_mod.fried_curds": "Gebratener Quark",
+      "block.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.tool_handle": "Tool Handle",
+      "item.cravings_mod.mead_bottle": "Wine Bottle"
     }
   },
   "foldersRoot": {
@@ -704,6 +1506,43 @@
           {
             "name": "Oil Stuff",
             "children": []
+          },
+          {
+            "name": "Yeast Production",
+            "children": []
+          },
+          {
+            "name": "Wine",
+            "children": []
+          },
+          {
+            "name": "Mead",
+            "children": []
+          },
+          {
+            "name": "Vodka",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Fruits and Trees",
+        "children": [
+          {
+            "name": "Olive",
+            "children": []
+          },
+          {
+            "name": "Lemon",
+            "children": []
+          },
+          {
+            "name": "Grapes",
+            "children": []
           }
         ]
       }
@@ -712,7 +1551,7 @@
   "workspaceSettings": {
     "modid": "cravings_mod",
     "modName": "Cravings",
-    "version": "0.1.0A",
+    "version": "0.1.1A",
     "description": "A mod for all your food needs!",
     "author": "AidenAnimates",
     "websiteURL": "https://en.wikipedia.org/wiki/Cheese",

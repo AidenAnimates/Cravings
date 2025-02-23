@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 204,
+  "ingredient": {
+    "item": "cravings_mod:fermented_potato_mash"
+  },
+  "result": {
+    "id": "cravings_mod:vodka"
+  }
+}

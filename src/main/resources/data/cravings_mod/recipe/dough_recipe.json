@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "cravings_mod:bucket_of_olive_oil"
+    },
+    "b": {
+      "item": "cravings_mod:flour"
+    },
+    "c": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "cravings_mod:dough",
+    "count": 1
+  }
+}

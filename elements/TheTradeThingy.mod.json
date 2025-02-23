@@ -77,6 +77,31 @@
             "priceMultiplier": 0.05
           }
         ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GrapeSeeds"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Lemon"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
       }
     ]
   }

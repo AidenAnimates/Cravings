@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "cravings_mod:lemon_leaves",
     "cravings_mod:olive_leaves"
   ]
 }

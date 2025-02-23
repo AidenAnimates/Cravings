@@ -17,8 +17,8 @@
               "value": "CUSTOM:Olive"
             },
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
+            "minCount": 0,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
@@ -30,8 +30,8 @@
             "item": {
               "value": "Items.STICK"
             },
-            "weight": 1,
-            "minCount": 1,
+            "weight": 4,
+            "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -44,8 +44,8 @@
             "item": {
               "value": "CUSTOM:OliveSapling"
             },
-            "weight": 1,
-            "minCount": 1,
+            "weight": 2,
+            "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -58,7 +58,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 8,
+            "weight": 40,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

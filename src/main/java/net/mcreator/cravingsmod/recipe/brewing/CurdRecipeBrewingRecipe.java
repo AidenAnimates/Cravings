@@ -26,7 +26,7 @@ public class CurdRecipeBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return Ingredient.of(new ItemStack(Items.FERMENTED_SPIDER_EYE)).test(ingredient);
+		return Ingredient.of(new ItemStack(CravingsModModItems.LEMON.get())).test(ingredient);
 	}
 
 	@Override

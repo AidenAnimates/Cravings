@@ -40,6 +40,24 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModBlocks.FRYER.get().asItem());
 				tabData.accept(CravingsModModBlocks.OLIVE_LEAVES.get().asItem());
 				tabData.accept(CravingsModModBlocks.OLIVE_SAPLING.get().asItem());
+				tabData.accept(CravingsModModItems.TOOL_HANDLE.get());
+				tabData.accept(CravingsModModItems.KNIFE.get());
+				tabData.accept(CravingsModModItems.DOUGH.get());
+				tabData.accept(CravingsModModItems.LEMON.get());
+				tabData.accept(CravingsModModBlocks.LEMON_LEAVES.get().asItem());
+				tabData.accept(CravingsModModBlocks.LEMON_SAPLING.get().asItem());
+				tabData.accept(CravingsModModItems.GRAPES.get());
+				tabData.accept(CravingsModModItems.WORT_BOTTLE.get());
+				tabData.accept(CravingsModModItems.BEER_BOTTLE.get());
+				tabData.accept(CravingsModModItems.GRAPE_SEEDS.get());
+				tabData.accept(CravingsModModItems.YEAST.get());
+				tabData.accept(CravingsModModItems.GRAPE_JUICE.get());
+				tabData.accept(CravingsModModItems.WINE_BOTTLE.get());
+				tabData.accept(CravingsModModItems.MUST.get());
+				tabData.accept(CravingsModModItems.MEAD_BOTTLE.get());
+				tabData.accept(CravingsModModItems.POTATO_MASH.get());
+				tabData.accept(CravingsModModItems.FERMENTED_POTATO_MASH.get());
+				tabData.accept(CravingsModModItems.VODKA.get());
 			}).build());
 
 	@SubscribeEvent
@@ -50,6 +68,14 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.FLOUR.get());
 			tabData.accept(CravingsModModItems.FABRIC.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());
+			tabData.accept(CravingsModModItems.TOOL_HANDLE.get());
+			tabData.accept(CravingsModModItems.DOUGH.get());
+			tabData.accept(CravingsModModItems.GRAPES.get());
+			tabData.accept(CravingsModModItems.WORT_BOTTLE.get());
+			tabData.accept(CravingsModModItems.YEAST.get());
+			tabData.accept(CravingsModModItems.MUST.get());
+			tabData.accept(CravingsModModItems.POTATO_MASH.get());
+			tabData.accept(CravingsModModItems.FERMENTED_POTATO_MASH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CravingsModModItems.CHEESE_CURDS.get());
 			tabData.accept(CravingsModModBlocks.CHEESE_WHEEL.get().asItem());
@@ -59,15 +85,27 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.DIPPED_CURDS.get());
 			tabData.accept(CravingsModModItems.FRIED_CURDS.get());
 			tabData.accept(CravingsModModItems.OLIVE.get());
+			tabData.accept(CravingsModModItems.LEMON.get());
+			tabData.accept(CravingsModModItems.GRAPES.get());
+			tabData.accept(CravingsModModItems.BEER_BOTTLE.get());
+			tabData.accept(CravingsModModItems.GRAPE_SEEDS.get());
+			tabData.accept(CravingsModModItems.GRAPE_JUICE.get());
+			tabData.accept(CravingsModModItems.WINE_BOTTLE.get());
+			tabData.accept(CravingsModModItems.MEAD_BOTTLE.get());
+			tabData.accept(CravingsModModItems.VODKA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());
 			tabData.accept(CravingsModModBlocks.FRYER.get().asItem());
+			tabData.accept(CravingsModModItems.TOOL_HANDLE.get());
+			tabData.accept(CravingsModModItems.KNIFE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(CravingsModModBlocks.FRYER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(CravingsModModBlocks.OLIVE_LEAVES.get().asItem());
 			tabData.accept(CravingsModModBlocks.OLIVE_SAPLING.get().asItem());
+			tabData.accept(CravingsModModBlocks.LEMON_LEAVES.get().asItem());
+			tabData.accept(CravingsModModBlocks.LEMON_SAPLING.get().asItem());
 		}
 	}
 }

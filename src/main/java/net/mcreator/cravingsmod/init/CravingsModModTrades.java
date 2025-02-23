@@ -30,5 +30,8 @@ public class CravingsModModTrades {
 		if (event.getType() == VillagerProfession.FARMER) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(CravingsModModItems.CHEESE_CURDS.get()), 10, 5, 0.05f));
 		}
+		if (event.getType() == VillagerProfession.FARMER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(CravingsModModItems.GRAPE_SEEDS.get(), 4), new ItemStack(Items.EMERALD, 2), new ItemStack(CravingsModModItems.LEMON.get()), 10, 5, 0.05f));
+		}
 	}
 }
