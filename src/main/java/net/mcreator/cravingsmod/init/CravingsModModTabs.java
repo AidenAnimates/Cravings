@@ -58,6 +58,10 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.POTATO_MASH.get());
 				tabData.accept(CravingsModModItems.FERMENTED_POTATO_MASH.get());
 				tabData.accept(CravingsModModItems.VODKA.get());
+				tabData.accept(CravingsModModItems.CHEESE_SANDWICH.get());
+				tabData.accept(CravingsModModItems.GRILLED_CHEESE.get());
+				tabData.accept(CravingsModModItems.BREAD_SLICE.get());
+				tabData.accept(CravingsModModItems.TOAST.get());
 			}).build());
 
 	@SubscribeEvent
@@ -93,6 +97,10 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.WINE_BOTTLE.get());
 			tabData.accept(CravingsModModItems.MEAD_BOTTLE.get());
 			tabData.accept(CravingsModModItems.VODKA.get());
+			tabData.accept(CravingsModModItems.CHEESE_SANDWICH.get());
+			tabData.accept(CravingsModModItems.GRILLED_CHEESE.get());
+			tabData.accept(CravingsModModItems.BREAD_SLICE.get());
+			tabData.accept(CravingsModModItems.TOAST.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());

@@ -22,6 +22,7 @@ import net.mcreator.cravingsmod.item.WortBottleItem;
 import net.mcreator.cravingsmod.item.WineBottleItem;
 import net.mcreator.cravingsmod.item.VodkaItem;
 import net.mcreator.cravingsmod.item.ToolHandleItem;
+import net.mcreator.cravingsmod.item.ToastItem;
 import net.mcreator.cravingsmod.item.RicottaItem;
 import net.mcreator.cravingsmod.item.PotatoMashItem;
 import net.mcreator.cravingsmod.item.OliveItem;
@@ -29,6 +30,7 @@ import net.mcreator.cravingsmod.item.MustItem;
 import net.mcreator.cravingsmod.item.MeadBottleItem;
 import net.mcreator.cravingsmod.item.LemonItem;
 import net.mcreator.cravingsmod.item.KnifeItem;
+import net.mcreator.cravingsmod.item.GrilledCheeseItem;
 import net.mcreator.cravingsmod.item.GrapesItem;
 import net.mcreator.cravingsmod.item.GrapeSeedsItem;
 import net.mcreator.cravingsmod.item.GrapeJuiceItem;
@@ -40,11 +42,13 @@ import net.mcreator.cravingsmod.item.FabricItem;
 import net.mcreator.cravingsmod.item.DoughItem;
 import net.mcreator.cravingsmod.item.DippedCurdsItem;
 import net.mcreator.cravingsmod.item.CheeseSliceItem;
+import net.mcreator.cravingsmod.item.CheeseSandwichItem;
 import net.mcreator.cravingsmod.item.CheeseItem;
 import net.mcreator.cravingsmod.item.CheeseCurdsItem;
 import net.mcreator.cravingsmod.item.BucketOfWheyItem;
 import net.mcreator.cravingsmod.item.BucketOfOliveOilItem;
 import net.mcreator.cravingsmod.item.BucketOfCurdyMilkItem;
+import net.mcreator.cravingsmod.item.BreadSliceItem;
 import net.mcreator.cravingsmod.item.BeerBottleItem;
 import net.mcreator.cravingsmod.CravingsModMod;
 
@@ -87,6 +91,10 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> POTATO_MASH = REGISTRY.register("potato_mash", PotatoMashItem::new);
 	public static final DeferredItem<Item> FERMENTED_POTATO_MASH = REGISTRY.register("fermented_potato_mash", FermentedPotatoMashItem::new);
 	public static final DeferredItem<Item> VODKA = REGISTRY.register("vodka", VodkaItem::new);
+	public static final DeferredItem<Item> CHEESE_SANDWICH = REGISTRY.register("cheese_sandwich", CheeseSandwichItem::new);
+	public static final DeferredItem<Item> GRILLED_CHEESE = REGISTRY.register("grilled_cheese", GrilledCheeseItem::new);
+	public static final DeferredItem<Item> BREAD_SLICE = REGISTRY.register("bread_slice", BreadSliceItem::new);
+	public static final DeferredItem<Item> TOAST = REGISTRY.register("toast", ToastItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

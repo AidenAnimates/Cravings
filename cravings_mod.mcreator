@@ -1297,6 +1297,127 @@
         ]
       },
       "path": "~/Ingredients/Vodka"
+    },
+    {
+      "name": "CheeseSandwich",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_sandwich",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseSandwichItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/cheese_sandwich.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "GrilledCheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/GrilledCheeseItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/grilled_cheese.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "BreadSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/BreadSliceItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/bread_slice.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Toast",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toast",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/toast.json",
+          "src/main/java/net/mcreator/cravingsmod/item/ToastItem.java"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "SliceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/slice_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "Toaster",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toaster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/toaster.json"
+        ]
+      },
+      "path": "~/Ingredients/Wheat based"
+    },
+    {
+      "name": "CheeseSandwichRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_sandwich_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/cheese_sandwich_recipe.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CSGriller",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs_griller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/cs_griller.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
+    },
+    {
+      "name": "CSCooker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs_cooker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/cs_cooker.json"
+        ]
+      },
+      "path": "~/Ingredients/Cheese"
     }
   ],
   "variable_elements": [],
@@ -1325,10 +1446,12 @@
   "tab_element_order": {},
   "language_map": {
     "it_it": {
+      "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.beer_bottle": "Bottiglia di birra",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
       "block.cravings_mod.fryer": "Friggitore",
+      "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Bottiglia di mosto di birra",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farina",
@@ -1336,6 +1459,7 @@
       "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
       "item.cravings_mod.flour_sack": "Sacco Di Farina",
       "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Tessuto",
       "item.cravings_mod.grapes": "Uva",
       "item_group.cravings_mod.cravings": "Voglie",
@@ -1345,6 +1469,7 @@
       "item.cravings_mod.potato_mash": "Bottiglia Di Pasta Di Patate",
       "item.cravings_mod.wine_bottle": "Bottiglia di vino",
       "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
+      "item.cravings_mod.toast": "Bread Slice",
       "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
       "item.cravings_mod.fermented_potato_mash": "Pasta Di Patate Fermentate",
       "item.cravings_mod.olive": "Oliva",
@@ -1366,10 +1491,12 @@
       "item.cravings_mod.mead_bottle": "Bottiglia di idromele"
     },
     "en_us": {
+      "item.cravings_mod.grilled_cheese": "Grilled Cheese",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
       "item.cravings_mod.beer_bottle": "Beer Bottle",
       "item.cravings_mod.cheese_curds": "Cheese Curds",
       "block.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Flour",
@@ -1377,6 +1504,7 @@
       "item.cravings_mod.dipped_curds": "Dipped Curds",
       "item.cravings_mod.flour_sack": "Flour Sack",
       "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Fabric",
       "item.cravings_mod.grapes": "Grapes",
       "item_group.cravings_mod.cravings": "Cravings",
@@ -1386,6 +1514,7 @@
       "item.cravings_mod.potato_mash": "Bottle of Potato Mash",
       "item.cravings_mod.wine_bottle": "Wine Bottle",
       "item.cravings_mod.cheese_slice": "Cheese Slice",
+      "item.cravings_mod.toast": "Toast",
       "block.cravings_mod.cheese_wheel": "Cheese Wheel",
       "item.cravings_mod.fermented_potato_mash": "Fermented Potato Mash",
       "item.cravings_mod.olive": "Olive",
@@ -1407,10 +1536,12 @@
       "item.cravings_mod.mead_bottle": "Mead Bottle"
     },
     "fr_fr": {
+      "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
       "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
       "block.cravings_mod.fryer": "Friteuse",
+      "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Bouteille de moût de bière",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farine",
@@ -1418,6 +1549,7 @@
       "item.cravings_mod.dipped_curds": "Caillé trempé",
       "item.cravings_mod.flour_sack": "Sac de farine",
       "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Tissu",
       "item.cravings_mod.grapes": "Raisin",
       "item_group.cravings_mod.cravings": "Envies",
@@ -1427,6 +1559,7 @@
       "item.cravings_mod.potato_mash": "Bouteille de purée de pommes de terre",
       "item.cravings_mod.wine_bottle": "Bouteille de vin",
       "item.cravings_mod.cheese_slice": "Tranche de fromage",
+      "item.cravings_mod.toast": "Bread Slice",
       "block.cravings_mod.cheese_wheel": "Meule de fromage",
       "item.cravings_mod.fermented_potato_mash": "Purée de pommes de terre fermentée",
       "item.cravings_mod.olive": "Olive",
@@ -1448,10 +1581,12 @@
       "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
     },
     "de_de": {
+      "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
       "item.cravings_mod.beer_bottle": "Bierflasche",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
       "item.cravings_mod.cheese_curds": "Käsebruch",
       "block.cravings_mod.fryer": "Fritteuse",
+      "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Würzeflasche",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Mehl",
@@ -1459,6 +1594,7 @@
       "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
       "item.cravings_mod.flour_sack": "Mehlsack",
       "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Stoff",
       "item.cravings_mod.grapes": "Trauben",
       "item_group.cravings_mod.cravings": "Heißhunger",
@@ -1468,6 +1604,7 @@
       "item.cravings_mod.potato_mash": "Kartoffelpaste",
       "item.cravings_mod.wine_bottle": "Traubensaft",
       "item.cravings_mod.cheese_slice": "Käsescheibe",
+      "item.cravings_mod.toast": "Bread Slice",
       "block.cravings_mod.cheese_wheel": "Käserad",
       "item.cravings_mod.fermented_potato_mash": "Fermentierte Kartoffelpaste",
       "item.cravings_mod.olive": "Olive",
@@ -1551,7 +1688,7 @@
   "workspaceSettings": {
     "modid": "cravings_mod",
     "modName": "Cravings",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "A mod for all your food needs!",
     "author": "AidenAnimates",
     "websiteURL": "https://en.wikipedia.org/wiki/Cheese",

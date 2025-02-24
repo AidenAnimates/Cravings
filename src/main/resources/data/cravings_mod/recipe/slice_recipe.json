@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "cravings_mod:knife"
+    }
+  ],
+  "result": {
+    "id": "cravings_mod:bread_slice",
+    "count": 1
+  }
+}
