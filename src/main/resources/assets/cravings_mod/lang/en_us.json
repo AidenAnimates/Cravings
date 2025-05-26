@@ -1,5 +1,6 @@
 {
   "item.cravings_mod.grilled_cheese": "Grilled Cheese",
+  "item.cravings_mod.lettuce_seeds": "Lettuce Seeds",
   "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
   "item.cravings_mod.beer_bottle": "Beer Bottle",
   "item.cravings_mod.cheese_curds": "Cheese Curds",
@@ -32,7 +33,9 @@
   "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
   "block.cravings_mod.lemon_leaves": "Lemon Leaves",
   "block.cravings_mod.lemon_sapling": "Lemon Sapling",
+  "item.cravings_mod.lettuce": "Lettuce",
   "item.cravings_mod.grape_juice": "Grape Juice",
+  "block.cravings_mod.lettuce_crop": "Lettuce Crop",
   "block.cravings_mod.olive_leaves": "Olive Leaves",
   "item.cravings_mod.lemon": "Lemon",
   "item.cravings_mod.bucket_of_whey": "Bucket of Whey",

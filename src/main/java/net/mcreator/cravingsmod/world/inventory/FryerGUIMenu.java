@@ -86,6 +86,8 @@ public class FryerGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 44, 61) {
 			private final int slot = 0;
+			private int x = FryerGUIMenu.this.x;
+			private int y = FryerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -94,6 +96,8 @@ public class FryerGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 38) {
 			private final int slot = 1;
+			private int x = FryerGUIMenu.this.x;
+			private int y = FryerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -102,9 +106,13 @@ public class FryerGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 44, 15) {
 			private final int slot = 2;
+			private int x = FryerGUIMenu.this.x;
+			private int y = FryerGUIMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 116, 38) {
 			private final int slot = 3;
+			private int x = FryerGUIMenu.this.x;
+			private int y = FryerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

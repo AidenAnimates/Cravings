@@ -1,5 +1,6 @@
 {
   "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
+  "item.cravings_mod.lettuce_seeds": "Grape Seeds",
   "item.cravings_mod.beer_bottle": "Bouteille de bière",
   "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
   "item.cravings_mod.cheese_curds": "Fromage en grains",
@@ -32,7 +33,9 @@
   "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
   "block.cravings_mod.lemon_leaves": "Feuilles de citron",
   "block.cravings_mod.lemon_sapling": "Jeune citronnier",
+  "item.cravings_mod.lettuce": "Grapes",
   "item.cravings_mod.grape_juice": "Jus de Raisin",
+  "block.cravings_mod.lettuce_crop": "Grape Crop",
   "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
   "item.cravings_mod.lemon": "Citron",
   "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",

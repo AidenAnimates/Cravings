@@ -62,6 +62,8 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.GRILLED_CHEESE.get());
 				tabData.accept(CravingsModModItems.BREAD_SLICE.get());
 				tabData.accept(CravingsModModItems.TOAST.get());
+				tabData.accept(CravingsModModItems.LETTUCE.get());
+				tabData.accept(CravingsModModItems.LETTUCE_SEEDS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -80,6 +82,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.MUST.get());
 			tabData.accept(CravingsModModItems.POTATO_MASH.get());
 			tabData.accept(CravingsModModItems.FERMENTED_POTATO_MASH.get());
+			tabData.accept(CravingsModModItems.LETTUCE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CravingsModModItems.CHEESE_CURDS.get());
 			tabData.accept(CravingsModModBlocks.CHEESE_WHEEL.get().asItem());
@@ -101,6 +104,8 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.GRILLED_CHEESE.get());
 			tabData.accept(CravingsModModItems.BREAD_SLICE.get());
 			tabData.accept(CravingsModModItems.TOAST.get());
+			tabData.accept(CravingsModModItems.LETTUCE.get());
+			tabData.accept(CravingsModModItems.LETTUCE_SEEDS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());

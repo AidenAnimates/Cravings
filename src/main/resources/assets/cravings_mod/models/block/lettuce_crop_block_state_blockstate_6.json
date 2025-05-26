@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cravings_mod:block/lettuce_plant_6",
+    "up": "cravings_mod:block/lettuce_plant_6",
+    "north": "cravings_mod:block/lettuce_plant_6",
+    "east": "cravings_mod:block/lettuce_plant_6",
+    "south": "cravings_mod:block/lettuce_plant_6",
+    "west": "cravings_mod:block/lettuce_plant_6",
+    "particle": "cravings_mod:block/lemon_leaves"
+  },
+  "render_type": "cutout"
+}

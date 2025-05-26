@@ -28,6 +28,8 @@ import net.mcreator.cravingsmod.item.PotatoMashItem;
 import net.mcreator.cravingsmod.item.OliveItem;
 import net.mcreator.cravingsmod.item.MustItem;
 import net.mcreator.cravingsmod.item.MeadBottleItem;
+import net.mcreator.cravingsmod.item.LettuceSeedsItem;
+import net.mcreator.cravingsmod.item.LettuceItem;
 import net.mcreator.cravingsmod.item.LemonItem;
 import net.mcreator.cravingsmod.item.KnifeItem;
 import net.mcreator.cravingsmod.item.GrilledCheeseItem;
@@ -95,6 +97,9 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> GRILLED_CHEESE = REGISTRY.register("grilled_cheese", GrilledCheeseItem::new);
 	public static final DeferredItem<Item> BREAD_SLICE = REGISTRY.register("bread_slice", BreadSliceItem::new);
 	public static final DeferredItem<Item> TOAST = REGISTRY.register("toast", ToastItem::new);
+	public static final DeferredItem<Item> LETTUCE = REGISTRY.register("lettuce", LettuceItem::new);
+	public static final DeferredItem<Item> LETTUCE_CROP = block(CravingsModModBlocks.LETTUCE_CROP);
+	public static final DeferredItem<Item> LETTUCE_SEEDS = REGISTRY.register("lettuce_seeds", LettuceSeedsItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

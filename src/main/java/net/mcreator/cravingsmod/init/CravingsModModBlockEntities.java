@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.cravingsmod.block.entity.LettuceCropBlockEntity;
 import net.mcreator.cravingsmod.block.entity.GrapeCropBlockEntity;
 import net.mcreator.cravingsmod.block.entity.FryerBlockEntity;
 import net.mcreator.cravingsmod.CravingsModMod;
@@ -24,6 +25,7 @@ public class CravingsModModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, CravingsModMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> FRYER = register("fryer", CravingsModModBlocks.FRYER, FryerBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> GRAPE_CROP = register("grape_crop", CravingsModModBlocks.GRAPE_CROP, GrapeCropBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> LETTUCE_CROP = register("lettuce_crop", CravingsModModBlocks.LETTUCE_CROP, LettuceCropBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -35,5 +37,6 @@ public class CravingsModModBlockEntities {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, FRYER.get(), (blockEntity, side) -> ((FryerBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, GRAPE_CROP.get(), (blockEntity, side) -> ((GrapeCropBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LETTUCE_CROP.get(), (blockEntity, side) -> ((LettuceCropBlockEntity) blockEntity).getItemHandler());
 	}
 }

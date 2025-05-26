@@ -12,7 +12,7 @@
           "src/main/resources/assets/cravings_mod/models/item/bucket_of_curdy_milk.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CurdRecipe",
@@ -25,7 +25,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/CurdRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "BucketOfWhey",
@@ -39,7 +39,7 @@
           "src/main/resources/assets/cravings_mod/models/item/bucket_of_whey.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CheeseCurds",
@@ -53,7 +53,7 @@
           "src/main/resources/assets/cravings_mod/models/item/cheese_curds.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CheeseWheel",
@@ -70,7 +70,7 @@
           "src/main/resources/assets/cravings_mod/models/item/cheese_wheel.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CWheelRecipe",
@@ -83,7 +83,7 @@
           "src/main/resources/data/cravings_mod/recipe/c_wheel_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CurdSeparation",
@@ -96,7 +96,7 @@
           "src/main/resources/data/cravings_mod/recipe/curd_separation.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "Cheese",
@@ -110,7 +110,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/CheeseItem.java"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "SlicedCheese",
@@ -123,7 +123,7 @@
           "src/main/resources/data/cravings_mod/recipe/sliced_cheese.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CheeseFusing",
@@ -136,7 +136,7 @@
           "src/main/resources/data/cravings_mod/recipe/cheese_fusing.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "Flour",
@@ -150,7 +150,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/FlourItem.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "FlourRecipe",
@@ -163,7 +163,7 @@
           "src/main/resources/data/cravings_mod/recipe/flour_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Ricotta",
@@ -177,7 +177,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/RicottaItem.java"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "RicottaRecipe",
@@ -190,7 +190,7 @@
           "src/main/resources/data/cravings_mod/recipe/ricotta_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CheeseSlice",
@@ -204,7 +204,7 @@
           "src/main/resources/assets/cravings_mod/models/item/cheese_slice.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "Fabric",
@@ -218,7 +218,7 @@
           "src/main/resources/assets/cravings_mod/models/item/fabric.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "FabricRecipe",
@@ -231,7 +231,7 @@
           "src/main/resources/data/cravings_mod/recipe/fabric_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "SackGUI",
@@ -245,7 +245,7 @@
           "src/main/java/net/mcreator/cravingsmod/world/inventory/SackGUIMenu.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "FlourSack",
@@ -260,7 +260,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/FlourSackItem.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Sackrecipe",
@@ -273,7 +273,7 @@
           "src/main/resources/data/cravings_mod/recipe/sackrecipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Cravings",
@@ -307,7 +307,7 @@
           "src/main/resources/assets/cravings_mod/models/item/dipped_curds.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "FriedCurds",
@@ -321,7 +321,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/FriedCurdsItem.java"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "Dipping",
@@ -334,7 +334,7 @@
           "src/main/resources/data/cravings_mod/recipe/dipping.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "Olive",
@@ -348,7 +348,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive.json"
         ]
       },
-      "path": "~/Fruits and Trees/Olive"
+      "path": "~/CravingsCrops/Olive"
     },
     {
       "name": "BucketOfOliveOil",
@@ -362,7 +362,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/BucketOfOliveOilItem.java"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "FryerGUI",
@@ -376,7 +376,7 @@
           "src/main/java/net/mcreator/cravingsmod/client/gui/FryerGUIScreen.java"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "FryerTick",
@@ -407,7 +407,7 @@
           }
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "Fryer",
@@ -425,7 +425,7 @@
           "src/main/resources/assets/cravings_mod/models/block/fryer.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "FryerGUITick",
@@ -457,7 +457,7 @@
           }
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "FryerGUITick2",
@@ -489,7 +489,7 @@
           }
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "FryerRecipe",
@@ -502,7 +502,7 @@
           "src/main/resources/data/cravings_mod/recipe/fryer_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "OliveOilRecipe",
@@ -515,7 +515,7 @@
           "src/main/resources/data/cravings_mod/recipe/olive_oil_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Oil Stuff"
+      "path": "~/Cravings/Oil Stuff"
     },
     {
       "name": "OliveLeaves",
@@ -531,7 +531,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive_leaves.json"
         ]
       },
-      "path": "~/Fruits and Trees/Olive"
+      "path": "~/CravingsCrops/Olive"
     },
     {
       "name": "OliveTree",
@@ -546,7 +546,7 @@
           "src/main/resources/data/cravings_mod/worldgen/configured_feature/olive_tree.json"
         ]
       },
-      "path": "~/Fruits and Trees/Olive"
+      "path": "~/CravingsCrops/Olive"
     },
     {
       "name": "OliveSapling",
@@ -563,7 +563,7 @@
           "src/main/resources/assets/cravings_mod/models/item/olive_sapling.json"
         ]
       },
-      "path": "~/Fruits and Trees/Olive"
+      "path": "~/CravingsCrops/Olive"
     },
     {
       "name": "OliveLeavesLootTable",
@@ -576,7 +576,7 @@
           "src/main/resources/data/cravings_mod/loot_table/blocks/olive_leaves.json"
         ]
       },
-      "path": "~/Fruits and Trees/Olive"
+      "path": "~/CravingsCrops/Olive"
     },
     {
       "name": "ToolHandle",
@@ -590,7 +590,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/ToolHandleItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/CravingsTools"
     },
     {
       "name": "Knife",
@@ -604,7 +604,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/KnifeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/CravingsTools"
     },
     {
       "name": "HandleRecipe",
@@ -617,7 +617,7 @@
           "src/main/resources/data/cravings_mod/recipe/handle_recipe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/CravingsTools"
     },
     {
       "name": "KnifeRecipe",
@@ -630,7 +630,7 @@
           "src/main/resources/data/cravings_mod/recipe/knife_recipe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/CravingsTools"
     },
     {
       "name": "Dough",
@@ -644,7 +644,7 @@
           "src/main/resources/assets/cravings_mod/models/item/dough.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "DoughRecipe",
@@ -657,7 +657,7 @@
           "src/main/resources/data/cravings_mod/recipe/dough_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Lemon",
@@ -671,7 +671,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/LemonItem.java"
         ]
       },
-      "path": "~/Fruits and Trees/Lemon"
+      "path": "~/CravingsCrops/Lemon"
     },
     {
       "name": "LemonLeaves",
@@ -687,7 +687,7 @@
           "src/main/resources/assets/cravings_mod/blockstates/lemon_leaves.json"
         ]
       },
-      "path": "~/Fruits and Trees/Lemon"
+      "path": "~/CravingsCrops/Lemon"
     },
     {
       "name": "LemonTree",
@@ -702,7 +702,7 @@
           "src/main/resources/data/cravings_mod/worldgen/configured_feature/lemon_tree.json"
         ]
       },
-      "path": "~/Fruits and Trees/Lemon"
+      "path": "~/CravingsCrops/Lemon"
     },
     {
       "name": "LemonSapling",
@@ -719,7 +719,7 @@
           "src/main/resources/assets/cravings_mod/models/item/lemon_sapling.json"
         ]
       },
-      "path": "~/Fruits and Trees/Lemon"
+      "path": "~/CravingsCrops/Lemon"
     },
     {
       "name": "LemonLeavesLootTable",
@@ -732,7 +732,7 @@
           "src/main/resources/data/cravings_mod/loot_table/blocks/lemon_leaves.json"
         ]
       },
-      "path": "~/Fruits and Trees/Lemon"
+      "path": "~/CravingsCrops/Lemon"
     },
     {
       "name": "Grapes",
@@ -746,7 +746,7 @@
           "src/main/resources/assets/cravings_mod/models/item/grapes.json"
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "WortBottle",
@@ -760,7 +760,7 @@
           "src/main/resources/assets/cravings_mod/models/item/wort_bottle.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/CravingsBrewery/Beer"
     },
     {
       "name": "BeerBottle",
@@ -774,7 +774,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/BeerBottleItem.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/CravingsBrewery/Beer"
     },
     {
       "name": "BeerBottlePlayerFinishesUsingItem",
@@ -793,7 +793,7 @@
           }
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/CravingsBrewery/Beer"
     },
     {
       "name": "WortRecipe",
@@ -806,7 +806,7 @@
           "src/main/resources/data/cravings_mod/recipe/wort_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/CravingsBrewery/Beer"
     },
     {
       "name": "BeerRecipe",
@@ -819,7 +819,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/BeerRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/CravingsBrewery/Beer"
     },
     {
       "name": "GrapeCrop",
@@ -837,7 +837,7 @@
           "src/main/java/net/mcreator/cravingsmod/block/entity/GrapeCropBlockEntity.java"
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropBlockState",
@@ -856,7 +856,7 @@
           "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_6.json"
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeSeedsRightclickedOnBlock",
@@ -891,7 +891,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeSeeds",
@@ -905,7 +905,7 @@
           "src/main/resources/assets/cravings_mod/models/item/grape_seeds.json"
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropGrow",
@@ -940,7 +940,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropBlockDestroyedByPlayer",
@@ -979,7 +979,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropNeighbourBlockChanges",
@@ -1010,7 +1010,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropCanBoneMealBeUsedOnThisBlock",
@@ -1030,7 +1030,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropBoneMealSuccessCondition",
@@ -1045,7 +1045,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "GrapeCropOnBoneMealSuccess",
@@ -1080,7 +1080,7 @@
           }
         ]
       },
-      "path": "~/Fruits and Trees/Grapes"
+      "path": "~/CravingsCrops/Grapes"
     },
     {
       "name": "Yeast",
@@ -1094,7 +1094,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/YeastItem.java"
         ]
       },
-      "path": "~/Ingredients/Yeast Production"
+      "path": "~/CravingsBrewery/Yeast"
     },
     {
       "name": "YeastScraping",
@@ -1107,7 +1107,7 @@
           "src/main/resources/data/cravings_mod/recipe/yeast_scraping.json"
         ]
       },
-      "path": "~/Ingredients/Yeast Production"
+      "path": "~/CravingsBrewery/Yeast"
     },
     {
       "name": "GrapeJuice",
@@ -1121,7 +1121,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/GrapeJuiceItem.java"
         ]
       },
-      "path": "~/Ingredients/Wine"
+      "path": "~/CravingsBrewery/Wine"
     },
     {
       "name": "WineBottle",
@@ -1135,7 +1135,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/WineBottleItem.java"
         ]
       },
-      "path": "~/Ingredients/Wine"
+      "path": "~/CravingsBrewery/Wine"
     },
     {
       "name": "GrapeJuiceRecipe",
@@ -1148,7 +1148,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/GrapeJuiceRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Wine"
+      "path": "~/CravingsBrewery/Wine"
     },
     {
       "name": "WineRecipe",
@@ -1161,7 +1161,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/WineRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Wine"
+      "path": "~/CravingsBrewery/Wine"
     },
     {
       "name": "Must",
@@ -1175,7 +1175,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/MustItem.java"
         ]
       },
-      "path": "~/Ingredients/Mead"
+      "path": "~/CravingsBrewery/Mead"
     },
     {
       "name": "MeadBottle",
@@ -1189,7 +1189,7 @@
           "src/main/resources/assets/cravings_mod/models/item/mead_bottle.json"
         ]
       },
-      "path": "~/Ingredients/Mead"
+      "path": "~/CravingsBrewery/Mead"
     },
     {
       "name": "MustRecipe",
@@ -1202,7 +1202,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/MustRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Mead"
+      "path": "~/CravingsBrewery/Mead"
     },
     {
       "name": "MeadRecipe",
@@ -1215,7 +1215,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/MeadRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Mead"
+      "path": "~/CravingsBrewery/Mead"
     },
     {
       "name": "PotatoMash",
@@ -1229,7 +1229,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/PotatoMashItem.java"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "PotatoMashRecipe",
@@ -1242,7 +1242,7 @@
           "src/main/resources/data/cravings_mod/recipe/potato_mash_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "FermentedPotatoMash",
@@ -1256,7 +1256,7 @@
           "src/main/resources/assets/cravings_mod/models/item/fermented_potato_mash.json"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "PotatoMashFermenting",
@@ -1269,7 +1269,7 @@
           "src/main/java/net/mcreator/cravingsmod/recipe/brewing/PotatoMashFermentingBrewingRecipe.java"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "Vodka",
@@ -1283,7 +1283,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/VodkaItem.java"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "VodkaDistillation",
@@ -1296,7 +1296,7 @@
           "src/main/resources/data/cravings_mod/recipe/vodka_distillation.json"
         ]
       },
-      "path": "~/Ingredients/Vodka"
+      "path": "~/CravingsBrewery/Vodka"
     },
     {
       "name": "CheeseSandwich",
@@ -1310,7 +1310,7 @@
           "src/main/resources/assets/cravings_mod/models/item/cheese_sandwich.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "GrilledCheese",
@@ -1324,7 +1324,7 @@
           "src/main/resources/assets/cravings_mod/models/item/grilled_cheese.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "BreadSlice",
@@ -1338,7 +1338,7 @@
           "src/main/resources/assets/cravings_mod/models/item/bread_slice.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Toast",
@@ -1352,7 +1352,7 @@
           "src/main/java/net/mcreator/cravingsmod/item/ToastItem.java"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "SliceRecipe",
@@ -1365,7 +1365,7 @@
           "src/main/resources/data/cravings_mod/recipe/slice_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "Toaster",
@@ -1378,7 +1378,7 @@
           "src/main/resources/data/cravings_mod/recipe/toaster.json"
         ]
       },
-      "path": "~/Ingredients/Wheat based"
+      "path": "~/Cravings/Wheat based"
     },
     {
       "name": "CheeseSandwichRecipe",
@@ -1391,7 +1391,7 @@
           "src/main/resources/data/cravings_mod/recipe/cheese_sandwich_recipe.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CSGriller",
@@ -1404,7 +1404,7 @@
           "src/main/resources/data/cravings_mod/recipe/cs_griller.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
     },
     {
       "name": "CSCooker",
@@ -1417,7 +1417,177 @@
           "src/main/resources/data/cravings_mod/recipe/cs_cooker.json"
         ]
       },
-      "path": "~/Ingredients/Cheese"
+      "path": "~/Cravings/Cheese"
+    },
+    {
+      "name": "Lettuce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/LettuceItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/lettuce.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceCrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/loot_table/blocks/lettuce_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop.json",
+          "src/main/resources/assets/cravings_mod/blockstates/lettuce_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/LettuceCropBlockEntity.java",
+          "src/main/resources/assets/cravings_mod/models/item/lettuce_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/LettuceCropBlock.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceCropBlockState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_crop_block_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_1.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_6.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_2.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_5.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_4.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/LettuceSeedsItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/lettuce_seeds.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_seeds_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/LettuceSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceCropNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_crop_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/LettuceCropNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "LettuceCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_crop_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/LettuceCropBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Lettuce"
     }
   ],
   "variable_elements": [],
@@ -1437,7 +1607,6 @@
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Knife"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:LemonSapling",
       "~CUSTOM:OliveSapling"
@@ -1447,6 +1616,7 @@
   "language_map": {
     "it_it": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.beer_bottle": "Bottiglia di birra",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
@@ -1479,7 +1649,9 @@
       "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
       "block.cravings_mod.lemon_leaves": "Foglie di limone",
       "block.cravings_mod.lemon_sapling": "Alberello Di Limone",
+      "item.cravings_mod.lettuce": "Grapes",
       "item.cravings_mod.grape_juice": "Succo d\u0027uva",
+      "block.cravings_mod.lettuce_crop": "Grape Crop",
       "block.cravings_mod.olive_leaves": "Foglie di olivo",
       "item.cravings_mod.lemon": "Limone",
       "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
@@ -1492,6 +1664,7 @@
     },
     "en_us": {
       "item.cravings_mod.grilled_cheese": "Grilled Cheese",
+      "item.cravings_mod.lettuce_seeds": "Lettuce Seeds",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
       "item.cravings_mod.beer_bottle": "Beer Bottle",
       "item.cravings_mod.cheese_curds": "Cheese Curds",
@@ -1524,7 +1697,9 @@
       "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
       "block.cravings_mod.lemon_leaves": "Lemon Leaves",
       "block.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.lettuce": "Lettuce",
       "item.cravings_mod.grape_juice": "Grape Juice",
+      "block.cravings_mod.lettuce_crop": "Lettuce Crop",
       "block.cravings_mod.olive_leaves": "Olive Leaves",
       "item.cravings_mod.lemon": "Lemon",
       "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
@@ -1537,6 +1712,7 @@
     },
     "fr_fr": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
       "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
@@ -1569,7 +1745,9 @@
       "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
       "block.cravings_mod.lemon_leaves": "Feuilles de citron",
       "block.cravings_mod.lemon_sapling": "Jeune citronnier",
+      "item.cravings_mod.lettuce": "Grapes",
       "item.cravings_mod.grape_juice": "Jus de Raisin",
+      "block.cravings_mod.lettuce_crop": "Grape Crop",
       "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
       "item.cravings_mod.lemon": "Citron",
       "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
@@ -1582,6 +1760,7 @@
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
       "item.cravings_mod.beer_bottle": "Bierflasche",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
       "item.cravings_mod.cheese_curds": "Käsebruch",
@@ -1594,7 +1773,7 @@
       "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
       "item.cravings_mod.flour_sack": "Mehlsack",
       "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
-      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
+      "item.cravings_mod.cheese_sandwich": "Käsesandwich",
       "item.cravings_mod.fabric": "Stoff",
       "item.cravings_mod.grapes": "Trauben",
       "item_group.cravings_mod.cravings": "Heißhunger",
@@ -1614,7 +1793,9 @@
       "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
       "block.cravings_mod.lemon_leaves": "Zitronenblätter",
       "block.cravings_mod.lemon_sapling": "Zitronensetzling",
+      "item.cravings_mod.lettuce": "Grapes",
       "item.cravings_mod.grape_juice": "Traubensaft",
+      "block.cravings_mod.lettuce_crop": "Grape Crop",
       "block.cravings_mod.olive_leaves": "Olivenblätter",
       "item.cravings_mod.lemon": "Zitrone",
       "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
@@ -1630,7 +1811,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Ingredients",
+        "name": "Cravings",
         "children": [
           {
             "name": "Cheese",
@@ -1643,9 +1824,39 @@
           {
             "name": "Oil Stuff",
             "children": []
+          }
+        ]
+      },
+      {
+        "name": "CravingsTools",
+        "children": []
+      },
+      {
+        "name": "CravingsCrops",
+        "children": [
+          {
+            "name": "Olive",
+            "children": []
           },
           {
-            "name": "Yeast Production",
+            "name": "Lemon",
+            "children": []
+          },
+          {
+            "name": "Grapes",
+            "children": []
+          },
+          {
+            "name": "Lettuce",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CravingsBrewery",
+        "children": [
+          {
+            "name": "Yeast",
             "children": []
           },
           {
@@ -1659,26 +1870,9 @@
           {
             "name": "Vodka",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "Tools",
-        "children": []
-      },
-      {
-        "name": "Fruits and Trees",
-        "children": [
-          {
-            "name": "Olive",
-            "children": []
           },
           {
-            "name": "Lemon",
-            "children": []
-          },
-          {
-            "name": "Grapes",
+            "name": "Beer",
             "children": []
           }
         ]
@@ -1704,5 +1898,5 @@
     "credits": "Made by AidenAnimates",
     "modElementsPackage": "net.mcreator.cravingsmod"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202400452410
 }

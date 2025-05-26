@@ -85,6 +85,8 @@ public class SackGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 44, 32) {
 			private final int slot = 0;
+			private int x = SackGUIMenu.this.x;
+			private int y = SackGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -93,6 +95,8 @@ public class SackGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 62, 32) {
 			private final int slot = 1;
+			private int x = SackGUIMenu.this.x;
+			private int y = SackGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -101,6 +105,8 @@ public class SackGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 80, 32) {
 			private final int slot = 2;
+			private int x = SackGUIMenu.this.x;
+			private int y = SackGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -109,6 +115,8 @@ public class SackGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 98, 32) {
 			private final int slot = 3;
+			private int x = SackGUIMenu.this.x;
+			private int y = SackGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -117,6 +125,8 @@ public class SackGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 116, 32) {
 			private final int slot = 4;
+			private int x = SackGUIMenu.this.x;
+			private int y = SackGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

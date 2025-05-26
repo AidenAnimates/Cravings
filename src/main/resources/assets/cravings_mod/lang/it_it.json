@@ -1,5 +1,6 @@
 {
   "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
+  "item.cravings_mod.lettuce_seeds": "Grape Seeds",
   "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
   "item.cravings_mod.beer_bottle": "Bottiglia di birra",
   "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
@@ -32,7 +33,9 @@
   "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
   "block.cravings_mod.lemon_leaves": "Foglie di limone",
   "block.cravings_mod.lemon_sapling": "Alberello Di Limone",
+  "item.cravings_mod.lettuce": "Grapes",
   "item.cravings_mod.grape_juice": "Succo d\u0027uva",
+  "block.cravings_mod.lettuce_crop": "Grape Crop",
   "block.cravings_mod.olive_leaves": "Foglie di olivo",
   "item.cravings_mod.lemon": "Limone",
   "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
