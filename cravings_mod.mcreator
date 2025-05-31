@@ -1310,7 +1310,7 @@
           "src/main/resources/assets/cravings_mod/models/item/cheese_sandwich.json"
         ]
       },
-      "path": "~/Cravings/Cheese"
+      "path": "~/Cravings/Sandwiches/Other"
     },
     {
       "name": "GrilledCheese",
@@ -1324,7 +1324,7 @@
           "src/main/resources/assets/cravings_mod/models/item/grilled_cheese.json"
         ]
       },
-      "path": "~/Cravings/Cheese"
+      "path": "~/Cravings/Sandwiches/Other"
     },
     {
       "name": "BreadSlice",
@@ -1391,7 +1391,7 @@
           "src/main/resources/data/cravings_mod/recipe/cheese_sandwich_recipe.json"
         ]
       },
-      "path": "~/Cravings/Cheese"
+      "path": "~/Cravings/Sandwiches/Other"
     },
     {
       "name": "CSGriller",
@@ -1404,7 +1404,7 @@
           "src/main/resources/data/cravings_mod/recipe/cs_griller.json"
         ]
       },
-      "path": "~/Cravings/Cheese"
+      "path": "~/Cravings/Sandwiches/Other"
     },
     {
       "name": "CSCooker",
@@ -1417,7 +1417,7 @@
           "src/main/resources/data/cravings_mod/recipe/cs_cooker.json"
         ]
       },
-      "path": "~/Cravings/Cheese"
+      "path": "~/Cravings/Sandwiches/Other"
     },
     {
       "name": "Lettuce",
@@ -1588,6 +1588,114 @@
         ]
       },
       "path": "~/CravingsCrops/Lettuce"
+    },
+    {
+      "name": "RawBacon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/raw_bacon.json",
+          "src/main/java/net/mcreator/cravingsmod/item/RawBaconItem.java"
+        ]
+      },
+      "path": "~/Cravings/Meat/Pig"
+    },
+    {
+      "name": "Bacon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/BaconItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/bacon.json"
+        ]
+      },
+      "path": "~/Cravings/Meat/Pig"
+    },
+    {
+      "name": "BaconCut",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacon_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/bacon_cut.json"
+        ]
+      },
+      "path": "~/Cravings/Meat/Pig"
+    },
+    {
+      "name": "BaconCook",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacon_cook",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/bacon_cook.json"
+        ]
+      },
+      "path": "~/Cravings/Meat/Pig"
+    },
+    {
+      "name": "BaconFire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacon_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/bacon_fire.json"
+        ]
+      },
+      "path": "~/Cravings/Meat/Pig"
+    },
+    {
+      "name": "BLT",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/blt.json",
+          "src/main/java/net/mcreator/cravingsmod/item/BLTItem.java"
+        ]
+      },
+      "path": "~/Cravings/Sandwiches/Other"
+    },
+    {
+      "name": "Tomato",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/TomatoItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/tomato.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Tomato"
+    },
+    {
+      "name": "BLTRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/blt_recipe.json"
+        ]
+      },
+      "path": "~/Cravings/Sandwiches/Other"
     }
   ],
   "variable_elements": [],
@@ -1607,6 +1715,10 @@
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Knife"
     ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Bacon",
+      "~CUSTOM:RawBacon"
+    ],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:LemonSapling",
       "~CUSTOM:OliveSapling"
@@ -1616,194 +1728,210 @@
   "language_map": {
     "it_it": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
-      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
-      "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.beer_bottle": "Bottiglia di birra",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
       "block.cravings_mod.fryer": "Friggitore",
       "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Bottiglia di mosto di birra",
-      "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farina",
-      "item.cravings_mod.vodka": "Vodka",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
       "item.cravings_mod.flour_sack": "Sacco Di Farina",
-      "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
-      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Tessuto",
-      "item.cravings_mod.grapes": "Uva",
-      "item_group.cravings_mod.cravings": "Voglie",
-      "block.cravings_mod.olive_sapling": "Alberello d\u0027olivo",
+      "item.cravings_mod.blt": "Grilled Cheese",
+      "item.cravings_mod.raw_bacon": "Raw Bacon",
       "gui.cravings_mod.fryer_gui.label_fryer": "Friggitore",
       "item.cravings_mod.dough": "Impasto",
-      "item.cravings_mod.potato_mash": "Bottiglia Di Pasta Di Patate",
-      "item.cravings_mod.wine_bottle": "Bottiglia di vino",
       "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
       "item.cravings_mod.toast": "Bread Slice",
-      "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
-      "item.cravings_mod.fermented_potato_mash": "Pasta Di Patate Fermentate",
       "item.cravings_mod.olive": "Oliva",
       "item.cravings_mod.knife": "Coltello",
-      "item.cravings_mod.cheese": "Formaggio",
       "item.cravings_mod.grape_seeds": "Semi d\u0027uva",
       "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
       "block.cravings_mod.lemon_leaves": "Foglie di limone",
       "block.cravings_mod.lemon_sapling": "Alberello Di Limone",
-      "item.cravings_mod.lettuce": "Grapes",
-      "item.cravings_mod.grape_juice": "Succo d\u0027uva",
       "block.cravings_mod.lettuce_crop": "Grape Crop",
-      "block.cravings_mod.olive_leaves": "Foglie di olivo",
-      "item.cravings_mod.lemon": "Limone",
       "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
-      "item.cravings_mod.must": "Mosto di miele",
       "item.cravings_mod.yeast": "Lievito",
       "item.cravings_mod.fried_curds": "Cagliata fritta",
-      "block.cravings_mod.grape_crop": "Raccolto d\u0027uva",
       "item.cravings_mod.tool_handle": "Maniglia dello strumento",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.vodka": "Vodka",
+      "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
+      "item.cravings_mod.grapes": "Uva",
+      "item_group.cravings_mod.cravings": "Voglie",
+      "block.cravings_mod.olive_sapling": "Alberello d\u0027olivo",
+      "item.cravings_mod.tomato": "Lettuce",
+      "item.cravings_mod.potato_mash": "Bottiglia Di Pasta Di Patate",
+      "item.cravings_mod.wine_bottle": "Bottiglia di vino",
+      "item.cravings_mod.bacon": "Raw Bacon",
+      "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
+      "item.cravings_mod.fermented_potato_mash": "Pasta Di Patate Fermentate",
+      "item.cravings_mod.cheese": "Formaggio",
+      "item.cravings_mod.lettuce": "Grapes",
+      "item.cravings_mod.grape_juice": "Succo d\u0027uva",
+      "block.cravings_mod.olive_leaves": "Foglie di olivo",
+      "item.cravings_mod.lemon": "Limone",
+      "item.cravings_mod.must": "Mosto di miele",
+      "block.cravings_mod.grape_crop": "Raccolto d\u0027uva",
       "item.cravings_mod.mead_bottle": "Bottiglia di idromele"
     },
     "en_us": {
       "item.cravings_mod.grilled_cheese": "Grilled Cheese",
-      "item.cravings_mod.lettuce_seeds": "Lettuce Seeds",
-      "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
       "item.cravings_mod.beer_bottle": "Beer Bottle",
+      "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
       "item.cravings_mod.cheese_curds": "Cheese Curds",
       "block.cravings_mod.fryer": "Fryer",
       "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Wort Bottle",
-      "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Flour",
-      "item.cravings_mod.vodka": "Vodka Bottle",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.dipped_curds": "Dipped Curds",
       "item.cravings_mod.flour_sack": "Flour Sack",
-      "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
-      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Fabric",
-      "item.cravings_mod.grapes": "Grapes",
-      "item_group.cravings_mod.cravings": "Cravings",
-      "block.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.blt": "BLT",
+      "item.cravings_mod.raw_bacon": "Raw Bacon",
       "gui.cravings_mod.fryer_gui.label_fryer": "Fryer",
       "item.cravings_mod.dough": "Dough",
-      "item.cravings_mod.potato_mash": "Bottle of Potato Mash",
-      "item.cravings_mod.wine_bottle": "Wine Bottle",
       "item.cravings_mod.cheese_slice": "Cheese Slice",
       "item.cravings_mod.toast": "Toast",
-      "block.cravings_mod.cheese_wheel": "Cheese Wheel",
-      "item.cravings_mod.fermented_potato_mash": "Fermented Potato Mash",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Knife",
-      "item.cravings_mod.cheese": "Cheese",
       "item.cravings_mod.grape_seeds": "Grape Seeds",
       "item.cravings_mod.bucket_of_olive_oil": "Bucket of Olive Oil",
       "block.cravings_mod.lemon_leaves": "Lemon Leaves",
       "block.cravings_mod.lemon_sapling": "Lemon Sapling",
-      "item.cravings_mod.lettuce": "Lettuce",
-      "item.cravings_mod.grape_juice": "Grape Juice",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "block.cravings_mod.olive_leaves": "Olive Leaves",
-      "item.cravings_mod.lemon": "Lemon",
       "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
-      "item.cravings_mod.must": "Honey Must Bottle",
       "item.cravings_mod.yeast": "Yeast",
       "item.cravings_mod.fried_curds": "Fried Curds",
-      "block.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.tool_handle": "Tool Handle",
+      "item.cravings_mod.lettuce_seeds": "Lettuce Seeds",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.vodka": "Vodka Bottle",
+      "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
+      "item.cravings_mod.grapes": "Grapes",
+      "item_group.cravings_mod.cravings": "Cravings",
+      "block.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.tomato": "Tomato",
+      "item.cravings_mod.potato_mash": "Bottle of Potato Mash",
+      "item.cravings_mod.wine_bottle": "Wine Bottle",
+      "item.cravings_mod.bacon": "Bacon",
+      "block.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fermented_potato_mash": "Fermented Potato Mash",
+      "item.cravings_mod.cheese": "Cheese",
+      "item.cravings_mod.lettuce": "Lettuce",
+      "item.cravings_mod.grape_juice": "Grape Juice",
+      "block.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.lemon": "Lemon",
+      "item.cravings_mod.must": "Honey Must Bottle",
+      "block.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.mead_bottle": "Mead Bottle"
     },
     "fr_fr": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
-      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
-      "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
+      "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
       "block.cravings_mod.fryer": "Friteuse",
       "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Bouteille de moût de bière",
-      "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Farine",
-      "item.cravings_mod.vodka": "Vodka",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.dipped_curds": "Caillé trempé",
       "item.cravings_mod.flour_sack": "Sac de farine",
-      "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
-      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Tissu",
-      "item.cravings_mod.grapes": "Raisin",
-      "item_group.cravings_mod.cravings": "Envies",
-      "block.cravings_mod.olive_sapling": "Jeune olivier",
+      "item.cravings_mod.blt": "Grilled Cheese",
+      "item.cravings_mod.raw_bacon": "Raw Bacon",
       "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse",
       "item.cravings_mod.dough": "Pâte",
-      "item.cravings_mod.potato_mash": "Bouteille de purée de pommes de terre",
-      "item.cravings_mod.wine_bottle": "Bouteille de vin",
       "item.cravings_mod.cheese_slice": "Tranche de fromage",
       "item.cravings_mod.toast": "Bread Slice",
-      "block.cravings_mod.cheese_wheel": "Meule de fromage",
-      "item.cravings_mod.fermented_potato_mash": "Purée de pommes de terre fermentée",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Couteau",
-      "item.cravings_mod.cheese": "Fromage",
       "item.cravings_mod.grape_seeds": "Pépins de raisin",
       "item.cravings_mod.bucket_of_olive_oil": "Seau d\u0027huile d\u0027olive",
       "block.cravings_mod.lemon_leaves": "Feuilles de citron",
       "block.cravings_mod.lemon_sapling": "Jeune citronnier",
-      "item.cravings_mod.lettuce": "Grapes",
-      "item.cravings_mod.grape_juice": "Jus de Raisin",
       "block.cravings_mod.lettuce_crop": "Grape Crop",
-      "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
-      "item.cravings_mod.lemon": "Citron",
       "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
-      "item.cravings_mod.must": "Moût de miel",
       "item.cravings_mod.yeast": "Levure",
       "item.cravings_mod.fried_curds": "Caillé frit",
-      "block.cravings_mod.grape_crop": "Récolte de raisin",
       "item.cravings_mod.tool_handle": "Poignée d\u0027outil",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.vodka": "Vodka",
+      "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
+      "item.cravings_mod.grapes": "Raisin",
+      "item_group.cravings_mod.cravings": "Envies",
+      "block.cravings_mod.olive_sapling": "Jeune olivier",
+      "item.cravings_mod.tomato": "Lettuce",
+      "item.cravings_mod.potato_mash": "Bouteille de purée de pommes de terre",
+      "item.cravings_mod.wine_bottle": "Bouteille de vin",
+      "item.cravings_mod.bacon": "Raw Bacon",
+      "block.cravings_mod.cheese_wheel": "Meule de fromage",
+      "item.cravings_mod.fermented_potato_mash": "Purée de pommes de terre fermentée",
+      "item.cravings_mod.cheese": "Fromage",
+      "item.cravings_mod.lettuce": "Grapes",
+      "item.cravings_mod.grape_juice": "Jus de Raisin",
+      "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
+      "item.cravings_mod.lemon": "Citron",
+      "item.cravings_mod.must": "Moût de miel",
+      "block.cravings_mod.grape_crop": "Récolte de raisin",
       "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Cheese Sandwich",
-      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
-      "item.cravings_mod.beer_bottle": "Bierflasche",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
+      "item.cravings_mod.beer_bottle": "Bierflasche",
       "item.cravings_mod.cheese_curds": "Käsebruch",
       "block.cravings_mod.fryer": "Fritteuse",
       "item.cravings_mod.bread_slice": "Bread Slice",
       "item.cravings_mod.wort_bottle": "Würzeflasche",
-      "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.flour": "Mehl",
-      "item.cravings_mod.vodka": "Wodka",
+      "item.cravings_mod.cheese_sandwich": "Käsesandwich",
       "item.cravings_mod.dipped_curds": "Eingeweichter Quark",
       "item.cravings_mod.flour_sack": "Mehlsack",
-      "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
-      "item.cravings_mod.cheese_sandwich": "Käsesandwich",
       "item.cravings_mod.fabric": "Stoff",
-      "item.cravings_mod.grapes": "Trauben",
-      "item_group.cravings_mod.cravings": "Heißhunger",
-      "block.cravings_mod.olive_sapling": "Olivensetzling",
+      "item.cravings_mod.blt": "Grilled Cheese",
+      "item.cravings_mod.raw_bacon": "Raw Bacon",
       "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse",
       "item.cravings_mod.dough": "Teig",
-      "item.cravings_mod.potato_mash": "Kartoffelpaste",
-      "item.cravings_mod.wine_bottle": "Traubensaft",
       "item.cravings_mod.cheese_slice": "Käsescheibe",
       "item.cravings_mod.toast": "Bread Slice",
-      "block.cravings_mod.cheese_wheel": "Käserad",
-      "item.cravings_mod.fermented_potato_mash": "Fermentierte Kartoffelpaste",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Messer",
-      "item.cravings_mod.cheese": "Käse",
       "item.cravings_mod.grape_seeds": "Traubenkerne",
       "item.cravings_mod.bucket_of_olive_oil": "Eimer Olivenöl",
       "block.cravings_mod.lemon_leaves": "Zitronenblätter",
       "block.cravings_mod.lemon_sapling": "Zitronensetzling",
-      "item.cravings_mod.lettuce": "Grapes",
-      "item.cravings_mod.grape_juice": "Traubensaft",
       "block.cravings_mod.lettuce_crop": "Grape Crop",
-      "block.cravings_mod.olive_leaves": "Olivenblätter",
-      "item.cravings_mod.lemon": "Zitrone",
       "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
-      "item.cravings_mod.must": "Honigwürzeflasche",
       "item.cravings_mod.yeast": "Hefe",
       "item.cravings_mod.fried_curds": "Gebratener Quark",
-      "block.cravings_mod.grape_crop": "Weinernte",
       "item.cravings_mod.tool_handle": "Werkzeuggriff",
+      "item.cravings_mod.lettuce_seeds": "Grape Seeds",
+      "item.cravings_mod.ricotta": "Ricotta",
+      "item.cravings_mod.vodka": "Wodka",
+      "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
+      "item.cravings_mod.grapes": "Trauben",
+      "item_group.cravings_mod.cravings": "Heißhunger",
+      "block.cravings_mod.olive_sapling": "Olivensetzling",
+      "item.cravings_mod.tomato": "Lettuce",
+      "item.cravings_mod.potato_mash": "Kartoffelpaste",
+      "item.cravings_mod.wine_bottle": "Traubensaft",
+      "item.cravings_mod.bacon": "Raw Bacon",
+      "block.cravings_mod.cheese_wheel": "Käserad",
+      "item.cravings_mod.fermented_potato_mash": "Fermentierte Kartoffelpaste",
+      "item.cravings_mod.cheese": "Käse",
+      "item.cravings_mod.lettuce": "Grapes",
+      "item.cravings_mod.grape_juice": "Traubensaft",
+      "block.cravings_mod.olive_leaves": "Olivenblätter",
+      "item.cravings_mod.lemon": "Zitrone",
+      "item.cravings_mod.must": "Honigwürzeflasche",
+      "block.cravings_mod.grape_crop": "Weinernte",
       "item.cravings_mod.mead_bottle": "Metflasche"
     }
   },
@@ -1824,6 +1952,28 @@
           {
             "name": "Oil Stuff",
             "children": []
+          },
+          {
+            "name": "Sandwiches",
+            "children": [
+              {
+                "name": "Burgers",
+                "children": []
+              },
+              {
+                "name": "Other",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Meat",
+            "children": [
+              {
+                "name": "Pig",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1848,6 +1998,10 @@
           },
           {
             "name": "Lettuce",
+            "children": []
+          },
+          {
+            "name": "Tomato",
             "children": []
           }
         ]

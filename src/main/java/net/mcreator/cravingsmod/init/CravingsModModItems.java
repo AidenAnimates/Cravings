@@ -22,8 +22,10 @@ import net.mcreator.cravingsmod.item.WortBottleItem;
 import net.mcreator.cravingsmod.item.WineBottleItem;
 import net.mcreator.cravingsmod.item.VodkaItem;
 import net.mcreator.cravingsmod.item.ToolHandleItem;
+import net.mcreator.cravingsmod.item.TomatoItem;
 import net.mcreator.cravingsmod.item.ToastItem;
 import net.mcreator.cravingsmod.item.RicottaItem;
+import net.mcreator.cravingsmod.item.RawBaconItem;
 import net.mcreator.cravingsmod.item.PotatoMashItem;
 import net.mcreator.cravingsmod.item.OliveItem;
 import net.mcreator.cravingsmod.item.MustItem;
@@ -52,6 +54,8 @@ import net.mcreator.cravingsmod.item.BucketOfOliveOilItem;
 import net.mcreator.cravingsmod.item.BucketOfCurdyMilkItem;
 import net.mcreator.cravingsmod.item.BreadSliceItem;
 import net.mcreator.cravingsmod.item.BeerBottleItem;
+import net.mcreator.cravingsmod.item.BaconItem;
+import net.mcreator.cravingsmod.item.BLTItem;
 import net.mcreator.cravingsmod.CravingsModMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -100,6 +104,10 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> LETTUCE = REGISTRY.register("lettuce", LettuceItem::new);
 	public static final DeferredItem<Item> LETTUCE_CROP = block(CravingsModModBlocks.LETTUCE_CROP);
 	public static final DeferredItem<Item> LETTUCE_SEEDS = REGISTRY.register("lettuce_seeds", LettuceSeedsItem::new);
+	public static final DeferredItem<Item> RAW_BACON = REGISTRY.register("raw_bacon", RawBaconItem::new);
+	public static final DeferredItem<Item> BACON = REGISTRY.register("bacon", BaconItem::new);
+	public static final DeferredItem<Item> BLT = REGISTRY.register("blt", BLTItem::new);
+	public static final DeferredItem<Item> TOMATO = REGISTRY.register("tomato", TomatoItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "cravings_mod:toast"
+    },
+    "b": {
+      "item": "cravings_mod:bacon"
+    },
+    "c": {
+      "item": "cravings_mod:lettuce"
+    },
+    "d": {
+      "item": "cravings_mod:tomato"
+    }
+  },
+  "result": {
+    "id": "cravings_mod:blt",
+    "count": 1
+  }
+}
