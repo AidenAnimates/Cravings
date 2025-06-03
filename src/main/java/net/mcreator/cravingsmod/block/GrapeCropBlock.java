@@ -36,12 +36,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.cravingsmod.procedures.GrapeCropOnBoneMealSuccessProcedure;
 import net.mcreator.cravingsmod.procedures.GrapeCropNeighbourBlockChangesProcedure;
-import net.mcreator.cravingsmod.procedures.GrapeCropGrowProcedure;
-import net.mcreator.cravingsmod.procedures.GrapeCropCanBoneMealBeUsedOnThisBlockProcedure;
-import net.mcreator.cravingsmod.procedures.GrapeCropBoneMealSuccessConditionProcedure;
 import net.mcreator.cravingsmod.procedures.GrapeCropBlockDestroyedByPlayerProcedure;
+import net.mcreator.cravingsmod.procedures.CropMealSuccessConditionProcedure;
+import net.mcreator.cravingsmod.procedures.CropMealProcedure;
+import net.mcreator.cravingsmod.procedures.CropGrowProcedure;
+import net.mcreator.cravingsmod.procedures.CropBoneMealConditionProcedure;
 import net.mcreator.cravingsmod.init.CravingsModModItems;
 import net.mcreator.cravingsmod.block.entity.GrapeCropBlockEntity;
 
@@ -119,7 +119,7 @@ public class GrapeCropBlock extends Block implements EntityBlock, BonemealableBl
 	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.randomTick(blockstate, world, pos, random);
-		GrapeCropGrowProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		CropGrowProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override
@@ -132,19 +132,19 @@ public class GrapeCropBlock extends Block implements EntityBlock, BonemealableBl
 	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
 		if (worldIn instanceof LevelAccessor world) {
-			return GrapeCropCanBoneMealBeUsedOnThisBlockProcedure.execute(blockstate);
+			return CropBoneMealConditionProcedure.execute(blockstate);
 		}
 		return false;
 	}
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return GrapeCropBoneMealSuccessConditionProcedure.execute();
+		return CropMealSuccessConditionProcedure.execute();
 	}
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		GrapeCropOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		CropMealProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override

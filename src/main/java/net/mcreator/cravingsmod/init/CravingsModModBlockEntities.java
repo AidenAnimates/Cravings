@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.cravingsmod.block.entity.TomatoCropBlockEntity;
 import net.mcreator.cravingsmod.block.entity.LettuceCropBlockEntity;
 import net.mcreator.cravingsmod.block.entity.GrapeCropBlockEntity;
 import net.mcreator.cravingsmod.block.entity.FryerBlockEntity;
@@ -26,6 +27,7 @@ public class CravingsModModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> FRYER = register("fryer", CravingsModModBlocks.FRYER, FryerBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> GRAPE_CROP = register("grape_crop", CravingsModModBlocks.GRAPE_CROP, GrapeCropBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> LETTUCE_CROP = register("lettuce_crop", CravingsModModBlocks.LETTUCE_CROP, LettuceCropBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> TOMATO_CROP = register("tomato_crop", CravingsModModBlocks.TOMATO_CROP, TomatoCropBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

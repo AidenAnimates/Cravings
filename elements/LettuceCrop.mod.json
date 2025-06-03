@@ -102,13 +102,13 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": true,
     "isBonemealTargetCondition": {
-      "name": "GrapeCropCanBoneMealBeUsedOnThisBlock"
+      "name": "CropBoneMealCondition"
     },
     "bonemealSuccessCondition": {
-      "name": "GrapeCropBoneMealSuccessCondition"
+      "name": "CropMealSuccessCondition"
     },
     "onBonemealSuccess": {
-      "name": "GrapeCropOnBoneMealSuccess"
+      "name": "CropMeal"
     },
     "hasInventory": true,
     "openGUIOnRightClick": false,
@@ -130,7 +130,7 @@
       "name": "LettuceCropNeighbourBlockChanges"
     },
     "onTickUpdate": {
-      "name": "GrapeCropGrow"
+      "name": "CropGrow"
     },
     "onDestroyedByPlayer": {
       "name": "LettuceCropBlockDestroyedByPlayer"

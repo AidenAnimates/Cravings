@@ -90,8 +90,8 @@
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
+        "renderType": 1,
+        "customModelName": "Cross model",
         "luminance": 0,
         "boundingBoxes": []
       }

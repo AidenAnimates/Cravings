@@ -14,6 +14,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.cravingsmod.item.inventory.FlourSackInventoryCapability;
@@ -108,6 +109,7 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> BACON = REGISTRY.register("bacon", BaconItem::new);
 	public static final DeferredItem<Item> BLT = REGISTRY.register("blt", BLTItem::new);
 	public static final DeferredItem<Item> TOMATO = REGISTRY.register("tomato", TomatoItem::new);
+	public static final DeferredItem<Item> TOMATO_CROP = doubleBlock(CravingsModModBlocks.TOMATO_CROP);
 
 	// Start of user code block custom items
 	// End of user code block custom items
@@ -118,5 +120,9 @@ public class CravingsModModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }
