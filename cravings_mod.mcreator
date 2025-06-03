@@ -2181,9 +2181,9 @@
   "workspaceSettings": {
     "modid": "cravings_mod",
     "modName": "Cravings",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "A mod for all your food needs!",
-    "author": "AidenAnimates",
+    "author": "UniPM",
     "websiteURL": "https://en.wikipedia.org/wiki/Cheese",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
@@ -2194,7 +2194,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Made by AidenAnimates",
+    "credits": "Made by UniPM",
     "modElementsPackage": "net.mcreator.cravingsmod"
   },
   "mcreatorVersion": 202400452410

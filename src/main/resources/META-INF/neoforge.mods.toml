@@ -4,13 +4,13 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="cravings_mod"
-version="0.2.1"
+version="0.3.0"
 displayName="Cravings"
 updateJSONURL="https://pastebin.com/raw/8dqiTUxX"
 displayURL="https://en.wikipedia.org/wiki/Cheese"
 logoFile="logo.png"
-credits="Made by AidenAnimates"
-authors="AidenAnimates"
+credits="Made by UniPM"
+authors="UniPM"
 description="A mod for all your food needs!"
 
 # Start of user code block mod configuration
