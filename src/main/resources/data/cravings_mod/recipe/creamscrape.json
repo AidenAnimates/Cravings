@@ -10,11 +10,11 @@
       "item": "cravings_mod:knife"
     },
     "b": {
-      "item": "minecraft:bread"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {
-    "id": "cravings_mod:bread_slice",
+    "id": "cravings_mod:heavy_cream",
     "count": 4
   }
 }

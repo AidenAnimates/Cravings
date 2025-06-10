@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,16 +15,13 @@
         "value": ""
       },
       {
-        "value": "Items.SUGAR"
+        "value": "CUSTOM:Knife"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Yeast"
-      },
-      {
-        "value": "CUSTOM:Flour"
+        "value": ""
       },
       {
         "value": "Items.MILK_BUCKET"
@@ -33,16 +30,19 @@
         "value": ""
       },
       {
-        "value": "Items.EGG"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Dough"
+      "value": "CUSTOM:HeavyCream"
     },
-    "name": "dough_recipe",
+    "name": "creamscrape",
     "namespace": "mod"
   }
 }

@@ -2,17 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc"
+    " a ",
+    "bcd",
+    " e "
   ],
   "key": {
     "a": {
-      "item": "cravings_mod:bucket_of_olive_oil"
+      "item": "minecraft:sugar"
     },
     "b": {
-      "item": "cravings_mod:flour"
+      "item": "cravings_mod:yeast"
     },
     "c": {
-      "item": "minecraft:water_bucket"
+      "item": "cravings_mod:flour"
+    },
+    "d": {
+      "item": "minecraft:milk_bucket"
+    },
+    "e": {
+      "item": "minecraft:egg"
     }
   },
   "result": {

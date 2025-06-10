@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Cheese"
       },
       {
-        "value": "Items.SUGAR"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Yeast"
-      },
-      {
-        "value": "CUSTOM:Flour"
-      },
-      {
-        "value": "Items.MILK_BUCKET"
+        "value": "CUSTOM:Knife"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.EGG"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Dough"
+      "value": "CUSTOM:CheeseSlice"
     },
-    "name": "dough_recipe",
+    "name": "cheese_slicing_again",
     "namespace": "mod"
   }
 }

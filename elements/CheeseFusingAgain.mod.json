@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": "CUSTOM:Yeast"
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": "CUSTOM:Flour"
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": "Items.MILK_BUCKET"
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": "Items.EGG"
+        "value": "CUSTOM:CheeseSlice"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CheeseSlice"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Dough"
+      "value": "CUSTOM:Cheese"
     },
-    "name": "dough_recipe",
+    "name": "cheese_fusing_again",
     "namespace": "mod"
   }
 }

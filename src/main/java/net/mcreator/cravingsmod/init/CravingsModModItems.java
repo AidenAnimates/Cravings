@@ -35,6 +35,9 @@ import net.mcreator.cravingsmod.item.LettuceSeedsItem;
 import net.mcreator.cravingsmod.item.LettuceItem;
 import net.mcreator.cravingsmod.item.LemonItem;
 import net.mcreator.cravingsmod.item.KnifeItem;
+import net.mcreator.cravingsmod.item.IceCreamItem;
+import net.mcreator.cravingsmod.item.HeavyCreamItem;
+import net.mcreator.cravingsmod.item.HamburgerItem;
 import net.mcreator.cravingsmod.item.GrilledCheeseItem;
 import net.mcreator.cravingsmod.item.GrapesItem;
 import net.mcreator.cravingsmod.item.GrapeSeedsItem;
@@ -46,16 +49,20 @@ import net.mcreator.cravingsmod.item.FermentedPotatoMashItem;
 import net.mcreator.cravingsmod.item.FabricItem;
 import net.mcreator.cravingsmod.item.DoughItem;
 import net.mcreator.cravingsmod.item.DippedCurdsItem;
+import net.mcreator.cravingsmod.item.CutBunsItem;
+import net.mcreator.cravingsmod.item.CheeseburgerItem;
 import net.mcreator.cravingsmod.item.CheeseSliceItem;
 import net.mcreator.cravingsmod.item.CheeseSandwichItem;
 import net.mcreator.cravingsmod.item.CheeseItem;
 import net.mcreator.cravingsmod.item.CheeseCurdsItem;
+import net.mcreator.cravingsmod.item.BurgerBunsItem;
 import net.mcreator.cravingsmod.item.BucketOfWheyItem;
 import net.mcreator.cravingsmod.item.BucketOfOliveOilItem;
 import net.mcreator.cravingsmod.item.BucketOfCurdyMilkItem;
 import net.mcreator.cravingsmod.item.BreadSliceItem;
 import net.mcreator.cravingsmod.item.BeerBottleItem;
 import net.mcreator.cravingsmod.item.BaconItem;
+import net.mcreator.cravingsmod.item.BaconCheeseburgerItem;
 import net.mcreator.cravingsmod.item.BLTItem;
 import net.mcreator.cravingsmod.CravingsModMod;
 
@@ -110,6 +117,13 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> BLT = REGISTRY.register("blt", BLTItem::new);
 	public static final DeferredItem<Item> TOMATO = REGISTRY.register("tomato", TomatoItem::new);
 	public static final DeferredItem<Item> TOMATO_CROP = doubleBlock(CravingsModModBlocks.TOMATO_CROP);
+	public static final DeferredItem<Item> BURGER_BUNS = REGISTRY.register("burger_buns", BurgerBunsItem::new);
+	public static final DeferredItem<Item> CUT_BUNS = REGISTRY.register("cut_buns", CutBunsItem::new);
+	public static final DeferredItem<Item> HAMBURGER = REGISTRY.register("hamburger", HamburgerItem::new);
+	public static final DeferredItem<Item> CHEESEBURGER = REGISTRY.register("cheeseburger", CheeseburgerItem::new);
+	public static final DeferredItem<Item> BACON_CHEESEBURGER = REGISTRY.register("bacon_cheeseburger", BaconCheeseburgerItem::new);
+	public static final DeferredItem<Item> HEAVY_CREAM = REGISTRY.register("heavy_cream", HeavyCreamItem::new);
+	public static final DeferredItem<Item> ICE_CREAM = REGISTRY.register("ice_cream", IceCreamItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cravings_mod:bacon"
+    },
+    {
+      "item": "cravings_mod:cut_buns"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "cravings_mod:cheese_slice"
+    },
+    {
+      "item": "cravings_mod:bacon"
+    }
+  ],
+  "result": {
+    "id": "cravings_mod:bacon_cheeseburger",
+    "count": 1
+  }
+}
