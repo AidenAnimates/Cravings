@@ -3,23 +3,23 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "grapejuice_new",
+    "texture": "pitaya",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Grape Juice",
+    "name": "Pitaya",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Cravings"
+        "value": "FOOD"
       },
       {
-        "value": "FOOD"
+        "value": "CUSTOM:Cravings"
       }
     ],
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 50,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -50,11 +50,11 @@
     "nutritionalValue": 3,
     "saturation": 0.5,
     "eatResultItem": {
-      "value": "Items.GLASS_BOTTLE"
+      "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "drink",
+    "isAlwaysEdible": false,
+    "animation": "eat",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""

@@ -28,6 +28,7 @@ import net.mcreator.cravingsmod.item.ToastItem;
 import net.mcreator.cravingsmod.item.RicottaItem;
 import net.mcreator.cravingsmod.item.RawBaconItem;
 import net.mcreator.cravingsmod.item.PotatoMashItem;
+import net.mcreator.cravingsmod.item.PitayaItem;
 import net.mcreator.cravingsmod.item.OliveItem;
 import net.mcreator.cravingsmod.item.MustItem;
 import net.mcreator.cravingsmod.item.MeadBottleItem;
@@ -124,6 +125,8 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> BACON_CHEESEBURGER = REGISTRY.register("bacon_cheeseburger", BaconCheeseburgerItem::new);
 	public static final DeferredItem<Item> HEAVY_CREAM = REGISTRY.register("heavy_cream", HeavyCreamItem::new);
 	public static final DeferredItem<Item> ICE_CREAM = REGISTRY.register("ice_cream", IceCreamItem::new);
+	public static final DeferredItem<Item> PITAYA_CROP = doubleBlock(CravingsModModBlocks.PITAYA_CROP);
+	public static final DeferredItem<Item> PITAYA = REGISTRY.register("pitaya", PitayaItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

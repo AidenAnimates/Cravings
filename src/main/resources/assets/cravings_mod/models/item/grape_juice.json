@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cravings_mod:item/grape_juice"
+    "layer0": "cravings_mod:item/grapejuice_new"
   }
 }

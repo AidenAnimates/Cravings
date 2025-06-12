@@ -75,6 +75,7 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.BACON_CHEESEBURGER.get());
 				tabData.accept(CravingsModModItems.HEAVY_CREAM.get());
 				tabData.accept(CravingsModModItems.ICE_CREAM.get());
+				tabData.accept(CravingsModModItems.PITAYA.get());
 			}).build());
 
 	@SubscribeEvent
@@ -132,6 +133,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.CHEESEBURGER.get());
 			tabData.accept(CravingsModModItems.BACON_CHEESEBURGER.get());
 			tabData.accept(CravingsModModItems.ICE_CREAM.get());
+			tabData.accept(CravingsModModItems.PITAYA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());
