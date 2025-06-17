@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cravings_mod:item/ale"
+    "layer0": "cravings_mod:item/radish"
   }
 }

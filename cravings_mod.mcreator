@@ -2159,6 +2159,113 @@
         ]
       },
       "path": "~/CravingsCrops/Dragonfruit"
+    },
+    {
+      "name": "Radish",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/RadishItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/radish.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishCrop",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "radish_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_bottom.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/RadishCropBlock.java",
+          "src/main/resources/assets/cravings_mod/models/item/radish_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
+          "src/main/resources/assets/cravings_mod/blockstates/radish_crop.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_crop_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/RadishCropBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishMeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_meal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/RadishMealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
     }
   ],
   "variable_elements": [],
@@ -2190,8 +2297,8 @@
   "tab_element_order": {},
   "language_map": {
     "it_it": {
-      "item.cravings_mod.grilled_cheese": "Panino al formaggio grigliato",
       "item.cravings_mod.hamburger": "Hamburger",
+      "item.cravings_mod.grilled_cheese": "Panino al formaggio grigliato",
       "item.cravings_mod.beer_bottle": "Bottiglia di birra",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
@@ -2201,19 +2308,19 @@
       "item.cravings_mod.wort_bottle": "Bottiglia di mosto di birra",
       "item.cravings_mod.burger_buns": "Panini per hamburger",
       "item.cravings_mod.flour": "Farina",
-      "item.cravings_mod.flour_sack": "Sacco Di Farina",
-      "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
       "item.cravings_mod.cheese_sandwich": "Panino al formaggio",
-      "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.dipped_curds": "Cagliata imbevuta",
+      "item.cravings_mod.flour_sack": "Sacco Di Farina",
       "item.cravings_mod.fabric": "Tessuto",
+      "item.cravings_mod.pitaya": "Pitaya",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Bacon cruda",
       "block.cravings_mod.pitaya_crop": "Semi di Pitaya",
       "item.cravings_mod.ice_cream": "Gelato",
       "gui.cravings_mod.fryer_gui.label_fryer": "Friggitore",
       "item.cravings_mod.dough": "Impasto",
-      "item.cravings_mod.toast": "Pane abbrustolito",
       "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
+      "item.cravings_mod.toast": "Pane abbrustolito",
       "item.cravings_mod.olive": "Oliva",
       "item.cravings_mod.knife": "Coltello",
       "item.cravings_mod.grape_seeds": "Semi d\u0027uva",
@@ -2222,6 +2329,7 @@
       "block.cravings_mod.lemon_sapling": "Alberello Di Limone",
       "block.cravings_mod.lemon_leaves": "Foglie di limone",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish": "Radish",
       "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
       "item.cravings_mod.yeast": "Lievito",
       "item.cravings_mod.fried_curds": "Cagliata fritta",
@@ -2252,8 +2360,8 @@
       "item.cravings_mod.mead_bottle": "Bottiglia di idromele"
     },
     "en_us": {
-      "item.cravings_mod.grilled_cheese": "Grilled Cheese",
       "item.cravings_mod.hamburger": "Hamburger",
+      "item.cravings_mod.grilled_cheese": "Grilled Cheese",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Flour Sack",
       "item.cravings_mod.beer_bottle": "Beer Bottle",
       "item.cravings_mod.cheese_curds": "Cheese Curds",
@@ -2263,19 +2371,19 @@
       "item.cravings_mod.wort_bottle": "Wort Bottle",
       "item.cravings_mod.burger_buns": "Burger Buns",
       "item.cravings_mod.flour": "Flour",
-      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
-      "item.cravings_mod.dipped_curds": "Dipped Curds",
       "item.cravings_mod.flour_sack": "Flour Sack",
-      "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.dipped_curds": "Dipped Curds",
+      "item.cravings_mod.cheese_sandwich": "Cheese Sandwich",
       "item.cravings_mod.fabric": "Fabric",
+      "item.cravings_mod.pitaya": "Pitaya",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Raw Bacon",
       "block.cravings_mod.pitaya_crop": "Pitaya Seeds",
       "item.cravings_mod.ice_cream": "Ice Cream",
       "gui.cravings_mod.fryer_gui.label_fryer": "Fryer",
       "item.cravings_mod.dough": "Dough",
-      "item.cravings_mod.cheese_slice": "Cheese Slice",
       "item.cravings_mod.toast": "Toast",
+      "item.cravings_mod.cheese_slice": "Cheese Slice",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Knife",
       "item.cravings_mod.grape_seeds": "Grape Seeds",
@@ -2284,6 +2392,7 @@
       "block.cravings_mod.lemon_leaves": "Lemon Leaves",
       "block.cravings_mod.lemon_sapling": "Lemon Sapling",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish": "Radish",
       "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
       "item.cravings_mod.yeast": "Yeast",
       "item.cravings_mod.fried_curds": "Fried Curds",
@@ -2314,8 +2423,8 @@
       "item.cravings_mod.mead_bottle": "Mead Bottle"
     },
     "fr_fr": {
-      "item.cravings_mod.hamburger": "Hamburger",
       "item.cravings_mod.grilled_cheese": "Sandwich au fromage grillé",
+      "item.cravings_mod.hamburger": "Hamburger",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
       "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
@@ -2325,19 +2434,19 @@
       "item.cravings_mod.wort_bottle": "Bouteille de moût de bière",
       "item.cravings_mod.burger_buns": "Pains à hamburger",
       "item.cravings_mod.flour": "Farine",
-      "item.cravings_mod.cheese_sandwich": "Sandwich au fromage",
-      "item.cravings_mod.dipped_curds": "Caillé trempé",
       "item.cravings_mod.flour_sack": "Sac de farine",
-      "item.cravings_mod.fabric": "Tissu",
+      "item.cravings_mod.dipped_curds": "Caillé trempé",
+      "item.cravings_mod.cheese_sandwich": "Sandwich au fromage",
       "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.fabric": "Tissu",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Bacon cru",
       "block.cravings_mod.pitaya_crop": "Graines de pitaya",
       "item.cravings_mod.ice_cream": "Crème glacée",
       "gui.cravings_mod.fryer_gui.label_fryer": "Friteuse",
       "item.cravings_mod.dough": "Pâte",
-      "item.cravings_mod.cheese_slice": "Tranche de fromage",
       "item.cravings_mod.toast": "Pain grillé",
+      "item.cravings_mod.cheese_slice": "Tranche de fromage",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Couteau",
       "item.cravings_mod.grape_seeds": "Pépins de raisin",
@@ -2346,6 +2455,7 @@
       "block.cravings_mod.lemon_sapling": "Jeune citronnier",
       "block.cravings_mod.lemon_leaves": "Feuilles de citron",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish": "Radish",
       "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
       "item.cravings_mod.yeast": "Levure",
       "item.cravings_mod.fried_curds": "Caillé frit",
@@ -2376,8 +2486,8 @@
       "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
     },
     "de_de": {
-      "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
       "item.cravings_mod.hamburger": "Hamburger",
+      "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
       "item.cravings_mod.beer_bottle": "Bierflasche",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
       "item.cravings_mod.cheese_curds": "Käsebruch",
@@ -2387,19 +2497,19 @@
       "item.cravings_mod.wort_bottle": "Würzeflasche",
       "item.cravings_mod.burger_buns": "Burgerbrötchen",
       "item.cravings_mod.flour": "Mehl",
-      "item.cravings_mod.cheese_sandwich": "Käsesandwich",
-      "item.cravings_mod.dipped_curds": "Getauchter Käsebruch",
       "item.cravings_mod.flour_sack": "Mehlsack",
-      "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.dipped_curds": "Getauchter Käsebruch",
+      "item.cravings_mod.cheese_sandwich": "Käsesandwich",
       "item.cravings_mod.fabric": "Stoff",
+      "item.cravings_mod.pitaya": "Pitaya",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Roher Speck",
       "block.cravings_mod.pitaya_crop": "Pitaya-Samen",
       "item.cravings_mod.ice_cream": "Eiscreme",
       "gui.cravings_mod.fryer_gui.label_fryer": "Fritteuse",
       "item.cravings_mod.dough": "Teig",
-      "item.cravings_mod.cheese_slice": "Käsescheibe",
       "item.cravings_mod.toast": "Geröstetes Brot",
+      "item.cravings_mod.cheese_slice": "Käsescheibe",
       "item.cravings_mod.olive": "Olive",
       "item.cravings_mod.knife": "Messer",
       "item.cravings_mod.grape_seeds": "Traubenkerne",
@@ -2408,6 +2518,7 @@
       "block.cravings_mod.lemon_leaves": "Zitronenblätter",
       "block.cravings_mod.lemon_sapling": "Zitronensetzling",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish": "Radish",
       "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
       "item.cravings_mod.yeast": "Hefe",
       "item.cravings_mod.fried_curds": "Gebratener Käsebruch",
@@ -2513,6 +2624,10 @@
           },
           {
             "name": "Dragonfruit",
+            "children": []
+          },
+          {
+            "name": "Radish",
             "children": []
           }
         ]

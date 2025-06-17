@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "cravings_mod:block/olive_leaves",
-    "particle": "cravings_mod:block/olive_leaves"
+    "all": "cravings_mod:block/olive_leaves_new",
+    "particle": "cravings_mod:block/olive_leaves_new"
   }
 }

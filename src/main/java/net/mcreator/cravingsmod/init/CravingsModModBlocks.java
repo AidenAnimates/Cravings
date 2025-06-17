@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cravingsmod.block.TomatoCropBlock;
+import net.mcreator.cravingsmod.block.RadishCropBlock;
 import net.mcreator.cravingsmod.block.PitayaCropBlock;
 import net.mcreator.cravingsmod.block.OliveSaplingBlock;
 import net.mcreator.cravingsmod.block.OliveLeavesBlock;
@@ -33,6 +34,7 @@ public class CravingsModModBlocks {
 	public static final DeferredBlock<Block> LETTUCE_CROP = REGISTRY.register("lettuce_crop", LettuceCropBlock::new);
 	public static final DeferredBlock<Block> TOMATO_CROP = REGISTRY.register("tomato_crop", TomatoCropBlock::new);
 	public static final DeferredBlock<Block> PITAYA_CROP = REGISTRY.register("pitaya_crop", PitayaCropBlock::new);
+	public static final DeferredBlock<Block> RADISH_CROP = REGISTRY.register("radish_crop", RadishCropBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
