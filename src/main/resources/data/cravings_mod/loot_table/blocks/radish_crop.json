@@ -1,29 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "cravings_mod:blocks/pitaya_crop",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "cravings_mod:pitaya_crop",
-          "conditions": [
-            {
-              "block": "cravings_mod:pitaya_crop",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "random_sequence": "cravings_mod:blocks/radish_crop"
 }

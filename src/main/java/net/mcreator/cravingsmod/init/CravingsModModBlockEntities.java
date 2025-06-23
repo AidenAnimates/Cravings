@@ -44,5 +44,6 @@ public class CravingsModModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, FRYER.get(), (blockEntity, side) -> ((FryerBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, GRAPE_CROP.get(), (blockEntity, side) -> ((GrapeCropBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LETTUCE_CROP.get(), (blockEntity, side) -> ((LettuceCropBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, RADISH_CROP.get(), (blockEntity, side) -> ((RadishCropBlockEntity) blockEntity).getItemHandler());
 	}
 }

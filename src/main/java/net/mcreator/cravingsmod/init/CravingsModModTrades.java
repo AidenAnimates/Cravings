@@ -20,6 +20,7 @@ public class CravingsModModTrades {
 	@SubscribeEvent
 	public static void registerWanderingTrades(WandererTradesEvent event) {
 		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(CravingsModModItems.RICOTTA.get()), new ItemStack(CravingsModModItems.FLOUR_SACK.get()), 10, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(CravingsModModBlocks.PITAYA_CROP.get()), 10, 5, 0.05f));
 	}
 
 	@SubscribeEvent
@@ -31,6 +32,7 @@ public class CravingsModModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(CravingsModModItems.GRAPE_SEEDS.get()), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(CravingsModModItems.RAW_BACON.get()), new ItemStack(CravingsModModBlocks.TOMATO_CROP.get()), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(CravingsModModItems.LETTUCE_SEEDS.get()), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 6), new ItemStack(CravingsModModItems.TOMATO.get(), 2), new ItemStack(CravingsModModItems.RADISH_SEEDS.get()), 10, 5, 0.05f));
 		}
 	}
 }

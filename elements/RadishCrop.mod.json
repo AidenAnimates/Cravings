@@ -1,39 +1,31 @@
 {
   "_fv": 73,
-  "_type": "plant",
+  "_type": "block",
   "definition": {
-    "renderType": 12,
-    "texture": "tomato_crop_up_0",
-    "textureBottom": "tomato_crop_low_0",
-    "customModelName": "Cross model",
-    "itemTexture": "",
+    "texture": "radish_crop_0",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 13,
+    "customModelName": "Crop model",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "radish_seeds",
     "particleTexture": "lemon_leaves",
     "tintType": "No tint",
     "isItemTinted": false,
-    "plantType": "double",
-    "suspiciousStewEffect": "SPEED",
-    "suspiciousStewDuration": 100,
-    "secondaryTreeChance": 0.1,
-    "trees": [
-      null,
-      null
-    ],
-    "flowerTrees": [
-      null,
-      null
-    ],
-    "megaTrees": [
-      null,
-      null
-    ],
-    "growapableSpawnType": "Crop",
-    "growapableMaxHeight": 2,
-    "customBoundingBox": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.0,
+        "my": 0.01,
         "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
@@ -41,60 +33,73 @@
         "subtract": false
       }
     ],
-    "name": "Tomato Crop",
+    "customProperties": [],
+    "name": "Radish Crop",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [],
     "hardness": 0.0,
-    "resistance": 0.0,
-    "luminance": 0,
-    "unbreakable": false,
-    "isSolid": false,
+    "resistance": 10.0,
+    "hasGravity": false,
     "isWaterloggable": false,
-    "isCustomSoundType": false,
+    "creativeTabs": [],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "Blocks.AIR"
+    },
+    "dropAmount": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "LIME",
+    "creativePickItem": {
+      "value": "CUSTOM:RadishSeeds"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "WALKABLE",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "PLANT"
     },
     "breakSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
+      "value": "block.crop.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.grass.fall"
     },
-    "useLootTableForDrops": false,
-    "customDrop": {
-      "value": "CUSTOM:TomatoSeeds"
+    "hitSound": {
+      "value": "block.grass.hit"
     },
-    "dropAmount": 1,
-    "forceTicking": true,
-    "emissiveRendering": false,
-    "hasTileEntity": true,
-    "isReplaceable": false,
-    "colorOnMap": "GRASS",
-    "creativePickItem": {
-      "value": ""
+    "placeSound": {
+      "value": "item.crop.plant"
     },
-    "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 60,
-    "jumpFactor": 1.0,
-    "speedFactor": 1.0,
-    "canBePlacedOn": [
-      {
-        "value": "Blocks.FARMLAND"
-      }
-    ],
+    "stepSound": {
+      "value": "block.grass.step"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
     "isBonemealable": true,
     "isBonemealTargetCondition": {
       "name": "CropBoneMealCondition"
@@ -105,17 +110,42 @@
     "onBonemealSuccess": {
       "name": "CropMeal"
     },
-    "frequencyOnChunks": 5,
-    "generateFeature": false,
-    "restrictionBiomes": [],
-    "generationType": "Flower",
-    "patchSize": 64,
-    "generateAtAnyHeight": false,
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "RadishCropNeighbourBlockChanges"
+    },
     "onTickUpdate": {
       "name": "CropGrow"
     },
     "onDestroyedByPlayer": {
-      "name": "TomatoCropBlockDestroyedByPlayer"
-    }
+      "name": "RadishCropBlockDestroyedByPlayer"
+    },
+    "generateFeature": true,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.TALLGRASS#1"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

@@ -11,9 +11,6 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "FOOD"
-      },
-      {
         "value": "CUSTOM:Cravings"
       }
     ],

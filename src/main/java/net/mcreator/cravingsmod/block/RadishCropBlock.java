@@ -35,19 +35,17 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.block.DoublePlantBlock;
-import net.minecraft.core.Direction;
-import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
-import net.minecraft.world.level.block.Blocks;
 
-import net.mcreator.cravingsmod.procedures.CropMealSuccessConditionProcedure;
-import net.mcreator.cravingsmod.procedures.RadishMealProcedure;
-import net.mcreator.cravingsmod.procedures.TomatoGrowProcedure;
-import net.mcreator.cravingsmod.procedures.CropBoneMealConditionProcedure;
+import net.mcreator.cravingsmod.procedures.RadishCropNeighbourBlockChangesProcedure;
 import net.mcreator.cravingsmod.procedures.RadishCropBlockDestroyedByPlayerProcedure;
+import net.mcreator.cravingsmod.procedures.CropMealSuccessConditionProcedure;
+import net.mcreator.cravingsmod.procedures.CropMealProcedure;
+import net.mcreator.cravingsmod.procedures.CropGrowProcedure;
+import net.mcreator.cravingsmod.procedures.CropBoneMealConditionProcedure;
+import net.mcreator.cravingsmod.init.CravingsModModItems;
 import net.mcreator.cravingsmod.block.entity.RadishCropBlockEntity;
 
-public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, BonemealableBlock {
+public class RadishCropBlock extends Block implements EntityBlock, BonemealableBlock {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 7);
 
 	public RadishCropBlock() {
@@ -74,27 +72,26 @@ public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, Bo
 						return 0;
 					}
 				}.getLightLevel())).noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
-
 	}
 
 	@Override
-	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 60;
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
-	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(Blocks.FARMLAND);
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+		return 0;
 	}
 
 	@Override
-	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
-		BlockPos blockpos = pos.below();
-		BlockState groundState = worldIn.getBlockState(blockpos);
-		if (blockstate.getValue(HALF) == DoubleBlockHalf.UPPER)
-			return groundState.is(this) && groundState.getValue(HALF) == DoubleBlockHalf.LOWER;
-		else
-			return this.mayPlaceOn(groundState, worldIn, blockpos);
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(0, 0.01, 0, 16, 16, 16);
 	}
 
 	@Override
@@ -104,8 +101,25 @@ public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, Bo
 	}
 
 	@Override
+	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
+		return new ItemStack(CravingsModModItems.RADISH_SEEDS.get());
+	}
+
+	@Override
+	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
+		return PathType.WALKABLE;
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		RadishCropNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		TomatoGrowProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		super.randomTick(blockstate, world, pos, random);
+		CropGrowProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override
@@ -114,7 +128,6 @@ public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, Bo
 		RadishCropBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate, entity);
 		return retval;
 	}
-
 
 	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
@@ -131,7 +144,13 @@ public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, Bo
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		RadishMealProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		CropMealProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+	}
+
+	@Override
+	public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {
+		BlockEntity tileEntity = worldIn.getBlockEntity(pos);
+		return tileEntity instanceof MenuProvider menuProvider ? menuProvider : null;
 	}
 
 	@Override
@@ -144,5 +163,31 @@ public class RadishCropBlock extends DoublePlantBlock implements EntityBlock, Bo
 		super.triggerEvent(state, world, pos, eventID, eventParam);
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		return blockEntity == null ? false : blockEntity.triggerEvent(eventID, eventParam);
+	}
+
+	@Override
+	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
+		if (state.getBlock() != newState.getBlock()) {
+			BlockEntity blockEntity = world.getBlockEntity(pos);
+			if (blockEntity instanceof RadishCropBlockEntity be) {
+				Containers.dropContents(world, pos, be);
+				world.updateNeighbourForOutputSignal(pos, this);
+			}
+			super.onRemove(state, world, pos, newState, isMoving);
+		}
+	}
+
+	@Override
+	public boolean hasAnalogOutputSignal(BlockState state) {
+		return true;
+	}
+
+	@Override
+	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
+		BlockEntity tileentity = world.getBlockEntity(pos);
+		if (tileentity instanceof RadishCropBlockEntity be)
+			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
+		else
+			return 0;
 	}
 }

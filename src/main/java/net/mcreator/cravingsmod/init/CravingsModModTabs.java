@@ -77,6 +77,7 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.ICE_CREAM.get());
 				tabData.accept(CravingsModModItems.PITAYA.get());
 				tabData.accept(CravingsModModItems.RADISH.get());
+				tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -113,7 +114,6 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.LEMON.get());
 			tabData.accept(CravingsModModItems.GRAPES.get());
 			tabData.accept(CravingsModModItems.BEER_BOTTLE.get());
-			tabData.accept(CravingsModModItems.GRAPE_SEEDS.get());
 			tabData.accept(CravingsModModItems.GRAPE_JUICE.get());
 			tabData.accept(CravingsModModItems.WINE_BOTTLE.get());
 			tabData.accept(CravingsModModItems.MEAD_BOTTLE.get());
@@ -123,7 +123,6 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.BREAD_SLICE.get());
 			tabData.accept(CravingsModModItems.TOAST.get());
 			tabData.accept(CravingsModModItems.LETTUCE.get());
-			tabData.accept(CravingsModModItems.LETTUCE_SEEDS.get());
 			tabData.accept(CravingsModModItems.RAW_BACON.get());
 			tabData.accept(CravingsModModItems.BACON.get());
 			tabData.accept(CravingsModModItems.BLT.get());
@@ -149,6 +148,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModBlocks.OLIVE_SAPLING.get().asItem());
 			tabData.accept(CravingsModModBlocks.LEMON_LEAVES.get().asItem());
 			tabData.accept(CravingsModModBlocks.LEMON_SAPLING.get().asItem());
+			tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
 		}
 	}
 }

@@ -2176,41 +2176,72 @@
     },
     {
       "name": "RadishCrop",
-      "type": "plant",
+      "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "radish_crop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_bottom.json",
           "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/RadishCropBlock.java",
           "src/main/resources/assets/cravings_mod/models/item/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
           "src/main/resources/assets/cravings_mod/blockstates/radish_crop.json",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/radish_crop.json",
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/radish_crop_biome_modifier.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/radish_crop.json",
           "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json"
         ]
       },
       "path": "~/CravingsCrops/Radish"
     },
     {
-      "name": "RadishCropBlockDestroyedByPlayer",
+      "name": "RadishCropBlockState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_crop_block_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_6.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_4.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_2.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_1.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_5.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/RadishSeedsItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/radish_seeds.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishSeedsRightclickedOnBlock",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radish_crop_block_destroyed_by_player",
+      "registry_name": "radish_seeds_rightclicked_on_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/procedures/RadishCropBlockDestroyedByPlayerProcedure.java"
+          "src/main/java/net/mcreator/cravingsmod/procedures/RadishSeedsRightclickedOnBlockProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -2233,19 +2264,54 @@
       "path": "~/CravingsCrops/Radish"
     },
     {
-      "name": "RadishMeal",
+      "name": "RadishCropNeighbourBlockChanges",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radish_meal",
+      "registry_name": "radish_crop_neighbour_block_changes",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/procedures/RadishMealProcedure.java"
+          "src/main/java/net/mcreator/cravingsmod/procedures/RadishCropNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "RadishCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_crop_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/RadishCropBlockDestroyedByPlayerProcedure.java"
         ],
         "dependencies": [
           {
             "name": "blockstate",
             "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
           },
           {
             "name": "x",
@@ -2329,12 +2395,14 @@
       "block.cravings_mod.lemon_sapling": "Alberello Di Limone",
       "block.cravings_mod.lemon_leaves": "Foglie di limone",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish": "Radish",
+      "item.cravings_mod.radish": "Ravanello",
       "item.cravings_mod.bucket_of_whey": "Secchio di siero di latte",
       "item.cravings_mod.yeast": "Lievito",
+      "block.cravings_mod.radish_crop": "Lettuce Crop",
       "item.cravings_mod.fried_curds": "Cagliata fritta",
       "item.cravings_mod.tool_handle": "Maniglia dello strumento",
       "item.cravings_mod.lettuce_seeds": "Semi di lattuga",
+      "item.cravings_mod.radish_seeds": "Semi di ravanello",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.vodka": "Vodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
@@ -2395,9 +2463,11 @@
       "item.cravings_mod.radish": "Radish",
       "item.cravings_mod.bucket_of_whey": "Bucket of Whey",
       "item.cravings_mod.yeast": "Yeast",
+      "block.cravings_mod.radish_crop": "Radish Crop",
       "item.cravings_mod.fried_curds": "Fried Curds",
       "item.cravings_mod.tool_handle": "Tool Handle",
       "item.cravings_mod.lettuce_seeds": "Lettuce Seeds",
+      "item.cravings_mod.radish_seeds": "Radish Seeds",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.vodka": "Vodka Bottle",
       "item.cravings_mod.bucket_of_curdy_milk": "Bucket of Curdy Milk",
@@ -2423,8 +2493,8 @@
       "item.cravings_mod.mead_bottle": "Mead Bottle"
     },
     "fr_fr": {
-      "item.cravings_mod.grilled_cheese": "Sandwich au fromage grillé",
       "item.cravings_mod.hamburger": "Hamburger",
+      "item.cravings_mod.grilled_cheese": "Sandwich au fromage grillé",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
       "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
@@ -2434,11 +2504,11 @@
       "item.cravings_mod.wort_bottle": "Bouteille de moût de bière",
       "item.cravings_mod.burger_buns": "Pains à hamburger",
       "item.cravings_mod.flour": "Farine",
-      "item.cravings_mod.flour_sack": "Sac de farine",
-      "item.cravings_mod.dipped_curds": "Caillé trempé",
       "item.cravings_mod.cheese_sandwich": "Sandwich au fromage",
-      "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.dipped_curds": "Caillé trempé",
+      "item.cravings_mod.flour_sack": "Sac de farine",
       "item.cravings_mod.fabric": "Tissu",
+      "item.cravings_mod.pitaya": "Pitaya",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Bacon cru",
       "block.cravings_mod.pitaya_crop": "Graines de pitaya",
@@ -2455,12 +2525,14 @@
       "block.cravings_mod.lemon_sapling": "Jeune citronnier",
       "block.cravings_mod.lemon_leaves": "Feuilles de citron",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish": "Radish",
+      "item.cravings_mod.radish": "Radis",
       "item.cravings_mod.bucket_of_whey": "Seau de lactosérum",
       "item.cravings_mod.yeast": "Levure",
+      "block.cravings_mod.radish_crop": "Lettuce Crop",
       "item.cravings_mod.fried_curds": "Caillé frit",
       "item.cravings_mod.tool_handle": "Poignée d\u0027outil",
       "item.cravings_mod.lettuce_seeds": "Graines de laitue",
+      "item.cravings_mod.radish_seeds": "Graines de Radis",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.vodka": "Vodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
@@ -2486,8 +2558,8 @@
       "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
     },
     "de_de": {
-      "item.cravings_mod.hamburger": "Hamburger",
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
+      "item.cravings_mod.hamburger": "Hamburger",
       "item.cravings_mod.beer_bottle": "Bierflasche",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Mehlsack",
       "item.cravings_mod.cheese_curds": "Käsebruch",
@@ -2497,11 +2569,11 @@
       "item.cravings_mod.wort_bottle": "Würzeflasche",
       "item.cravings_mod.burger_buns": "Burgerbrötchen",
       "item.cravings_mod.flour": "Mehl",
-      "item.cravings_mod.flour_sack": "Mehlsack",
-      "item.cravings_mod.dipped_curds": "Getauchter Käsebruch",
       "item.cravings_mod.cheese_sandwich": "Käsesandwich",
-      "item.cravings_mod.fabric": "Stoff",
+      "item.cravings_mod.dipped_curds": "Getauchter Käsebruch",
+      "item.cravings_mod.flour_sack": "Mehlsack",
       "item.cravings_mod.pitaya": "Pitaya",
+      "item.cravings_mod.fabric": "Stoff",
       "item.cravings_mod.blt": "BLT",
       "item.cravings_mod.raw_bacon": "Roher Speck",
       "block.cravings_mod.pitaya_crop": "Pitaya-Samen",
@@ -2518,12 +2590,14 @@
       "block.cravings_mod.lemon_leaves": "Zitronenblätter",
       "block.cravings_mod.lemon_sapling": "Zitronensetzling",
       "block.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish": "Radish",
+      "item.cravings_mod.radish": "Rettich",
       "item.cravings_mod.bucket_of_whey": "Eimer mit Molke",
       "item.cravings_mod.yeast": "Hefe",
+      "block.cravings_mod.radish_crop": "Lettuce Crop",
       "item.cravings_mod.fried_curds": "Gebratener Käsebruch",
       "item.cravings_mod.tool_handle": "Werkzeuggriff",
       "item.cravings_mod.lettuce_seeds": "Salatsamen",
+      "item.cravings_mod.radish_seeds": "Rettichsamen",
       "item.cravings_mod.ricotta": "Ricotta",
       "item.cravings_mod.vodka": "Wodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",

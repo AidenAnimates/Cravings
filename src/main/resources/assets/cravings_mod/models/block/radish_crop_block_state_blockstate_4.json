@@ -1,7 +1,7 @@
 {
   "parent": "block/crop",
   "textures": {
-    "crop": "cravings_mod:block/radish_crop_0",
+    "crop": "cravings_mod:block/radish_crop_4",
     "particle": "cravings_mod:block/lemon_leaves"
   },
   "render_type": "cutout"

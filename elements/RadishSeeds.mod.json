@@ -3,15 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "grape_seeds",
+    "texture": "radish_seeds",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Grape Seeds",
+    "name": "Radish Seeds",
     "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:Cravings"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
     "stackSize": 64,
@@ -37,7 +40,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "GrapeSeedsRightclickedOnBlock"
+      "name": "RadishSeedsRightclickedOnBlock"
     },
     "enableRanged": false,
     "shootConstantly": false,
