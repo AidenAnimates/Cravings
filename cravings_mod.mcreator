@@ -8,8 +8,9 @@
       "registry_name": "bucket_of_curdy_milk",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/models/item/bucket_of_curdy_milk.json",
           "src/main/java/net/mcreator/cravingsmod/item/BucketOfCurdyMilkItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/bucket_of_curdy_milk.json"
+          "src/main/resources/assets/cravings_mod/items/bucket_of_curdy_milk.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -36,7 +37,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/BucketOfWheyItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/bucket_of_whey.json"
+          "src/main/resources/assets/cravings_mod/models/item/bucket_of_whey.json",
+          "src/main/resources/assets/cravings_mod/items/bucket_of_whey.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -49,8 +51,9 @@
       "registry_name": "cheese_curds",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/CheeseCurdsItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/cheese_curds.json"
+          "src/main/resources/assets/cravings_mod/models/item/cheese_curds.json",
+          "src/main/resources/assets/cravings_mod/items/cheese_curds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseCurdsItem.java"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -63,11 +66,12 @@
       "registry_name": "cheese_wheel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/blockstates/cheese_wheel.json",
-          "src/main/resources/data/cravings_mod/loot_table/blocks/cheese_wheel.json",
-          "src/main/resources/assets/cravings_mod/models/block/cheese_wheel.json",
           "src/main/java/net/mcreator/cravingsmod/block/CheeseWheelBlock.java",
-          "src/main/resources/assets/cravings_mod/models/item/cheese_wheel.json"
+          "src/main/resources/assets/cravings_mod/models/block/cheese_wheel.json",
+          "src/main/resources/assets/cravings_mod/models/item/cheese_wheel.json",
+          "src/main/resources/assets/cravings_mod/blockstates/cheese_wheel.json",
+          "src/main/resources/assets/cravings_mod/items/cheese_wheel.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/cheese_wheel.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -107,7 +111,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/cheese.json",
-          "src/main/java/net/mcreator/cravingsmod/item/CheeseItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseItem.java",
+          "src/main/resources/assets/cravings_mod/items/cheese.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -146,8 +151,9 @@
       "registry_name": "flour",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/flour.json",
-          "src/main/java/net/mcreator/cravingsmod/item/FlourItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/FlourItem.java",
+          "src/main/resources/assets/cravings_mod/items/flour.json",
+          "src/main/resources/assets/cravings_mod/models/item/flour.json"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -173,8 +179,9 @@
       "registry_name": "ricotta",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/ricotta.json",
-          "src/main/java/net/mcreator/cravingsmod/item/RicottaItem.java"
+          "src/main/resources/assets/cravings_mod/items/ricotta.json",
+          "src/main/java/net/mcreator/cravingsmod/item/RicottaItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/ricotta.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -201,6 +208,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/CheeseSliceItem.java",
+          "src/main/resources/assets/cravings_mod/items/cheese_slice.json",
           "src/main/resources/assets/cravings_mod/models/item/cheese_slice.json"
         ]
       },
@@ -215,6 +223,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/FabricItem.java",
+          "src/main/resources/assets/cravings_mod/items/fabric.json",
           "src/main/resources/assets/cravings_mod/models/item/fabric.json"
         ]
       },
@@ -241,8 +250,8 @@
       "registry_name": "sack_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/client/gui/SackGUIScreen.java",
-          "src/main/java/net/mcreator/cravingsmod/world/inventory/SackGUIMenu.java"
+          "src/main/java/net/mcreator/cravingsmod/world/inventory/SackGUIMenu.java",
+          "src/main/java/net/mcreator/cravingsmod/client/gui/SackGUIScreen.java"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -255,9 +264,10 @@
       "registry_name": "flour_sack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/flour_sack.json",
           "src/main/java/net/mcreator/cravingsmod/item/inventory/FlourSackInventoryCapability.java",
-          "src/main/java/net/mcreator/cravingsmod/item/FlourSackItem.java"
+          "src/main/resources/assets/cravings_mod/items/flour_sack.json",
+          "src/main/java/net/mcreator/cravingsmod/item/FlourSackItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/flour_sack.json"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -304,6 +314,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/DippedCurdsItem.java",
+          "src/main/resources/assets/cravings_mod/items/dipped_curds.json",
           "src/main/resources/assets/cravings_mod/models/item/dipped_curds.json"
         ]
       },
@@ -317,8 +328,9 @@
       "registry_name": "fried_curds",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/FriedCurdsItem.java",
           "src/main/resources/assets/cravings_mod/models/item/fried_curds.json",
-          "src/main/java/net/mcreator/cravingsmod/item/FriedCurdsItem.java"
+          "src/main/resources/assets/cravings_mod/items/fried_curds.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -344,6 +356,7 @@
       "registry_name": "olive",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/olive.json",
           "src/main/java/net/mcreator/cravingsmod/item/OliveItem.java",
           "src/main/resources/assets/cravings_mod/models/item/olive.json"
         ]
@@ -358,6 +371,7 @@
       "registry_name": "bucket_of_olive_oil",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/bucket_of_olive_oil.json",
           "src/main/resources/assets/cravings_mod/models/item/bucket_of_olive_oil.json",
           "src/main/java/net/mcreator/cravingsmod/item/BucketOfOliveOilItem.java"
         ]
@@ -372,8 +386,8 @@
       "registry_name": "fryer_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/world/inventory/FryerGUIMenu.java",
-          "src/main/java/net/mcreator/cravingsmod/client/gui/FryerGUIScreen.java"
+          "src/main/java/net/mcreator/cravingsmod/client/gui/FryerGUIScreen.java",
+          "src/main/java/net/mcreator/cravingsmod/world/inventory/FryerGUIMenu.java"
         ]
       },
       "path": "~/Cravings/Oil Stuff"
@@ -417,12 +431,13 @@
       "registry_name": "fryer",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/loot_table/blocks/fryer.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/FryerBlockEntity.java",
-          "src/main/resources/assets/cravings_mod/models/item/fryer.json",
-          "src/main/resources/assets/cravings_mod/blockstates/fryer.json",
+          "src/main/resources/assets/cravings_mod/models/block/fryer.json",
+          "src/main/resources/assets/cravings_mod/items/fryer.json",
           "src/main/java/net/mcreator/cravingsmod/block/FryerBlock.java",
-          "src/main/resources/assets/cravings_mod/models/block/fryer.json"
+          "src/main/resources/data/cravings_mod/loot_table/blocks/fryer.json",
+          "src/main/resources/assets/cravings_mod/models/item/fryer.json",
+          "src/main/resources/assets/cravings_mod/blockstates/fryer.json"
         ]
       },
       "path": "~/Cravings/Oil Stuff"
@@ -525,10 +540,11 @@
       "registry_name": "olive_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/block/OliveLeavesBlock.java",
+          "src/main/resources/assets/cravings_mod/items/olive_leaves.json",
+          "src/main/resources/assets/cravings_mod/models/item/olive_leaves.json",
           "src/main/resources/assets/cravings_mod/blockstates/olive_leaves.json",
           "src/main/resources/assets/cravings_mod/models/block/olive_leaves.json",
-          "src/main/resources/assets/cravings_mod/models/item/olive_leaves.json"
+          "src/main/java/net/mcreator/cravingsmod/block/OliveLeavesBlock.java"
         ]
       },
       "path": "~/CravingsCrops/Olive"
@@ -542,8 +558,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/cravings_mod/neoforge/biome_modifier/olive_tree_biome_modifier.json",
-          "src/main/resources/data/cravings_mod/worldgen/placed_feature/olive_tree.json",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/olive_tree.json"
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/olive_tree.json",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/olive_tree.json"
         ]
       },
       "path": "~/CravingsCrops/Olive"
@@ -556,11 +572,12 @@
       "registry_name": "olive_sapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/olive_sapling.json",
-          "src/main/resources/assets/cravings_mod/blockstates/olive_sapling.json",
-          "src/main/java/net/mcreator/cravingsmod/block/OliveSaplingBlock.java",
           "src/main/resources/data/cravings_mod/loot_table/blocks/olive_sapling.json",
-          "src/main/resources/assets/cravings_mod/models/item/olive_sapling.json"
+          "src/main/resources/assets/cravings_mod/items/olive_sapling.json",
+          "src/main/java/net/mcreator/cravingsmod/block/OliveSaplingBlock.java",
+          "src/main/resources/assets/cravings_mod/blockstates/olive_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/item/olive_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/block/olive_sapling.json"
         ]
       },
       "path": "~/CravingsCrops/Olive"
@@ -586,8 +603,9 @@
       "registry_name": "tool_handle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/tool_handle.json",
-          "src/main/java/net/mcreator/cravingsmod/item/ToolHandleItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/ToolHandleItem.java",
+          "src/main/resources/assets/cravings_mod/items/tool_handle.json",
+          "src/main/resources/assets/cravings_mod/models/item/tool_handle.json"
         ]
       },
       "path": "~/CravingsTools"
@@ -600,8 +618,9 @@
       "registry_name": "knife",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/KnifeItem.java",
           "src/main/resources/assets/cravings_mod/models/item/knife.json",
-          "src/main/java/net/mcreator/cravingsmod/item/KnifeItem.java"
+          "src/main/resources/assets/cravings_mod/items/knife.json"
         ]
       },
       "path": "~/CravingsTools"
@@ -640,8 +659,9 @@
       "registry_name": "dough",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/models/item/dough.json",
           "src/main/java/net/mcreator/cravingsmod/item/DoughItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/dough.json"
+          "src/main/resources/assets/cravings_mod/items/dough.json"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -668,6 +688,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/lemon.json",
+          "src/main/resources/assets/cravings_mod/items/lemon.json",
           "src/main/java/net/mcreator/cravingsmod/item/LemonItem.java"
         ]
       },
@@ -681,9 +702,10 @@
       "registry_name": "lemon_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/block/LemonLeavesBlock.java",
           "src/main/resources/assets/cravings_mod/models/block/lemon_leaves.json",
           "src/main/resources/assets/cravings_mod/models/item/lemon_leaves.json",
+          "src/main/java/net/mcreator/cravingsmod/block/LemonLeavesBlock.java",
+          "src/main/resources/assets/cravings_mod/items/lemon_leaves.json",
           "src/main/resources/assets/cravings_mod/blockstates/lemon_leaves.json"
         ]
       },
@@ -697,9 +719,9 @@
       "registry_name": "lemon_tree",
       "metadata": {
         "files": [
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/lemon_tree.json",
           "src/main/resources/data/cravings_mod/worldgen/placed_feature/lemon_tree.json",
-          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/lemon_tree_biome_modifier.json",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/lemon_tree.json"
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/lemon_tree_biome_modifier.json"
         ]
       },
       "path": "~/CravingsCrops/Lemon"
@@ -713,10 +735,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/block/LemonSaplingBlock.java",
-          "src/main/resources/assets/cravings_mod/models/block/lemon_sapling.json",
-          "src/main/resources/assets/cravings_mod/blockstates/lemon_sapling.json",
           "src/main/resources/data/cravings_mod/loot_table/blocks/lemon_sapling.json",
-          "src/main/resources/assets/cravings_mod/models/item/lemon_sapling.json"
+          "src/main/resources/assets/cravings_mod/items/lemon_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/item/lemon_sapling.json",
+          "src/main/resources/assets/cravings_mod/blockstates/lemon_sapling.json",
+          "src/main/resources/assets/cravings_mod/models/block/lemon_sapling.json"
         ]
       },
       "path": "~/CravingsCrops/Lemon"
@@ -742,6 +765,7 @@
       "registry_name": "grapes",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/grapes.json",
           "src/main/java/net/mcreator/cravingsmod/item/GrapesItem.java",
           "src/main/resources/assets/cravings_mod/models/item/grapes.json"
         ]
@@ -757,6 +781,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/WortBottleItem.java",
+          "src/main/resources/assets/cravings_mod/items/wort_bottle.json",
           "src/main/resources/assets/cravings_mod/models/item/wort_bottle.json"
         ]
       },
@@ -771,6 +796,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/beer_bottle.json",
+          "src/main/resources/assets/cravings_mod/items/beer_bottle.json",
           "src/main/java/net/mcreator/cravingsmod/item/BeerBottleItem.java"
         ]
       },
@@ -829,12 +855,13 @@
       "registry_name": "grape_crop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/grape_crop.json",
-          "src/main/java/net/mcreator/cravingsmod/block/GrapeCropBlock.java",
           "src/main/resources/assets/cravings_mod/blockstates/grape_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/GrapeCropBlock.java",
           "src/main/resources/data/cravings_mod/loot_table/blocks/grape_crop.json",
+          "src/main/resources/assets/cravings_mod/models/item/grape_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/GrapeCropBlockEntity.java",
           "src/main/resources/assets/cravings_mod/models/block/grape_crop.json",
-          "src/main/java/net/mcreator/cravingsmod/block/entity/GrapeCropBlockEntity.java"
+          "src/main/resources/assets/cravings_mod/items/grape_crop.json"
         ]
       },
       "path": "~/CravingsCrops/Grapes"
@@ -847,13 +874,13 @@
       "registry_name": "grape_crop_block_state",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_1.json",
-          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_4.json",
           "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_0.json",
           "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_3.json",
-          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_5.json",
           "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_2.json",
-          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_6.json"
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_6.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_1.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_5.json",
+          "src/main/resources/assets/cravings_mod/models/block/grape_crop_block_state_blockstate_4.json"
         ]
       },
       "path": "~/CravingsCrops/Grapes"
@@ -901,6 +928,7 @@
       "registry_name": "grape_seeds",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/grape_seeds.json",
           "src/main/java/net/mcreator/cravingsmod/item/GrapeSeedsItem.java",
           "src/main/resources/assets/cravings_mod/models/item/grape_seeds.json"
         ]
@@ -985,8 +1013,9 @@
       "registry_name": "yeast",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/yeast.json",
-          "src/main/java/net/mcreator/cravingsmod/item/YeastItem.java"
+          "src/main/resources/assets/cravings_mod/items/yeast.json",
+          "src/main/java/net/mcreator/cravingsmod/item/YeastItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/yeast.json"
         ]
       },
       "path": "~/CravingsBrewery/Yeast"
@@ -1013,7 +1042,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/grape_juice.json",
-          "src/main/java/net/mcreator/cravingsmod/item/GrapeJuiceItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/GrapeJuiceItem.java",
+          "src/main/resources/assets/cravings_mod/items/grape_juice.json"
         ]
       },
       "path": "~/CravingsBrewery/Wine"
@@ -1027,7 +1057,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/wine_bottle.json",
-          "src/main/java/net/mcreator/cravingsmod/item/WineBottleItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/WineBottleItem.java",
+          "src/main/resources/assets/cravings_mod/items/wine_bottle.json"
         ]
       },
       "path": "~/CravingsBrewery/Wine"
@@ -1066,8 +1097,9 @@
       "registry_name": "must",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/must.json",
-          "src/main/java/net/mcreator/cravingsmod/item/MustItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/MustItem.java",
+          "src/main/resources/assets/cravings_mod/items/must.json",
+          "src/main/resources/assets/cravings_mod/models/item/must.json"
         ]
       },
       "path": "~/CravingsBrewery/Mead"
@@ -1080,6 +1112,7 @@
       "registry_name": "mead_bottle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/mead_bottle.json",
           "src/main/java/net/mcreator/cravingsmod/item/MeadBottleItem.java",
           "src/main/resources/assets/cravings_mod/models/item/mead_bottle.json"
         ]
@@ -1120,8 +1153,9 @@
       "registry_name": "potato_mash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/potato_mash.json",
-          "src/main/java/net/mcreator/cravingsmod/item/PotatoMashItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/PotatoMashItem.java",
+          "src/main/resources/assets/cravings_mod/items/potato_mash.json",
+          "src/main/resources/assets/cravings_mod/models/item/potato_mash.json"
         ]
       },
       "path": "~/CravingsBrewery/Vodka"
@@ -1147,8 +1181,9 @@
       "registry_name": "fermented_potato_mash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/FermentedPotatoMashItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/fermented_potato_mash.json"
+          "src/main/resources/assets/cravings_mod/models/item/fermented_potato_mash.json",
+          "src/main/resources/assets/cravings_mod/items/fermented_potato_mash.json",
+          "src/main/java/net/mcreator/cravingsmod/item/FermentedPotatoMashItem.java"
         ]
       },
       "path": "~/CravingsBrewery/Vodka"
@@ -1175,6 +1210,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/vodka.json",
+          "src/main/resources/assets/cravings_mod/items/vodka.json",
           "src/main/java/net/mcreator/cravingsmod/item/VodkaItem.java"
         ]
       },
@@ -1202,6 +1238,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/CheeseSandwichItem.java",
+          "src/main/resources/assets/cravings_mod/items/cheese_sandwich.json",
           "src/main/resources/assets/cravings_mod/models/item/cheese_sandwich.json"
         ]
       },
@@ -1215,8 +1252,9 @@
       "registry_name": "grilled_cheese",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/GrilledCheeseItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/grilled_cheese.json"
+          "src/main/resources/assets/cravings_mod/models/item/grilled_cheese.json",
+          "src/main/resources/assets/cravings_mod/items/grilled_cheese.json",
+          "src/main/java/net/mcreator/cravingsmod/item/GrilledCheeseItem.java"
         ]
       },
       "path": "~/Cravings/Sandwiches/Other"
@@ -1229,8 +1267,9 @@
       "registry_name": "bread_slice",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/models/item/bread_slice.json",
           "src/main/java/net/mcreator/cravingsmod/item/BreadSliceItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/bread_slice.json"
+          "src/main/resources/assets/cravings_mod/items/bread_slice.json"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -1243,8 +1282,9 @@
       "registry_name": "toast",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/item/toast.json",
-          "src/main/java/net/mcreator/cravingsmod/item/ToastItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/ToastItem.java",
+          "src/main/resources/assets/cravings_mod/items/toast.json",
+          "src/main/resources/assets/cravings_mod/models/item/toast.json"
         ]
       },
       "path": "~/Cravings/Wheat based"
@@ -1323,7 +1363,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/LettuceItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/lettuce.json"
+          "src/main/resources/assets/cravings_mod/models/item/lettuce.json",
+          "src/main/resources/assets/cravings_mod/items/lettuce.json"
         ]
       },
       "path": "~/CravingsCrops/Lettuce"
@@ -1336,12 +1377,13 @@
       "registry_name": "lettuce_crop",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/loot_table/blocks/lettuce_crop.json",
-          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop.json",
-          "src/main/resources/assets/cravings_mod/blockstates/lettuce_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/LettuceCropBlockEntity.java",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/LettuceCropBlock.java",
           "src/main/resources/assets/cravings_mod/models/item/lettuce_crop.json",
-          "src/main/java/net/mcreator/cravingsmod/block/LettuceCropBlock.java"
+          "src/main/resources/data/cravings_mod/loot_table/blocks/lettuce_crop.json",
+          "src/main/resources/assets/cravings_mod/blockstates/lettuce_crop.json",
+          "src/main/resources/assets/cravings_mod/items/lettuce_crop.json"
         ]
       },
       "path": "~/CravingsCrops/Lettuce"
@@ -1354,13 +1396,13 @@
       "registry_name": "lettuce_crop_block_state",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_1.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_3.json",
           "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_6.json",
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_4.json",
           "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_2.json",
           "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_5.json",
-          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_3.json",
-          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_0.json",
-          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_4.json"
+          "src/main/resources/assets/cravings_mod/models/block/lettuce_crop_block_state_blockstate_1.json"
         ]
       },
       "path": "~/CravingsCrops/Lettuce"
@@ -1373,8 +1415,9 @@
       "registry_name": "lettuce_seeds",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/LettuceSeedsItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/lettuce_seeds.json"
+          "src/main/resources/assets/cravings_mod/models/item/lettuce_seeds.json",
+          "src/main/resources/assets/cravings_mod/items/lettuce_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/LettuceSeedsItem.java"
         ]
       },
       "path": "~/CravingsCrops/Lettuce"
@@ -1492,8 +1535,9 @@
       "registry_name": "raw_bacon",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/RawBaconItem.java",
           "src/main/resources/assets/cravings_mod/models/item/raw_bacon.json",
-          "src/main/java/net/mcreator/cravingsmod/item/RawBaconItem.java"
+          "src/main/resources/assets/cravings_mod/items/raw_bacon.json"
         ]
       },
       "path": "~/Cravings/Meat/Pig"
@@ -1506,8 +1550,9 @@
       "registry_name": "bacon",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/models/item/bacon.json",
           "src/main/java/net/mcreator/cravingsmod/item/BaconItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/bacon.json"
+          "src/main/resources/assets/cravings_mod/items/bacon.json"
         ]
       },
       "path": "~/Cravings/Meat/Pig"
@@ -1560,7 +1605,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/blt.json",
-          "src/main/java/net/mcreator/cravingsmod/item/BLTItem.java"
+          "src/main/java/net/mcreator/cravingsmod/item/BLTItem.java",
+          "src/main/resources/assets/cravings_mod/items/blt.json"
         ]
       },
       "path": "~/Cravings/Sandwiches/Other"
@@ -1574,7 +1620,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/TomatoItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/tomato.json"
+          "src/main/resources/assets/cravings_mod/models/item/tomato.json",
+          "src/main/resources/assets/cravings_mod/items/tomato.json"
         ]
       },
       "path": "~/CravingsCrops/Tomato"
@@ -1873,6 +1920,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/burger_buns.json",
+          "src/main/resources/assets/cravings_mod/items/burger_buns.json",
           "src/main/java/net/mcreator/cravingsmod/item/BurgerBunsItem.java"
         ]
       },
@@ -1886,6 +1934,7 @@
       "registry_name": "cut_buns",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/cut_buns.json",
           "src/main/java/net/mcreator/cravingsmod/item/CutBunsItem.java",
           "src/main/resources/assets/cravings_mod/models/item/cut_buns.json"
         ]
@@ -1901,7 +1950,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/HamburgerItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/hamburger.json"
+          "src/main/resources/assets/cravings_mod/models/item/hamburger.json",
+          "src/main/resources/assets/cravings_mod/items/hamburger.json"
         ]
       },
       "path": "~/Cravings/Sandwiches/Burgers"
@@ -1914,8 +1964,9 @@
       "registry_name": "cheeseburger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/CheeseburgerItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/cheeseburger.json"
+          "src/main/resources/assets/cravings_mod/items/cheeseburger.json",
+          "src/main/resources/assets/cravings_mod/models/item/cheeseburger.json",
+          "src/main/java/net/mcreator/cravingsmod/item/CheeseburgerItem.java"
         ]
       },
       "path": "~/Cravings/Sandwiches/Burgers"
@@ -1929,6 +1980,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/BaconCheeseburgerItem.java",
+          "src/main/resources/assets/cravings_mod/items/bacon_cheeseburger.json",
           "src/main/resources/assets/cravings_mod/models/item/bacon_cheeseburger.json"
         ]
       },
@@ -2007,8 +2059,9 @@
       "registry_name": "heavy_cream",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/HeavyCreamItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/heavy_cream.json"
+          "src/main/resources/assets/cravings_mod/items/heavy_cream.json",
+          "src/main/resources/assets/cravings_mod/models/item/heavy_cream.json",
+          "src/main/java/net/mcreator/cravingsmod/item/HeavyCreamItem.java"
         ]
       },
       "path": "~/Cravings/Milk"
@@ -2034,6 +2087,7 @@
       "registry_name": "ice_cream",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cravings_mod/items/ice_cream.json",
           "src/main/java/net/mcreator/cravingsmod/item/IceCreamItem.java",
           "src/main/resources/assets/cravings_mod/models/item/ice_cream.json"
         ]
@@ -2081,6 +2135,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cravings_mod/models/item/pitaya.json",
+          "src/main/resources/assets/cravings_mod/items/pitaya.json",
           "src/main/java/net/mcreator/cravingsmod/item/PitayaItem.java"
         ]
       },
@@ -2169,7 +2224,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cravingsmod/item/RadishItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/radish.json"
+          "src/main/resources/assets/cravings_mod/models/item/radish.json",
+          "src/main/resources/assets/cravings_mod/items/radish.json"
         ]
       },
       "path": "~/CravingsCrops/Radish"
@@ -2182,15 +2238,16 @@
       "registry_name": "radish_crop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/RadishCropBlock.java",
-          "src/main/resources/assets/cravings_mod/models/item/radish_crop.json",
-          "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
+          "src/main/resources/assets/cravings_mod/items/radish_crop.json",
           "src/main/resources/assets/cravings_mod/blockstates/radish_crop.json",
           "src/main/resources/data/cravings_mod/worldgen/placed_feature/radish_crop.json",
           "src/main/resources/data/cravings_mod/neoforge/biome_modifier/radish_crop_biome_modifier.json",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/radish_crop.json",
-          "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json"
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json",
+          "src/main/resources/assets/cravings_mod/models/item/radish_crop.json"
         ]
       },
       "path": "~/CravingsCrops/Radish"
@@ -2203,13 +2260,13 @@
       "registry_name": "radish_crop_block_state",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_0.json",
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_6.json",
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_3.json",
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_4.json",
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_2.json",
           "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_1.json",
-          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_5.json"
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_6.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_4.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_5.json",
+          "src/main/resources/assets/cravings_mod/models/block/radish_crop_block_state_blockstate_2.json"
         ]
       },
       "path": "~/CravingsCrops/Radish"
@@ -2222,8 +2279,9 @@
       "registry_name": "radish_seeds",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/item/RadishSeedsItem.java",
-          "src/main/resources/assets/cravings_mod/models/item/radish_seeds.json"
+          "src/main/resources/assets/cravings_mod/models/item/radish_seeds.json",
+          "src/main/resources/assets/cravings_mod/items/radish_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/RadishSeedsItem.java"
         ]
       },
       "path": "~/CravingsCrops/Radish"
@@ -2358,6 +2416,9 @@
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:LemonSapling",
       "~CUSTOM:OliveSapling"
+    ],
+    "ITEMS:cravings_mod:knife_repair_items": [
+      "~Items.IRON_INGOT"
     ]
   },
   "tab_element_order": {},
@@ -2425,7 +2486,16 @@
       "item.cravings_mod.must": "Mosto di miele",
       "item.cravings_mod.cut_buns": "Panini per hamburger separati",
       "block.cravings_mod.grape_crop": "Raccolto d\u0027uva",
-      "item.cravings_mod.mead_bottle": "Bottiglia di idromele"
+      "item.cravings_mod.mead_bottle": "Bottiglia di idromele",
+      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
+      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish_crop": "Radish Crop"
     },
     "en_us": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2490,7 +2560,16 @@
       "item.cravings_mod.must": "Honey Must Bottle",
       "item.cravings_mod.cut_buns": "Cut Buns",
       "block.cravings_mod.grape_crop": "Grape Crop",
-      "item.cravings_mod.mead_bottle": "Mead Bottle"
+      "item.cravings_mod.mead_bottle": "Mead Bottle",
+      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
+      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish_crop": "Radish Crop"
     },
     "fr_fr": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2555,7 +2634,16 @@
       "item.cravings_mod.must": "Moût de miel",
       "item.cravings_mod.cut_buns": "Pains à hamburger séparés",
       "block.cravings_mod.grape_crop": "Récolte de raisin",
-      "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
+      "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel",
+      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
+      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish_crop": "Radish Crop"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
@@ -2620,8 +2708,33 @@
       "item.cravings_mod.must": "Honigwürzeflasche",
       "item.cravings_mod.cut_buns": "Getrennte Burgerbrötchen",
       "block.cravings_mod.grape_crop": "Weinernte",
-      "item.cravings_mod.mead_bottle": "Metflasche"
+      "item.cravings_mod.mead_bottle": "Metflasche",
+      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.fryer": "Fryer",
+      "item.cravings_mod.olive_leaves": "Olive Leaves",
+      "item.cravings_mod.olive_sapling": "Olive Sapling",
+      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
+      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.grape_crop": "Grape Crop",
+      "item.cravings_mod.lettuce_crop": "Lettuce Crop",
+      "item.cravings_mod.radish_crop": "Radish Crop"
     }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/cravingsmod/CravingsModMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModTabs.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModScreens.java",
+      "src/main/java/net/mcreator/cravingsmod/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModMenus.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModTrades.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModBlocks.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModBlockEntities.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModItems.java"
+    ]
   },
   "foldersRoot": {
     "name": "~",
@@ -2748,9 +2861,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-1.21.4",
     "credits": "Made by UniPM",
     "modElementsPackage": "net.mcreator.cravingsmod"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500226612
 }

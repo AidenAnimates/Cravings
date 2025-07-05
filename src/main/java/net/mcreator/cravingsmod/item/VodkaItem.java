@@ -1,49 +1,26 @@
-
 package net.mcreator.cravingsmod.item;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.cravingsmod.procedures.BeerBottlePlayerFinishesUsingItemProcedure;
 
 public class VodkaItem extends Item {
-	public VodkaItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(3).saturationModifier(0.1f).alwaysEdible().build()));
-	}
-
-	@Override
-	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.DRINK;
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
-		return 50;
+	public VodkaItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.UNCOMMON).stacksTo(1).food((new FoodProperties.Builder()).nutrition(3).saturationModifier(0.1f).alwaysEdible().build(), Consumables.defaultDrink().consumeSeconds(2.5F).build())
+				.usingConvertsTo(Items.GLASS_BOTTLE));
 	}
 
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(Items.GLASS_BOTTLE);
-		super.finishUsingItem(itemstack, world, entity);
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
+		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
 		BeerBottlePlayerFinishesUsingItemProcedure.execute(entity);
-		if (itemstack.isEmpty()) {
-			return retval;
-		} else {
-			if (entity instanceof Player player && !player.getAbilities().instabuild) {
-				if (!player.getInventory().add(retval))
-					player.drop(retval, false);
-			}
-			return itemstack;
-		}
+		return retval;
 	}
 }

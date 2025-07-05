@@ -7,21 +7,11 @@
     " e "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:sugar"
-    },
-    "b": {
-      "item": "cravings_mod:yeast"
-    },
-    "c": {
-      "item": "cravings_mod:flour"
-    },
-    "d": {
-      "item": "minecraft:milk_bucket"
-    },
-    "e": {
-      "item": "minecraft:egg"
-    }
+    "a": "minecraft:sugar",
+    "b": "cravings_mod:yeast",
+    "c": "cravings_mod:flour",
+    "d": "minecraft:milk_bucket",
+    "e": "minecraft:egg"
   },
   "result": {
     "id": "cravings_mod:dough",

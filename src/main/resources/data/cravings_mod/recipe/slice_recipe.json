@@ -6,12 +6,8 @@
     "b"
   ],
   "key": {
-    "a": {
-      "item": "cravings_mod:knife"
-    },
-    "b": {
-      "item": "minecraft:bread"
-    }
+    "a": "cravings_mod:knife",
+    "b": "minecraft:bread"
   },
   "result": {
     "id": "cravings_mod:bread_slice",

@@ -1,4 +1,3 @@
-
 package net.mcreator.cravingsmod.recipe.brewing;
 
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
@@ -21,12 +20,12 @@ public class CurdRecipeBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		return Ingredient.of(new ItemStack(Items.MILK_BUCKET)).test(input);
+		return Ingredient.of(Items.MILK_BUCKET).test(input);
 	}
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return Ingredient.of(new ItemStack(CravingsModModItems.LEMON.get())).test(ingredient);
+		return Ingredient.of(CravingsModModItems.LEMON.get()).test(ingredient);
 	}
 
 	@Override

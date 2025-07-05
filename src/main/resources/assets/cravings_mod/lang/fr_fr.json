@@ -61,5 +61,14 @@
   "item.cravings_mod.must": "Moût de miel",
   "item.cravings_mod.cut_buns": "Pains à hamburger séparés",
   "block.cravings_mod.grape_crop": "Récolte de raisin",
-  "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel"
+  "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel",
+  "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+  "item.cravings_mod.fryer": "Fryer",
+  "item.cravings_mod.olive_leaves": "Olive Leaves",
+  "item.cravings_mod.olive_sapling": "Olive Sapling",
+  "item.cravings_mod.lemon_leaves": "Lemon Leaves",
+  "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+  "item.cravings_mod.grape_crop": "Grape Crop",
+  "item.cravings_mod.lettuce_crop": "Lettuce Crop",
+  "item.cravings_mod.radish_crop": "Radish Crop"
 }

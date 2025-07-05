@@ -1,4 +1,3 @@
-
 package net.mcreator.cravingsmod.block;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -10,12 +9,12 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class LemonLeavesBlock extends LeavesBlock {
-	public LemonLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(1f, 0.2f).noOcclusion());
+	public LemonLeavesBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.GRASS).strength(1f, 0.2f).noOcclusion().ignitedByLava());
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 15;
 	}
 

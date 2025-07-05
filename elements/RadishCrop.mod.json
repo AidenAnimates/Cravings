@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 79,
   "_type": "block",
   "definition": {
     "texture": "radish_crop_0",
@@ -14,8 +14,10 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "animations": [],
     "itemTexture": "radish_seeds",
     "particleTexture": "lemon_leaves",
+    "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -42,6 +44,10 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,9 +60,6 @@
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
-    "material": {
-      "value": "NONE"
-    },
     "tickRate": 0,
     "tickRandomly": true,
     "isReplaceable": false,
@@ -65,11 +68,13 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "LIME",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": "CUSTOM:RadishSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "WALKABLE",
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -110,6 +115,8 @@
     "onBonemealSuccess": {
       "name": "CropMeal"
     },
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
     "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 9,

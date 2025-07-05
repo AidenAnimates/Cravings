@@ -6,12 +6,8 @@
     "aba"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:leather"
-    },
-    "b": {
-      "item": "minecraft:stick"
-    }
+    "a": "minecraft:leather",
+    "b": "minecraft:stick"
   },
   "result": {
     "id": "cravings_mod:tool_handle",

@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -7,6 +6,7 @@ package net.mcreator.cravingsmod.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cravingsmod.block.TomatoCropBlock;
@@ -22,19 +22,25 @@ import net.mcreator.cravingsmod.block.FryerBlock;
 import net.mcreator.cravingsmod.block.CheeseWheelBlock;
 import net.mcreator.cravingsmod.CravingsModMod;
 
+import java.util.function.Function;
+
 public class CravingsModModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(CravingsModMod.MODID);
-	public static final DeferredBlock<Block> CHEESE_WHEEL = REGISTRY.register("cheese_wheel", CheeseWheelBlock::new);
-	public static final DeferredBlock<Block> FRYER = REGISTRY.register("fryer", FryerBlock::new);
-	public static final DeferredBlock<Block> OLIVE_LEAVES = REGISTRY.register("olive_leaves", OliveLeavesBlock::new);
-	public static final DeferredBlock<Block> OLIVE_SAPLING = REGISTRY.register("olive_sapling", OliveSaplingBlock::new);
-	public static final DeferredBlock<Block> LEMON_LEAVES = REGISTRY.register("lemon_leaves", LemonLeavesBlock::new);
-	public static final DeferredBlock<Block> LEMON_SAPLING = REGISTRY.register("lemon_sapling", LemonSaplingBlock::new);
-	public static final DeferredBlock<Block> GRAPE_CROP = REGISTRY.register("grape_crop", GrapeCropBlock::new);
-	public static final DeferredBlock<Block> LETTUCE_CROP = REGISTRY.register("lettuce_crop", LettuceCropBlock::new);
-	public static final DeferredBlock<Block> TOMATO_CROP = REGISTRY.register("tomato_crop", TomatoCropBlock::new);
-	public static final DeferredBlock<Block> PITAYA_CROP = REGISTRY.register("pitaya_crop", PitayaCropBlock::new);
-	public static final DeferredBlock<Block> RADISH_CROP = REGISTRY.register("radish_crop", RadishCropBlock::new);
+	public static final DeferredBlock<Block> CHEESE_WHEEL = register("cheese_wheel", CheeseWheelBlock::new);
+	public static final DeferredBlock<Block> FRYER = register("fryer", FryerBlock::new);
+	public static final DeferredBlock<Block> OLIVE_LEAVES = register("olive_leaves", OliveLeavesBlock::new);
+	public static final DeferredBlock<Block> OLIVE_SAPLING = register("olive_sapling", OliveSaplingBlock::new);
+	public static final DeferredBlock<Block> LEMON_LEAVES = register("lemon_leaves", LemonLeavesBlock::new);
+	public static final DeferredBlock<Block> LEMON_SAPLING = register("lemon_sapling", LemonSaplingBlock::new);
+	public static final DeferredBlock<Block> GRAPE_CROP = register("grape_crop", GrapeCropBlock::new);
+	public static final DeferredBlock<Block> LETTUCE_CROP = register("lettuce_crop", LettuceCropBlock::new);
+	public static final DeferredBlock<Block> TOMATO_CROP = register("tomato_crop", TomatoCropBlock::new);
+	public static final DeferredBlock<Block> PITAYA_CROP = register("pitaya_crop", PitayaCropBlock::new);
+	public static final DeferredBlock<Block> RADISH_CROP = register("radish_crop", RadishCropBlock::new);
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
+		return REGISTRY.registerBlock(name, supplier, BlockBehaviour.Properties.of());
+	}
 }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:porkchop"
-    },
-    {
-      "item": "cravings_mod:knife"
-    }
+    "minecraft:porkchop",
+    "cravings_mod:knife"
   ],
   "result": {
     "id": "cravings_mod:raw_bacon",

@@ -1,4 +1,3 @@
-
 package net.mcreator.cravingsmod.block;
 
 import org.checkerframework.checker.units.qual.s;
@@ -8,6 +7,7 @@ import net.neoforged.neoforge.common.util.DeferredSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -45,14 +45,16 @@ import net.mcreator.cravingsmod.procedures.CropBoneMealConditionProcedure;
 import net.mcreator.cravingsmod.init.CravingsModModItems;
 import net.mcreator.cravingsmod.block.entity.LettuceCropBlockEntity;
 
+import javax.annotation.Nullable;
+
 public class LettuceCropBlock extends Block implements EntityBlock, BonemealableBlock {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 7);
 
-	public LettuceCropBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GREEN)
-				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.crop.break")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.step")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.crop.plant")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.hit")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.fall"))))
+	public LettuceCropBlock(BlockBehaviour.Properties properties) {
+		super(properties.mapColor(MapColor.COLOR_LIGHT_GREEN)
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.crop.break")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.step")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.crop.plant")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.hit")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.fall"))))
 				.strength(0f, 10f).lightLevel(s -> (new Object() {
 					public int getLightLevel() {
 						if (s.getValue(BLOCKSTATE) == 1)
@@ -75,12 +77,12 @@ public class LettuceCropBlock extends Block implements EntityBlock, Bonemealable
 	}
 
 	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+	public boolean propagatesSkylightDown(BlockState state) {
 		return true;
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 0;
 	}
 
@@ -101,7 +103,7 @@ public class LettuceCropBlock extends Block implements EntityBlock, Bonemealable
 	}
 
 	@Override
-	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
+	public ItemStack getCloneItemStack(LevelReader world, BlockPos pos, BlockState state, boolean includeData, Player entity) {
 		return new ItemStack(CravingsModModItems.LETTUCE_SEEDS.get());
 	}
 
@@ -111,8 +113,8 @@ public class LettuceCropBlock extends Block implements EntityBlock, Bonemealable
 	}
 
 	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
 		LettuceCropNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 

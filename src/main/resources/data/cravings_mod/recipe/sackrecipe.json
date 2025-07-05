@@ -7,15 +7,9 @@
     "bbb"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:string"
-    },
-    "b": {
-      "item": "cravings_mod:fabric"
-    },
-    "c": {
-      "item": "cravings_mod:flour"
-    }
+    "a": "minecraft:string",
+    "b": "cravings_mod:fabric",
+    "c": "cravings_mod:flour"
   },
   "result": {
     "id": "cravings_mod:flour_sack",

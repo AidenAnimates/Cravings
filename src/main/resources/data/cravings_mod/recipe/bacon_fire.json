@@ -3,9 +3,7 @@
   "category": "misc",
   "experience": 1,
   "cookingtime": 100,
-  "ingredient": {
-    "item": "cravings_mod:raw_bacon"
-  },
+  "ingredient": "cravings_mod:raw_bacon",
   "result": {
     "id": "cravings_mod:bacon"
   }

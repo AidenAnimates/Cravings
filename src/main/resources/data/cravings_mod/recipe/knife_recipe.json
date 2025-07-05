@@ -7,15 +7,9 @@
     "c"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_nugget"
-    },
-    "b": {
-      "item": "minecraft:iron_ingot"
-    },
-    "c": {
-      "item": "cravings_mod:tool_handle"
-    }
+    "a": "minecraft:iron_nugget",
+    "b": "minecraft:iron_ingot",
+    "c": "cravings_mod:tool_handle"
   },
   "result": {
     "id": "cravings_mod:knife",

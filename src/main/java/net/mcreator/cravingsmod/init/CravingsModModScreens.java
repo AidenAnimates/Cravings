@@ -1,4 +1,3 @@
-
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
@@ -18,5 +17,9 @@ public class CravingsModModScreens {
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(CravingsModModMenus.SACK_GUI.get(), SackGUIScreen::new);
 		event.register(CravingsModModMenus.FRYER_GUI.get(), FryerGUIScreen::new);
+	}
+
+	public interface ScreenAccessor {
+		void updateMenuState(int elementType, String name, Object elementState);
 	}
 }

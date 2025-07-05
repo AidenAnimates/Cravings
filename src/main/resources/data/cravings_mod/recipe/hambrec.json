@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cravings_mod:cut_buns"
-    },
-    {
-      "item": "minecraft:cooked_beef"
-    }
+    "cravings_mod:cut_buns",
+    "minecraft:cooked_beef"
   ],
   "result": {
     "id": "cravings_mod:hamburger",

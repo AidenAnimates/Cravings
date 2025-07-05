@@ -7,15 +7,9 @@
     "cbc"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_nugget"
-    },
-    "b": {
-      "item": "minecraft:bucket"
-    },
-    "c": {
-      "item": "minecraft:iron_block"
-    }
+    "a": "minecraft:iron_nugget",
+    "b": "minecraft:bucket",
+    "c": "minecraft:iron_block"
   },
   "result": {
     "id": "cravings_mod:fryer",

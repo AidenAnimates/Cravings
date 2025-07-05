@@ -5,27 +5,24 @@ import net.neoforged.neoforge.event.entity.item.ItemTossEvent;
 import net.neoforged.neoforge.common.MutableDataComponentHolder;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.client.Minecraft;
 
+import net.mcreator.cravingsmod.world.inventory.SackGUIMenu;
 import net.mcreator.cravingsmod.init.CravingsModModItems;
-import net.mcreator.cravingsmod.client.gui.SackGUIScreen;
 
 import javax.annotation.Nonnull;
 
-@EventBusSubscriber(Dist.CLIENT)
+@EventBusSubscriber
 public class FlourSackInventoryCapability extends ComponentItemHandler {
 	@SubscribeEvent
-	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
 		if (event.getEntity().getItem().getItem() == CravingsModModItems.FLOUR_SACK.get()) {
-			if (Minecraft.getInstance().screen instanceof SackGUIScreen) {
-				Minecraft.getInstance().player.closeContainer();
-			}
+			Player player = event.getPlayer();
+			if (player.containerMenu instanceof SackGUIMenu)
+				player.closeContainer();
 		}
 	}
 

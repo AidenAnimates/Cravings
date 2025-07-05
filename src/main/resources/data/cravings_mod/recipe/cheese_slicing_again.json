@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cravings_mod:cheese"
-    },
-    {
-      "item": "cravings_mod:knife"
-    }
+    "cravings_mod:cheese",
+    "cravings_mod:knife"
   ],
   "result": {
     "id": "cravings_mod:cheese_slice",

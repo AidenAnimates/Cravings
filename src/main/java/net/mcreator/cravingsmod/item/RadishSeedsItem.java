@@ -1,16 +1,14 @@
-
 package net.mcreator.cravingsmod.item;
 
 import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
 import net.mcreator.cravingsmod.procedures.RadishSeedsRightclickedOnBlockProcedure;
 
 public class RadishSeedsItem extends Item {
-	public RadishSeedsItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+	public RadishSeedsItem(Item.Properties properties) {
+		super(properties);
 	}
 
 	@Override

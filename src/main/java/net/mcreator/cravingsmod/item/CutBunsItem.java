@@ -1,12 +1,10 @@
-
 package net.mcreator.cravingsmod.item;
 
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 
 public class CutBunsItem extends Item {
-	public CutBunsItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(8).saturationModifier(5f).build()));
+	public CutBunsItem(Item.Properties properties) {
+		super(properties.food((new FoodProperties.Builder()).nutrition(8).saturationModifier(5f).build()));
 	}
 }

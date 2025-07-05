@@ -6,9 +6,7 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:string"
-    }
+    "a": "minecraft:string"
   },
   "result": {
     "id": "cravings_mod:fabric",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cravings_mod:cheese_wheel"
-    }
+    "cravings_mod:cheese_wheel"
   ],
   "result": {
     "id": "cravings_mod:cheese",

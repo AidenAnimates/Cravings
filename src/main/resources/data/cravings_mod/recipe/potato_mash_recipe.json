@@ -7,15 +7,9 @@
     "aba"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:pitcher_plant"
-    },
-    "b": {
-      "item": "minecraft:potato"
-    },
-    "c": {
-      "item": "minecraft:glass_bottle"
-    }
+    "a": "minecraft:pitcher_plant",
+    "b": "minecraft:potato",
+    "c": "minecraft:glass_bottle"
   },
   "result": {
     "id": "cravings_mod:potato_mash",

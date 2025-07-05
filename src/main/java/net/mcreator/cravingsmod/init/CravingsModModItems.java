@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -69,82 +68,96 @@ import net.mcreator.cravingsmod.item.BaconCheeseburgerItem;
 import net.mcreator.cravingsmod.item.BLTItem;
 import net.mcreator.cravingsmod.CravingsModMod;
 
+import java.util.function.Function;
+
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class CravingsModModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CravingsModMod.MODID);
-	public static final DeferredItem<Item> BUCKET_OF_CURDY_MILK = REGISTRY.register("bucket_of_curdy_milk", BucketOfCurdyMilkItem::new);
-	public static final DeferredItem<Item> BUCKET_OF_WHEY = REGISTRY.register("bucket_of_whey", BucketOfWheyItem::new);
-	public static final DeferredItem<Item> CHEESE_CURDS = REGISTRY.register("cheese_curds", CheeseCurdsItem::new);
+	public static final DeferredItem<Item> BUCKET_OF_CURDY_MILK = register("bucket_of_curdy_milk", BucketOfCurdyMilkItem::new);
+	public static final DeferredItem<Item> BUCKET_OF_WHEY = register("bucket_of_whey", BucketOfWheyItem::new);
+	public static final DeferredItem<Item> CHEESE_CURDS = register("cheese_curds", CheeseCurdsItem::new);
 	public static final DeferredItem<Item> CHEESE_WHEEL = block(CravingsModModBlocks.CHEESE_WHEEL);
-	public static final DeferredItem<Item> CHEESE = REGISTRY.register("cheese", CheeseItem::new);
-	public static final DeferredItem<Item> FLOUR = REGISTRY.register("flour", FlourItem::new);
-	public static final DeferredItem<Item> RICOTTA = REGISTRY.register("ricotta", RicottaItem::new);
-	public static final DeferredItem<Item> CHEESE_SLICE = REGISTRY.register("cheese_slice", CheeseSliceItem::new);
-	public static final DeferredItem<Item> FABRIC = REGISTRY.register("fabric", FabricItem::new);
-	public static final DeferredItem<Item> FLOUR_SACK = REGISTRY.register("flour_sack", FlourSackItem::new);
-	public static final DeferredItem<Item> DIPPED_CURDS = REGISTRY.register("dipped_curds", DippedCurdsItem::new);
-	public static final DeferredItem<Item> FRIED_CURDS = REGISTRY.register("fried_curds", FriedCurdsItem::new);
-	public static final DeferredItem<Item> OLIVE = REGISTRY.register("olive", OliveItem::new);
-	public static final DeferredItem<Item> BUCKET_OF_OLIVE_OIL = REGISTRY.register("bucket_of_olive_oil", BucketOfOliveOilItem::new);
+	public static final DeferredItem<Item> CHEESE = register("cheese", CheeseItem::new);
+	public static final DeferredItem<Item> FLOUR = register("flour", FlourItem::new);
+	public static final DeferredItem<Item> RICOTTA = register("ricotta", RicottaItem::new);
+	public static final DeferredItem<Item> CHEESE_SLICE = register("cheese_slice", CheeseSliceItem::new);
+	public static final DeferredItem<Item> FABRIC = register("fabric", FabricItem::new);
+	public static final DeferredItem<Item> FLOUR_SACK = register("flour_sack", FlourSackItem::new);
+	public static final DeferredItem<Item> DIPPED_CURDS = register("dipped_curds", DippedCurdsItem::new);
+	public static final DeferredItem<Item> FRIED_CURDS = register("fried_curds", FriedCurdsItem::new);
+	public static final DeferredItem<Item> OLIVE = register("olive", OliveItem::new);
+	public static final DeferredItem<Item> BUCKET_OF_OLIVE_OIL = register("bucket_of_olive_oil", BucketOfOliveOilItem::new);
 	public static final DeferredItem<Item> FRYER = block(CravingsModModBlocks.FRYER);
 	public static final DeferredItem<Item> OLIVE_LEAVES = block(CravingsModModBlocks.OLIVE_LEAVES);
 	public static final DeferredItem<Item> OLIVE_SAPLING = block(CravingsModModBlocks.OLIVE_SAPLING);
-	public static final DeferredItem<Item> TOOL_HANDLE = REGISTRY.register("tool_handle", ToolHandleItem::new);
-	public static final DeferredItem<Item> KNIFE = REGISTRY.register("knife", KnifeItem::new);
-	public static final DeferredItem<Item> DOUGH = REGISTRY.register("dough", DoughItem::new);
-	public static final DeferredItem<Item> LEMON = REGISTRY.register("lemon", LemonItem::new);
+	public static final DeferredItem<Item> TOOL_HANDLE = register("tool_handle", ToolHandleItem::new);
+	public static final DeferredItem<Item> KNIFE = register("knife", KnifeItem::new);
+	public static final DeferredItem<Item> DOUGH = register("dough", DoughItem::new);
+	public static final DeferredItem<Item> LEMON = register("lemon", LemonItem::new);
 	public static final DeferredItem<Item> LEMON_LEAVES = block(CravingsModModBlocks.LEMON_LEAVES);
 	public static final DeferredItem<Item> LEMON_SAPLING = block(CravingsModModBlocks.LEMON_SAPLING);
-	public static final DeferredItem<Item> GRAPES = REGISTRY.register("grapes", GrapesItem::new);
-	public static final DeferredItem<Item> WORT_BOTTLE = REGISTRY.register("wort_bottle", WortBottleItem::new);
-	public static final DeferredItem<Item> BEER_BOTTLE = REGISTRY.register("beer_bottle", BeerBottleItem::new);
+	public static final DeferredItem<Item> GRAPES = register("grapes", GrapesItem::new);
+	public static final DeferredItem<Item> WORT_BOTTLE = register("wort_bottle", WortBottleItem::new);
+	public static final DeferredItem<Item> BEER_BOTTLE = register("beer_bottle", BeerBottleItem::new);
 	public static final DeferredItem<Item> GRAPE_CROP = block(CravingsModModBlocks.GRAPE_CROP);
-	public static final DeferredItem<Item> GRAPE_SEEDS = REGISTRY.register("grape_seeds", GrapeSeedsItem::new);
-	public static final DeferredItem<Item> YEAST = REGISTRY.register("yeast", YeastItem::new);
-	public static final DeferredItem<Item> GRAPE_JUICE = REGISTRY.register("grape_juice", GrapeJuiceItem::new);
-	public static final DeferredItem<Item> WINE_BOTTLE = REGISTRY.register("wine_bottle", WineBottleItem::new);
-	public static final DeferredItem<Item> MUST = REGISTRY.register("must", MustItem::new);
-	public static final DeferredItem<Item> MEAD_BOTTLE = REGISTRY.register("mead_bottle", MeadBottleItem::new);
-	public static final DeferredItem<Item> POTATO_MASH = REGISTRY.register("potato_mash", PotatoMashItem::new);
-	public static final DeferredItem<Item> FERMENTED_POTATO_MASH = REGISTRY.register("fermented_potato_mash", FermentedPotatoMashItem::new);
-	public static final DeferredItem<Item> VODKA = REGISTRY.register("vodka", VodkaItem::new);
-	public static final DeferredItem<Item> CHEESE_SANDWICH = REGISTRY.register("cheese_sandwich", CheeseSandwichItem::new);
-	public static final DeferredItem<Item> GRILLED_CHEESE = REGISTRY.register("grilled_cheese", GrilledCheeseItem::new);
-	public static final DeferredItem<Item> BREAD_SLICE = REGISTRY.register("bread_slice", BreadSliceItem::new);
-	public static final DeferredItem<Item> TOAST = REGISTRY.register("toast", ToastItem::new);
-	public static final DeferredItem<Item> LETTUCE = REGISTRY.register("lettuce", LettuceItem::new);
+	public static final DeferredItem<Item> GRAPE_SEEDS = register("grape_seeds", GrapeSeedsItem::new);
+	public static final DeferredItem<Item> YEAST = register("yeast", YeastItem::new);
+	public static final DeferredItem<Item> GRAPE_JUICE = register("grape_juice", GrapeJuiceItem::new);
+	public static final DeferredItem<Item> WINE_BOTTLE = register("wine_bottle", WineBottleItem::new);
+	public static final DeferredItem<Item> MUST = register("must", MustItem::new);
+	public static final DeferredItem<Item> MEAD_BOTTLE = register("mead_bottle", MeadBottleItem::new);
+	public static final DeferredItem<Item> POTATO_MASH = register("potato_mash", PotatoMashItem::new);
+	public static final DeferredItem<Item> FERMENTED_POTATO_MASH = register("fermented_potato_mash", FermentedPotatoMashItem::new);
+	public static final DeferredItem<Item> VODKA = register("vodka", VodkaItem::new);
+	public static final DeferredItem<Item> CHEESE_SANDWICH = register("cheese_sandwich", CheeseSandwichItem::new);
+	public static final DeferredItem<Item> GRILLED_CHEESE = register("grilled_cheese", GrilledCheeseItem::new);
+	public static final DeferredItem<Item> BREAD_SLICE = register("bread_slice", BreadSliceItem::new);
+	public static final DeferredItem<Item> TOAST = register("toast", ToastItem::new);
+	public static final DeferredItem<Item> LETTUCE = register("lettuce", LettuceItem::new);
 	public static final DeferredItem<Item> LETTUCE_CROP = block(CravingsModModBlocks.LETTUCE_CROP);
-	public static final DeferredItem<Item> LETTUCE_SEEDS = REGISTRY.register("lettuce_seeds", LettuceSeedsItem::new);
-	public static final DeferredItem<Item> RAW_BACON = REGISTRY.register("raw_bacon", RawBaconItem::new);
-	public static final DeferredItem<Item> BACON = REGISTRY.register("bacon", BaconItem::new);
-	public static final DeferredItem<Item> BLT = REGISTRY.register("blt", BLTItem::new);
-	public static final DeferredItem<Item> TOMATO = REGISTRY.register("tomato", TomatoItem::new);
+	public static final DeferredItem<Item> LETTUCE_SEEDS = register("lettuce_seeds", LettuceSeedsItem::new);
+	public static final DeferredItem<Item> RAW_BACON = register("raw_bacon", RawBaconItem::new);
+	public static final DeferredItem<Item> BACON = register("bacon", BaconItem::new);
+	public static final DeferredItem<Item> BLT = register("blt", BLTItem::new);
+	public static final DeferredItem<Item> TOMATO = register("tomato", TomatoItem::new);
 	public static final DeferredItem<Item> TOMATO_CROP = doubleBlock(CravingsModModBlocks.TOMATO_CROP);
-	public static final DeferredItem<Item> BURGER_BUNS = REGISTRY.register("burger_buns", BurgerBunsItem::new);
-	public static final DeferredItem<Item> CUT_BUNS = REGISTRY.register("cut_buns", CutBunsItem::new);
-	public static final DeferredItem<Item> HAMBURGER = REGISTRY.register("hamburger", HamburgerItem::new);
-	public static final DeferredItem<Item> CHEESEBURGER = REGISTRY.register("cheeseburger", CheeseburgerItem::new);
-	public static final DeferredItem<Item> BACON_CHEESEBURGER = REGISTRY.register("bacon_cheeseburger", BaconCheeseburgerItem::new);
-	public static final DeferredItem<Item> HEAVY_CREAM = REGISTRY.register("heavy_cream", HeavyCreamItem::new);
-	public static final DeferredItem<Item> ICE_CREAM = REGISTRY.register("ice_cream", IceCreamItem::new);
+	public static final DeferredItem<Item> BURGER_BUNS = register("burger_buns", BurgerBunsItem::new);
+	public static final DeferredItem<Item> CUT_BUNS = register("cut_buns", CutBunsItem::new);
+	public static final DeferredItem<Item> HAMBURGER = register("hamburger", HamburgerItem::new);
+	public static final DeferredItem<Item> CHEESEBURGER = register("cheeseburger", CheeseburgerItem::new);
+	public static final DeferredItem<Item> BACON_CHEESEBURGER = register("bacon_cheeseburger", BaconCheeseburgerItem::new);
+	public static final DeferredItem<Item> HEAVY_CREAM = register("heavy_cream", HeavyCreamItem::new);
+	public static final DeferredItem<Item> ICE_CREAM = register("ice_cream", IceCreamItem::new);
 	public static final DeferredItem<Item> PITAYA_CROP = doubleBlock(CravingsModModBlocks.PITAYA_CROP);
-	public static final DeferredItem<Item> PITAYA = REGISTRY.register("pitaya", PitayaItem::new);
-	public static final DeferredItem<Item> RADISH = REGISTRY.register("radish", RadishItem::new);
+	public static final DeferredItem<Item> PITAYA = register("pitaya", PitayaItem::new);
+	public static final DeferredItem<Item> RADISH = register("radish", RadishItem::new);
 	public static final DeferredItem<Item> RADISH_CROP = block(CravingsModModBlocks.RADISH_CROP);
-	public static final DeferredItem<Item> RADISH_SEEDS = REGISTRY.register("radish_seeds", RadishSeedsItem::new);
+	public static final DeferredItem<Item> RADISH_SEEDS = register("radish_seeds", RadishSeedsItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	@SubscribeEvent
-	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new FlourSackInventoryCapability(stack), FLOUR_SACK.get());
+	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
+		return REGISTRY.registerItem(name, supplier, new Item.Properties());
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
+	}
+
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new FlourSackInventoryCapability(stack), FLOUR_SACK.get());
 	}
 }

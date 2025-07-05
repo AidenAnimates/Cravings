@@ -7,12 +7,8 @@
     "a"
   ],
   "key": {
-    "a": {
-      "item": "cravings_mod:bread_slice"
-    },
-    "b": {
-      "item": "cravings_mod:cheese_slice"
-    }
+    "a": "cravings_mod:bread_slice",
+    "b": "cravings_mod:cheese_slice"
   },
   "result": {
     "id": "cravings_mod:cheese_sandwich",

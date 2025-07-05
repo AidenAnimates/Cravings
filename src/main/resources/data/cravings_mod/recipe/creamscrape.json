@@ -6,12 +6,8 @@
     "b"
   ],
   "key": {
-    "a": {
-      "item": "cravings_mod:knife"
-    },
-    "b": {
-      "item": "minecraft:milk_bucket"
-    }
+    "a": "cravings_mod:knife",
+    "b": "minecraft:milk_bucket"
   },
   "result": {
     "id": "cravings_mod:heavy_cream",

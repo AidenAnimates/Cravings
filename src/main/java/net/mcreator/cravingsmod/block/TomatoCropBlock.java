@@ -50,11 +50,11 @@ import net.mcreator.cravingsmod.block.entity.TomatoCropBlockEntity;
 public class TomatoCropBlock extends DoublePlantBlock implements EntityBlock, BonemealableBlock {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 7);
 
-	public TomatoCropBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GREEN)
-				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.crop.break")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.step")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.crop.plant")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.hit")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.grass.fall"))))
+	public TomatoCropBlock(BlockBehaviour.Properties properties) {
+		super(properties.mapColor(MapColor.COLOR_LIGHT_GREEN)
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.crop.break")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.step")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.crop.plant")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.hit")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.grass.fall"))))
 				.strength(0f, 10f).lightLevel(s -> (new Object() {
 					public int getLightLevel() {
 						if (s.getValue(BLOCKSTATE) == 1)

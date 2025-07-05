@@ -1,4 +1,3 @@
-
 package net.mcreator.cravingsmod.recipe.brewing;
 
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
@@ -21,12 +20,12 @@ public class GrapeJuiceRecipeBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		return Ingredient.of(new ItemStack(Items.GLASS_BOTTLE)).test(input);
+		return Ingredient.of(Items.GLASS_BOTTLE).test(input);
 	}
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return Ingredient.of(new ItemStack(CravingsModModItems.GRAPES.get())).test(ingredient);
+		return Ingredient.of(CravingsModModItems.GRAPES.get()).test(ingredient);
 	}
 
 	@Override

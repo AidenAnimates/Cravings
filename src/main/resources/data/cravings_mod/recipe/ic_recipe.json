@@ -5,15 +5,9 @@
     "abc"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:milk_bucket"
-    },
-    "b": {
-      "item": "cravings_mod:heavy_cream"
-    },
-    "c": {
-      "item": "minecraft:sugar"
-    }
+    "a": "minecraft:milk_bucket",
+    "b": "cravings_mod:heavy_cream",
+    "c": "minecraft:sugar"
   },
   "result": {
     "id": "cravings_mod:ice_cream",

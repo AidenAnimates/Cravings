@@ -3,9 +3,7 @@
   "category": "food",
   "experience": 1,
   "cookingtime": 40,
-  "ingredient": {
-    "item": "cravings_mod:bread_slice"
-  },
+  "ingredient": "cravings_mod:bread_slice",
   "result": {
     "id": "cravings_mod:toast"
   }

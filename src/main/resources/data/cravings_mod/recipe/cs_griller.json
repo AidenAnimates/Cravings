@@ -3,9 +3,7 @@
   "category": "misc",
   "experience": 1,
   "cookingtime": 200,
-  "ingredient": {
-    "item": "cravings_mod:cheese_sandwich"
-  },
+  "ingredient": "cravings_mod:cheese_sandwich",
   "result": {
     "id": "cravings_mod:grilled_cheese"
   }

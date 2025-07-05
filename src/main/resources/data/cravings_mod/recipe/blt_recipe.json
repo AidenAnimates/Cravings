@@ -7,18 +7,10 @@
     " a "
   ],
   "key": {
-    "a": {
-      "item": "cravings_mod:toast"
-    },
-    "b": {
-      "item": "cravings_mod:bacon"
-    },
-    "c": {
-      "item": "cravings_mod:lettuce"
-    },
-    "d": {
-      "item": "cravings_mod:tomato"
-    }
+    "a": "cravings_mod:toast",
+    "b": "cravings_mod:bacon",
+    "c": "cravings_mod:lettuce",
+    "d": "cravings_mod:tomato"
   },
   "result": {
     "id": "cravings_mod:blt",
