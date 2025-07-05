@@ -131,7 +131,6 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> PITAYA_CROP = doubleBlock(CravingsModModBlocks.PITAYA_CROP);
 	public static final DeferredItem<Item> PITAYA = register("pitaya", PitayaItem::new);
 	public static final DeferredItem<Item> RADISH = register("radish", RadishItem::new);
-	public static final DeferredItem<Item> RADISH_CROP = block(CravingsModModBlocks.RADISH_CROP);
 	public static final DeferredItem<Item> RADISH_SEEDS = register("radish_seeds", RadishSeedsItem::new);
 
 	// Start of user code block custom items

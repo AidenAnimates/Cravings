@@ -2240,14 +2240,12 @@
         "files": [
           "src/main/resources/data/cravings_mod/worldgen/configured_feature/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/RadishCropBlock.java",
-          "src/main/resources/assets/cravings_mod/items/radish_crop.json",
           "src/main/resources/assets/cravings_mod/blockstates/radish_crop.json",
           "src/main/resources/data/cravings_mod/worldgen/placed_feature/radish_crop.json",
           "src/main/resources/data/cravings_mod/neoforge/biome_modifier/radish_crop_biome_modifier.json",
           "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
-          "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json",
-          "src/main/resources/assets/cravings_mod/models/item/radish_crop.json"
+          "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json"
         ]
       },
       "path": "~/CravingsCrops/Radish"
@@ -2815,6 +2813,10 @@
           },
           {
             "name": "Radish",
+            "children": []
+          },
+          {
+            "name": "Green Bean",
             "children": []
           }
         ]
