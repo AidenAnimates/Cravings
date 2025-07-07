@@ -2388,6 +2388,115 @@
         ]
       },
       "path": "~/CravingsCrops/Radish"
+    },
+    {
+      "name": "GreenBeanCrop",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "green_bean_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/green_bean_crop.json",
+          "src/main/resources/assets/cravings_mod/blockstates/green_bean_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/GreenBeanCropBlockEntity.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/green_bean_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_bean_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_bean_crop_bottom.json",
+          "src/main/java/net/mcreator/cravingsmod/block/GreenBeanCropBlock.java",
+          "src/main/resources/assets/cravings_mod/items/green_bean_crop.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Bean"
+    },
+    {
+      "name": "GreenBeans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_beans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/items/green_beans.json",
+          "src/main/resources/assets/cravings_mod/models/item/green_beans.json",
+          "src/main/java/net/mcreator/cravingsmod/item/GreenBeansItem.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Bean"
+    },
+    {
+      "name": "GreenBeanMeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bean_meal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GreenBeanMealProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Bean"
+    },
+    {
+      "name": "GreenBeanCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bean_crop_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GreenBeanCropBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Bean"
     }
   ],
   "variable_elements": [],
@@ -2493,7 +2602,11 @@
       "item.cravings_mod.lemon_sapling": "Lemon Sapling",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish_crop": "Radish Crop"
+      "item.cravings_mod.radish_crop": "Radish Crop",
+      "item.cravings_mod.green_bean_crop": "Tomato Crop",
+      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.pitaya_crop": "Semi di Pitaya",
+      "item.cravings_mod.tomato_crop": "Semi di Pomodoro"
     },
     "en_us": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2567,7 +2680,11 @@
       "item.cravings_mod.lemon_sapling": "Lemon Sapling",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish_crop": "Radish Crop"
+      "item.cravings_mod.radish_crop": "Radish Crop",
+      "item.cravings_mod.green_bean_crop": "Green Bean Seeds",
+      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.pitaya_crop": "Pitaya Seeds",
+      "item.cravings_mod.tomato_crop": "Tomato Seeds"
     },
     "fr_fr": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2641,7 +2758,11 @@
       "item.cravings_mod.lemon_sapling": "Lemon Sapling",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish_crop": "Radish Crop"
+      "item.cravings_mod.radish_crop": "Radish Crop",
+      "item.cravings_mod.green_bean_crop": "Tomato Crop",
+      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.pitaya_crop": "Graines de pitaya",
+      "item.cravings_mod.tomato_crop": "Graines de tomates"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
@@ -2715,7 +2836,11 @@
       "item.cravings_mod.lemon_sapling": "Lemon Sapling",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
-      "item.cravings_mod.radish_crop": "Radish Crop"
+      "item.cravings_mod.radish_crop": "Radish Crop",
+      "item.cravings_mod.green_bean_crop": "Tomato Crop",
+      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.pitaya_crop": "Pitaya-Samen",
+      "item.cravings_mod.tomato_crop": "Tomatensamen"
     }
   },
   "metadata": {

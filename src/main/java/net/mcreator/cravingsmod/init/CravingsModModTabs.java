@@ -77,6 +77,7 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.PITAYA.get());
 				tabData.accept(CravingsModModItems.RADISH.get());
 				tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
+				tabData.accept(CravingsModModItems.GREEN_BEANS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -134,6 +135,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.ICE_CREAM.get());
 			tabData.accept(CravingsModModItems.PITAYA.get());
 			tabData.accept(CravingsModModItems.RADISH.get());
+			tabData.accept(CravingsModModItems.GREEN_BEANS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());

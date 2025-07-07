@@ -17,6 +17,7 @@ import net.mcreator.cravingsmod.block.OliveLeavesBlock;
 import net.mcreator.cravingsmod.block.LettuceCropBlock;
 import net.mcreator.cravingsmod.block.LemonSaplingBlock;
 import net.mcreator.cravingsmod.block.LemonLeavesBlock;
+import net.mcreator.cravingsmod.block.GreenBeanCropBlock;
 import net.mcreator.cravingsmod.block.GrapeCropBlock;
 import net.mcreator.cravingsmod.block.FryerBlock;
 import net.mcreator.cravingsmod.block.CheeseWheelBlock;
@@ -37,6 +38,7 @@ public class CravingsModModBlocks {
 	public static final DeferredBlock<Block> TOMATO_CROP = register("tomato_crop", TomatoCropBlock::new);
 	public static final DeferredBlock<Block> PITAYA_CROP = register("pitaya_crop", PitayaCropBlock::new);
 	public static final DeferredBlock<Block> RADISH_CROP = register("radish_crop", RadishCropBlock::new);
+	public static final DeferredBlock<Block> GREEN_BEAN_CROP = register("green_bean_crop", GreenBeanCropBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
