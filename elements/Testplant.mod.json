@@ -102,7 +102,7 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 64,

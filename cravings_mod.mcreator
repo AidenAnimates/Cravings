@@ -2551,12 +2551,15 @@
       "registry_name": "testplant",
       "metadata": {
         "files": [
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/testplant_biome_modifier.json",
           "src/main/resources/assets/cravings_mod/blockstates/testplant.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/testplant.json",
           "src/main/resources/assets/cravings_mod/models/item/testplant.json",
           "src/main/resources/data/cravings_mod/loot_table/blocks/testplant.json",
           "src/main/java/net/mcreator/cravingsmod/block/TestplantBlock.java",
           "src/main/resources/assets/cravings_mod/items/testplant.json",
-          "src/main/resources/assets/cravings_mod/models/block/testplant.json"
+          "src/main/resources/assets/cravings_mod/models/block/testplant.json",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/testplant.json"
         ]
       },
       "path": "~/Cravings"
