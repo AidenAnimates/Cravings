@@ -2534,11 +2534,14 @@
       "registry_name": "single_crop_generation",
       "metadata": {
         "files": [
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/single_crop_generation_biome_modifier.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/single_crop_generation.json",
           "src/main/resources/assets/cravings_mod/models/block/single_crop_generation.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/SingleCropGenerationBlockEntity.java",
           "src/main/resources/data/cravings_mod/loot_table/blocks/single_crop_generation.json",
           "src/main/resources/assets/cravings_mod/blockstates/single_crop_generation.json",
-          "src/main/java/net/mcreator/cravingsmod/block/SingleCropGenerationBlock.java"
+          "src/main/java/net/mcreator/cravingsmod/block/SingleCropGenerationBlock.java",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/single_crop_generation.json"
         ]
       },
       "path": "~/CravingsCrops"

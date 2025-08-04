@@ -127,17 +127,10 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.TALLGRASS#1"
-      }
-    ],
-    "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 320
+    "generationType": "Flower",
+    "patchSize": 64,
+    "generateAtAnyHeight": false
   }
 }
