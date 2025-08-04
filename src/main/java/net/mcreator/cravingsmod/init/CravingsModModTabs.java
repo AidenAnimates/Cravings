@@ -152,6 +152,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModBlocks.LEMON_LEAVES.get().asItem());
 			tabData.accept(CravingsModModBlocks.LEMON_SAPLING.get().asItem());
 			tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
+			tabData.accept(CravingsModModBlocks.TESTPLANT.get().asItem());
 		}
 	}
 }
