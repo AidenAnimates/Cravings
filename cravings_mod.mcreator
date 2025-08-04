@@ -1875,19 +1875,6 @@
       "path": "~/CravingsCrops/Tomato"
     },
     {
-      "name": "GrassTable",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_table/blocks/tall_grass.json"
-        ]
-      },
-      "path": "~/CravingsCrops"
-    },
-    {
       "name": "CheeseSlicingAgain",
       "type": "recipe",
       "compiles": true,
@@ -2530,42 +2517,66 @@
       "name": "SingleCropGeneration",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "single_crop_generation",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/single_crop_generation_biome_modifier.json",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/single_crop_generation.json",
           "src/main/resources/assets/cravings_mod/models/block/single_crop_generation.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/SingleCropGenerationBlockEntity.java",
           "src/main/resources/data/cravings_mod/loot_table/blocks/single_crop_generation.json",
           "src/main/resources/assets/cravings_mod/blockstates/single_crop_generation.json",
           "src/main/java/net/mcreator/cravingsmod/block/SingleCropGenerationBlock.java",
-          "src/main/resources/data/cravings_mod/worldgen/placed_feature/single_crop_generation.json"
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/single_crop_generation.json",
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/single_crop_generation.json",
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/single_crop_generation_biome_modifier.json"
         ]
       },
       "path": "~/CravingsCrops"
     },
     {
-      "name": "Testplant",
-      "type": "plant",
+      "name": "SCGCrops",
+      "type": "blockstates",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testplant",
+      "registry_name": "scg_crops",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/testplant_biome_modifier.json",
-          "src/main/resources/assets/cravings_mod/blockstates/testplant.json",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/testplant.json",
-          "src/main/resources/assets/cravings_mod/models/item/testplant.json",
-          "src/main/resources/data/cravings_mod/loot_table/blocks/testplant.json",
-          "src/main/java/net/mcreator/cravingsmod/block/TestplantBlock.java",
-          "src/main/resources/assets/cravings_mod/items/testplant.json",
-          "src/main/resources/assets/cravings_mod/models/block/testplant.json",
-          "src/main/resources/data/cravings_mod/worldgen/placed_feature/testplant.json"
+          "src/main/resources/assets/cravings_mod/models/block/scg_crops_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/scg_crops_blockstate_1.json"
         ]
       },
-      "path": "~/Cravings"
+      "path": "~/CravingsCrops"
+    },
+    {
+      "name": "SCGRandomizer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scg_randomizer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/SCGRandomizerProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops"
     }
   ],
   "variable_elements": [],
@@ -2677,8 +2688,7 @@
       "item.cravings_mod.pitaya_crop": "Semi di Pitaya",
       "item.cravings_mod.tomato_crop": "Semi di Pomodoro",
       "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop",
-      "item.cravings_mod.testplant": "Testplant"
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "en_us": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2758,8 +2768,7 @@
       "item.cravings_mod.pitaya_crop": "Pitaya Seeds",
       "item.cravings_mod.tomato_crop": "Tomato Seeds",
       "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop",
-      "item.cravings_mod.testplant": "Testplant"
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "fr_fr": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2839,8 +2848,7 @@
       "item.cravings_mod.pitaya_crop": "Graines de pitaya",
       "item.cravings_mod.tomato_crop": "Graines de tomates",
       "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop",
-      "item.cravings_mod.testplant": "Testplant"
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
@@ -2920,8 +2928,7 @@
       "item.cravings_mod.pitaya_crop": "Pitaya-Samen",
       "item.cravings_mod.tomato_crop": "Tomatensamen",
       "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop",
-      "item.cravings_mod.testplant": "Testplant"
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     }
   },
   "metadata": {

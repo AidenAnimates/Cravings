@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cravingsmod.block.TomatoCropBlock;
-import net.mcreator.cravingsmod.block.TestplantBlock;
 import net.mcreator.cravingsmod.block.SingleCropGenerationBlock;
 import net.mcreator.cravingsmod.block.RadishCropBlock;
 import net.mcreator.cravingsmod.block.PitayaCropBlock;
@@ -42,7 +41,6 @@ public class CravingsModModBlocks {
 	public static final DeferredBlock<Block> RADISH_CROP = register("radish_crop", RadishCropBlock::new);
 	public static final DeferredBlock<Block> GREEN_BEAN_CROP = register("green_bean_crop", GreenBeanCropBlock::new);
 	public static final DeferredBlock<Block> SINGLE_CROP_GENERATION = register("single_crop_generation", SingleCropGenerationBlock::new);
-	public static final DeferredBlock<Block> TESTPLANT = register("testplant", TestplantBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

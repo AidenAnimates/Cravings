@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "cravings_mod:block/radish_crop_6",
+    "particle": "cravings_mod:block/cropg_nan"
+  },
+  "render_type": "cutout"
+}

@@ -137,7 +137,6 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> GREEN_BEAN_CROP = doubleBlock(CravingsModModBlocks.GREEN_BEAN_CROP);
 	public static final DeferredItem<Item> GREEN_BEANS = register("green_beans", GreenBeansItem::new);
 	public static final DeferredItem<Item> SALT = register("salt", SaltItem::new);
-	public static final DeferredItem<Item> TESTPLANT = block(CravingsModModBlocks.TESTPLANT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

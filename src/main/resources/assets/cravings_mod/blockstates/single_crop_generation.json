@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "cravings_mod:block/single_crop_generation"
+    },
+    "blockstate=1": {
+      "model": "cravings_mod:block/scg_crops_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "cravings_mod:block/scg_crops_blockstate_1"
     }
   }
 }

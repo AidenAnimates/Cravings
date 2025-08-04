@@ -2,6 +2,10 @@
   "feature": "cravings_mod:single_crop_generation",
   "placement": [
     {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
       "type": "minecraft:rarity_filter",
       "chance": 32
     },

@@ -1,9 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes": [
-    "beach",
-    "meadow"
-  ],
+  "biomes": {
+    "type": "neoforge:any"
+  },
   "features": "cravings_mod:single_crop_generation",
   "step": "vegetal_decoration"
 }
