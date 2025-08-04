@@ -74,5 +74,7 @@
   "item.cravings_mod.green_bean_crop": "Tomato Crop",
   "item.cravings_mod.green_beans": "Pitaya",
   "item.cravings_mod.pitaya_crop": "Semi di Pitaya",
-  "item.cravings_mod.tomato_crop": "Semi di Pomodoro"
+  "item.cravings_mod.tomato_crop": "Semi di Pomodoro",
+  "item.cravings_mod.salt": "Salt",
+  "item.cravings_mod.single_crop_generation": "Single Natural Crop"
 }

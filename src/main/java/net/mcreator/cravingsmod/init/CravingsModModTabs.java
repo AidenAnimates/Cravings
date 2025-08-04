@@ -78,6 +78,7 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.RADISH.get());
 				tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
 				tabData.accept(CravingsModModItems.GREEN_BEANS.get());
+				tabData.accept(CravingsModModItems.SALT.get());
 			}).build());
 
 	@SubscribeEvent
@@ -102,6 +103,7 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.BURGER_BUNS.get());
 			tabData.accept(CravingsModModItems.CUT_BUNS.get());
 			tabData.accept(CravingsModModItems.HEAVY_CREAM.get());
+			tabData.accept(CravingsModModItems.SALT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CravingsModModItems.CHEESE_CURDS.get());
 			tabData.accept(CravingsModModBlocks.CHEESE_WHEEL.get().asItem());

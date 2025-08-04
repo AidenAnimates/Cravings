@@ -2,21 +2,21 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "radish_crop_0",
+    "texture": "cropg_nan",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 13,
-    "customModelName": "Crop model",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "radish_seeds",
-    "particleTexture": "lemon_leaves",
+    "itemTexture": "",
+    "particleTexture": "",
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -27,7 +27,7 @@
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.01,
+        "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Radish Crop",
+    "name": "Single Natural Crop",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,9 +51,9 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -61,7 +61,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -70,10 +70,10 @@
     "colorOnMap": "LIME",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": "CUSTOM:RadishSeeds"
+      "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "WALKABLE",
+    "aiPathNodeType": "DEFAULT",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -81,40 +81,31 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "DESTROY",
-    "isNotColidable": true,
-    "isCustomSoundType": true,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
     },
     "breakSound": {
-      "value": "block.crop.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.grass.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.grass.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "item.crop.plant"
+      "value": ""
     },
     "stepSound": {
-      "value": "block.grass.step"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
-    "isBonemealable": true,
-    "isBonemealTargetCondition": {
-      "name": "CropBoneMealCondition"
-    },
-    "bonemealSuccessCondition": {
-      "name": "CropMealSuccessCondition"
-    },
-    "onBonemealSuccess": {
-      "name": "CropMeal"
-    },
+    "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {
@@ -123,7 +114,7 @@
     "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 99,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
@@ -136,15 +127,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "RadishCropNeighbourBlockChanges"
-    },
-    "onTickUpdate": {
-      "name": "CropGrow"
-    },
-    "onDestroyedByPlayer": {
-      "name": "RadishCropBlockDestroyedByPlayer"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
@@ -152,10 +134,10 @@
         "value": "Blocks.TALLGRASS#1"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 2,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 320
   }
 }

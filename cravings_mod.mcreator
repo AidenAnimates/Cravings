@@ -84,7 +84,8 @@
       "registry_name": "c_wheel_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/recipe/c_wheel_recipe.json"
+          "src/main/resources/data/cravings_mod/recipe/c_wheel_recipe.json",
+          "src/main/resources/data/cravings_mod/advancement/recipes/c_wheel_recipe.json"
         ]
       },
       "path": "~/Cravings/Cheese"
@@ -97,6 +98,7 @@
       "registry_name": "curd_separation",
       "metadata": {
         "files": [
+          "src/main/resources/data/cravings_mod/advancement/recipes/curd_separation.json",
           "src/main/resources/data/cravings_mod/recipe/curd_separation.json"
         ]
       },
@@ -2238,11 +2240,8 @@
       "registry_name": "radish_crop",
       "metadata": {
         "files": [
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/RadishCropBlock.java",
           "src/main/resources/assets/cravings_mod/blockstates/radish_crop.json",
-          "src/main/resources/data/cravings_mod/worldgen/placed_feature/radish_crop.json",
-          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/radish_crop_biome_modifier.json",
           "src/main/resources/assets/cravings_mod/models/block/radish_crop.json",
           "src/main/java/net/mcreator/cravingsmod/block/entity/RadishCropBlockEntity.java",
           "src/main/resources/data/cravings_mod/loot_table/blocks/radish_crop.json"
@@ -2497,6 +2496,52 @@
         ]
       },
       "path": "~/CravingsCrops/Green Bean"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/salt.json",
+          "src/main/java/net/mcreator/cravingsmod/item/SaltItem.java",
+          "src/main/resources/assets/cravings_mod/items/salt.json"
+        ]
+      },
+      "path": "~/Cravings/Misc"
+    },
+    {
+      "name": "SaltBoiling",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_boiling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/advancement/recipes/salt_boiling.json",
+          "src/main/resources/data/cravings_mod/recipe/salt_boiling.json"
+        ]
+      },
+      "path": "~/Cravings/Misc"
+    },
+    {
+      "name": "SingleCropGeneration",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_crop_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/single_crop_generation.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/SingleCropGenerationBlockEntity.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/single_crop_generation.json",
+          "src/main/resources/assets/cravings_mod/blockstates/single_crop_generation.json",
+          "src/main/java/net/mcreator/cravingsmod/block/SingleCropGenerationBlock.java"
+        ]
+      },
+      "path": "~/CravingsCrops"
     }
   ],
   "variable_elements": [],
@@ -2606,7 +2651,9 @@
       "item.cravings_mod.green_bean_crop": "Tomato Crop",
       "item.cravings_mod.green_beans": "Pitaya",
       "item.cravings_mod.pitaya_crop": "Semi di Pitaya",
-      "item.cravings_mod.tomato_crop": "Semi di Pomodoro"
+      "item.cravings_mod.tomato_crop": "Semi di Pomodoro",
+      "item.cravings_mod.salt": "Salt",
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "en_us": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2684,7 +2731,9 @@
       "item.cravings_mod.green_bean_crop": "Green Bean Seeds",
       "item.cravings_mod.green_beans": "Pitaya",
       "item.cravings_mod.pitaya_crop": "Pitaya Seeds",
-      "item.cravings_mod.tomato_crop": "Tomato Seeds"
+      "item.cravings_mod.tomato_crop": "Tomato Seeds",
+      "item.cravings_mod.salt": "Salt",
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "fr_fr": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2762,7 +2811,9 @@
       "item.cravings_mod.green_bean_crop": "Tomato Crop",
       "item.cravings_mod.green_beans": "Pitaya",
       "item.cravings_mod.pitaya_crop": "Graines de pitaya",
-      "item.cravings_mod.tomato_crop": "Graines de tomates"
+      "item.cravings_mod.tomato_crop": "Graines de tomates",
+      "item.cravings_mod.salt": "Salt",
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
@@ -2840,7 +2891,9 @@
       "item.cravings_mod.green_bean_crop": "Tomato Crop",
       "item.cravings_mod.green_beans": "Pitaya",
       "item.cravings_mod.pitaya_crop": "Pitaya-Samen",
-      "item.cravings_mod.tomato_crop": "Tomatensamen"
+      "item.cravings_mod.tomato_crop": "Tomatensamen",
+      "item.cravings_mod.salt": "Salt",
+      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
     }
   },
   "metadata": {
@@ -2902,6 +2955,10 @@
           {
             "name": "Milk",
             "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
           }
         ]
       },
@@ -2942,6 +2999,22 @@
           },
           {
             "name": "Green Bean",
+            "children": []
+          },
+          {
+            "name": "Green Pepper",
+            "children": []
+          },
+          {
+            "name": "Jalapeno",
+            "children": []
+          },
+          {
+            "name": "SFSEED",
+            "children": []
+          },
+          {
+            "name": "Prickly Pear",
             "children": []
           }
         ]

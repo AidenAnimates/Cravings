@@ -24,6 +24,7 @@ import net.mcreator.cravingsmod.item.VodkaItem;
 import net.mcreator.cravingsmod.item.ToolHandleItem;
 import net.mcreator.cravingsmod.item.TomatoItem;
 import net.mcreator.cravingsmod.item.ToastItem;
+import net.mcreator.cravingsmod.item.SaltItem;
 import net.mcreator.cravingsmod.item.RicottaItem;
 import net.mcreator.cravingsmod.item.RawBaconItem;
 import net.mcreator.cravingsmod.item.RadishSeedsItem;
@@ -135,6 +136,7 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> RADISH_SEEDS = register("radish_seeds", RadishSeedsItem::new);
 	public static final DeferredItem<Item> GREEN_BEAN_CROP = doubleBlock(CravingsModModBlocks.GREEN_BEAN_CROP);
 	public static final DeferredItem<Item> GREEN_BEANS = register("green_beans", GreenBeansItem::new);
+	public static final DeferredItem<Item> SALT = register("salt", SaltItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
