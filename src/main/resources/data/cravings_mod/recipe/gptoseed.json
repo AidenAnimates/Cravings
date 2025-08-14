@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cravings_mod:green_pepper"
+  ],
+  "result": {
+    "id": "cravings_mod:green_pepper_seeds",
+    "count": 3
+  }
+}

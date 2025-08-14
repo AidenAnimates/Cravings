@@ -2514,45 +2514,180 @@
       "path": "~/Cravings/Misc"
     },
     {
-      "name": "SingleCropGeneration",
-      "type": "block",
+      "name": "Butter",
+      "type": "item",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "single_crop_generation",
+      "locked_code": false,
+      "registry_name": "butter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/single_crop_generation.json",
-          "src/main/java/net/mcreator/cravingsmod/block/entity/SingleCropGenerationBlockEntity.java",
-          "src/main/resources/data/cravings_mod/loot_table/blocks/single_crop_generation.json",
-          "src/main/resources/assets/cravings_mod/blockstates/single_crop_generation.json",
-          "src/main/java/net/mcreator/cravingsmod/block/SingleCropGenerationBlock.java",
-          "src/main/resources/data/cravings_mod/worldgen/configured_feature/single_crop_generation.json",
-          "src/main/resources/data/cravings_mod/worldgen/placed_feature/single_crop_generation.json",
-          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/single_crop_generation_biome_modifier.json"
+          "src/main/resources/assets/cravings_mod/items/butter.json",
+          "src/main/java/net/mcreator/cravingsmod/item/ButterItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/butter.json"
         ]
       },
-      "path": "~/CravingsCrops"
+      "path": "~/Cravings/Milk"
     },
     {
-      "name": "SCGCrops",
+      "name": "Churn",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "churn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/churn.json",
+          "src/main/resources/data/cravings_mod/advancement/recipes/churn.json"
+        ]
+      },
+      "path": "~/Cravings/Milk"
+    },
+    {
+      "name": "SunflowerSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunflower_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/sunflower_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/SunflowerSeedsItem.java",
+          "src/main/resources/assets/cravings_mod/items/sunflower_seeds.json"
+        ]
+      },
+      "path": "~/CravingsCrops/SFSEED"
+    },
+    {
+      "name": "ToastedSunflowerSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toasted_sunflower_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/toasted_sunflower_seeds.json",
+          "src/main/resources/assets/cravings_mod/items/toasted_sunflower_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/ToastedSunflowerSeedsItem.java"
+        ]
+      },
+      "path": "~/CravingsCrops/SFSEED"
+    },
+    {
+      "name": "SFExt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sf_ext",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/sf_ext.json",
+          "src/main/resources/data/cravings_mod/advancement/recipes/sf_ext.json"
+        ]
+      },
+      "path": "~/CravingsCrops/SFSEED"
+    },
+    {
+      "name": "SFToast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sf_toast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/advancement/recipes/sf_toast.json",
+          "src/main/resources/data/cravings_mod/recipe/sf_toast.json"
+        ]
+      },
+      "path": "~/CravingsCrops/SFSEED"
+    },
+    {
+      "name": "PricklyPear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prickly_pear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/prickly_pear.json",
+          "src/main/resources/assets/cravings_mod/items/prickly_pear.json",
+          "src/main/java/net/mcreator/cravingsmod/item/PricklyPearItem.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Prickly Pear"
+    },
+    {
+      "name": "PricklyCrop",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prickly_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/worldgen/placed_feature/prickly_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/PricklyCropBlock.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/prickly_crop.json",
+          "src/main/resources/data/cravings_mod/neoforge/biome_modifier/prickly_crop_biome_modifier.json",
+          "src/main/resources/assets/cravings_mod/blockstates/prickly_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/prickly_crop.json",
+          "src/main/resources/data/cravings_mod/worldgen/configured_feature/prickly_crop.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Prickly Pear"
+    },
+    {
+      "name": "Jalapeno",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalapeno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/JalapenoItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/jalapeno.json",
+          "src/main/resources/assets/cravings_mod/items/jalapeno.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JalapenoCrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalapeno_crop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/block/JalapenoCropBlock.java",
+          "src/main/resources/assets/cravings_mod/blockstates/jalapeno_crop.json",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/jalapeno_crop.json",
+          "src/main/resources/assets/cravings_mod/models/block/jalapeno_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/JalapenoCropBlockEntity.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JalapenoCropBlockState",
       "type": "blockstates",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scg_crops",
+      "registry_name": "jalapeno_crop_block_state",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cravings_mod/models/block/scg_crops_blockstate_0.json",
-          "src/main/resources/assets/cravings_mod/models/block/scg_crops_blockstate_1.json"
+          "src/main/resources/assets/cravings_mod/models/block/jalapeno_crop_block_state_blockstate_2.json",
+          "src/main/resources/assets/cravings_mod/models/block/jalapeno_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/jalapeno_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/jalapeno_crop_block_state_blockstate_1.json"
         ]
       },
-      "path": "~/CravingsCrops"
+      "path": "~/CravingsCrops/Jalapeno"
     },
     {
-      "name": "SCGRandomizer",
+      "name": "JalapenoCropNeighbourBlockChanges",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scg_randomizer",
+      "registry_name": "jalapeno_crop_neighbour_block_changes",
       "metadata": {
         "dependencies": [
           {
@@ -2573,10 +2708,336 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/cravingsmod/procedures/SCGRandomizerProcedure.java"
+          "src/main/java/net/mcreator/cravingsmod/procedures/JalapenoCropNeighbourBlockChangesProcedure.java"
         ]
       },
-      "path": "~/CravingsCrops"
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JalapenoCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalapeno_crop_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/JalapenoCropBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JalapenoSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalapeno_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/jalapeno_seeds.json",
+          "src/main/resources/assets/cravings_mod/items/jalapeno_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/JalapenoSeedsItem.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JalapenoSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalapeno_seeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/JalapenoSeedsRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "GreenPepper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/item/GreenPepperItem.java",
+          "src/main/resources/assets/cravings_mod/models/item/green_pepper.json",
+          "src/main/resources/assets/cravings_mod/items/green_pepper.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperCrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop.json",
+          "src/main/java/net/mcreator/cravingsmod/block/GreenPepperCropBlock.java",
+          "src/main/java/net/mcreator/cravingsmod/block/entity/GreenPepperCropBlockEntity.java",
+          "src/main/resources/data/cravings_mod/loot_table/blocks/green_pepper_crop.json",
+          "src/main/resources/assets/cravings_mod/blockstates/green_pepper_crop.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperCropBlockState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_crop_block_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop_block_state_blockstate_3.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop_block_state_blockstate_2.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop_block_state_blockstate_0.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop_block_state_blockstate_4.json",
+          "src/main/resources/assets/cravings_mod/models/block/green_pepper_crop_block_state_blockstate_1.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperCropNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_crop_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GreenPepperCropNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperCropBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_crop_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GreenPepperCropBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cravings_mod/models/item/green_pepper_seeds.json",
+          "src/main/java/net/mcreator/cravingsmod/item/GreenPepperSeedsItem.java",
+          "src/main/resources/assets/cravings_mod/items/green_pepper_seeds.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GreenPepperSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pepper_seeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GreenPepperSeedsRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "GPTOSEED",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gptoseed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/advancement/recipes/gptoseed.json",
+          "src/main/resources/data/cravings_mod/recipe/gptoseed.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
+    },
+    {
+      "name": "JALPTOSEED",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalptoseed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cravings_mod/recipe/jalptoseed.json",
+          "src/main/resources/data/cravings_mod/advancement/recipes/jalptoseed.json"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "JPCropBoneMealCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jp_crop_bone_meal_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/JPCropBoneMealConditionProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Jalapeno"
+    },
+    {
+      "name": "GPCropBoneMealCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gp_crop_bone_meal_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cravingsmod/procedures/GPCropBoneMealConditionProcedure.java"
+        ]
+      },
+      "path": "~/CravingsCrops/Green Pepper"
     }
   ],
   "variable_elements": [],
@@ -2616,7 +3077,7 @@
       "item.cravings_mod.beer_bottle": "Bottiglia di birra",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sacco Di Farina",
       "item.cravings_mod.cheese_curds": "Cagliata di formaggio",
-      "item.cravings_mod.cheeseburger": "Hamburger",
+      "item.cravings_mod.cheeseburger": "Cheeseburger",
       "block.cravings_mod.fryer": "Friggitore",
       "item.cravings_mod.bread_slice": "Fetta di pane",
       "item.cravings_mod.wort_bottle": "Bottiglia di mosto di birra",
@@ -2635,7 +3096,7 @@
       "item.cravings_mod.dough": "Impasto",
       "item.cravings_mod.cheese_slice": "Fetta Di Formaggio",
       "item.cravings_mod.toast": "Pane abbrustolito",
-      "item.cravings_mod.olive": "Oliva",
+      "item.cravings_mod.olive": "Olivo",
       "item.cravings_mod.knife": "Coltello",
       "item.cravings_mod.grape_seeds": "Semi d\u0027uva",
       "item.cravings_mod.bucket_of_olive_oil": "Secchio di olio d\u0027oliva",
@@ -2655,40 +3116,50 @@
       "item.cravings_mod.vodka": "Vodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Secchio di cagliata",
       "item.cravings_mod.grapes": "Uva",
-      "item_group.cravings_mod.cravings": "Voglie",
+      "item_group.cravings_mod.cravings": "Cravings",
       "block.cravings_mod.olive_sapling": "Alberello d\u0027olivo",
       "item.cravings_mod.tomato": "Pomodoro",
       "block.cravings_mod.tomato_crop": "Semi di Pomodoro",
-      "item.cravings_mod.potato_mash": "Bottiglia Di Pasta Di Patate",
+      "item.cravings_mod.potato_mash": "Bottiglia di pasta di patate",
       "item.cravings_mod.wine_bottle": "Bottiglia di vino",
       "item.cravings_mod.bacon": "Bacon",
       "block.cravings_mod.cheese_wheel": "Ruota di formaggio",
-      "item.cravings_mod.fermented_potato_mash": "Pasta Di Patate Fermentate",
-      "item.cravings_mod.bacon_cheeseburger": "Hamburger con formaggio e bacon",
+      "item.cravings_mod.fermented_potato_mash": "Pasta di patate fermentate",
+      "item.cravings_mod.bacon_cheeseburger": "Cheeseburger al bacon",
       "item.cravings_mod.cheese": "Formaggio",
       "item.cravings_mod.lettuce": "Lattuga",
       "item.cravings_mod.grape_juice": "Succo d\u0027uva",
       "block.cravings_mod.olive_leaves": "Foglie di olivo",
       "item.cravings_mod.lemon": "Limone",
       "item.cravings_mod.must": "Mosto di miele",
-      "item.cravings_mod.cut_buns": "Panini per hamburger separati",
+      "item.cravings_mod.cut_buns": "Panini per hamburger (Separato)",
       "block.cravings_mod.grape_crop": "Raccolto d\u0027uva",
       "item.cravings_mod.mead_bottle": "Bottiglia di idromele",
-      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
-      "item.cravings_mod.fryer": "Fryer",
-      "item.cravings_mod.olive_leaves": "Olive Leaves",
-      "item.cravings_mod.olive_sapling": "Olive Sapling",
-      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
-      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.cheese_wheel": "Ruota di formaggio",
+      "item.cravings_mod.fryer": "Friggitrice",
+      "item.cravings_mod.olive_leaves": "Foglie di olivo",
+      "item.cravings_mod.olive_sapling": "Alberello di olivo",
+      "item.cravings_mod.lemon_leaves": "Foglie di limone",
+      "item.cravings_mod.lemon_sapling": "Alberello di limone",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
       "item.cravings_mod.radish_crop": "Radish Crop",
-      "item.cravings_mod.green_bean_crop": "Tomato Crop",
-      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.green_bean_crop": "Semi di baccelli verdi",
+      "item.cravings_mod.green_beans": "Baccelli verdi",
       "item.cravings_mod.pitaya_crop": "Semi di Pitaya",
       "item.cravings_mod.tomato_crop": "Semi di Pomodoro",
-      "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
+      "item.cravings_mod.salt": "Sale",
+      "item.cravings_mod.butter": "Burro",
+      "item.cravings_mod.sunflower_seeds": "Semi di girasole",
+      "item.cravings_mod.toasted_sunflower_seeds": "Semi di girasole tostati",
+      "item.cravings_mod.prickly_pear": "Pale di fico d\u0027India",
+      "item.cravings_mod.prickly_crop": "Fico d\u0027India",
+      "item.cravings_mod.jalapeno": "Jalapeno",
+      "item.cravings_mod.jalapeno_crop": "Jalapeno Crop",
+      "item.cravings_mod.jalapeno_seeds": "Semi di jalapeno",
+      "item.cravings_mod.green_pepper": "Peperoni verdi",
+      "item.cravings_mod.green_pepper_crop": "Jalapeno Crop",
+      "item.cravings_mod.green_pepper_seeds": "Semi di peperoni verdi"
     },
     "en_us": {
       "item.cravings_mod.hamburger": "Hamburger",
@@ -2764,26 +3235,36 @@
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
       "item.cravings_mod.radish_crop": "Radish Crop",
       "item.cravings_mod.green_bean_crop": "Green Bean Seeds",
-      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.green_beans": "Green Beans",
       "item.cravings_mod.pitaya_crop": "Pitaya Seeds",
       "item.cravings_mod.tomato_crop": "Tomato Seeds",
       "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
+      "item.cravings_mod.butter": "Butter",
+      "item.cravings_mod.sunflower_seeds": "Sunflower Seeds",
+      "item.cravings_mod.toasted_sunflower_seeds": "Toasted Sunflower Seeds",
+      "item.cravings_mod.prickly_pear": "Prickly Pad",
+      "item.cravings_mod.prickly_crop": "Prickly Crop",
+      "item.cravings_mod.jalapeno": "Jalapeno",
+      "item.cravings_mod.jalapeno_crop": "Jalapeno Crop",
+      "item.cravings_mod.jalapeno_seeds": "Jalapeno Seeds",
+      "item.cravings_mod.green_pepper": "Green Pepper",
+      "item.cravings_mod.green_pepper_crop": "Green Pepper Crop",
+      "item.cravings_mod.green_pepper_seeds": "Green Pepper Seeds"
     },
     "fr_fr": {
       "item.cravings_mod.hamburger": "Hamburger",
-      "item.cravings_mod.grilled_cheese": "Sandwich au fromage grillé",
+      "item.cravings_mod.grilled_cheese": "Sandwich au fromage fondant",
       "gui.cravings_mod.sack_gui.label_flour_sack": "Sac de farine",
       "item.cravings_mod.beer_bottle": "Bouteille de bière",
       "item.cravings_mod.cheese_curds": "Fromage en grains",
-      "item.cravings_mod.cheeseburger": "Burger au fromage",
+      "item.cravings_mod.cheeseburger": "Cheeseburger",
       "block.cravings_mod.fryer": "Friteuse",
       "item.cravings_mod.bread_slice": "Tranche de pain",
       "item.cravings_mod.wort_bottle": "Bouteille de moût de bière",
-      "item.cravings_mod.burger_buns": "Pains à hamburger",
+      "item.cravings_mod.burger_buns": "Pains à burger",
       "item.cravings_mod.flour": "Farine",
       "item.cravings_mod.cheese_sandwich": "Sandwich au fromage",
-      "item.cravings_mod.dipped_curds": "Caillé trempé",
+      "item.cravings_mod.dipped_curds": "Caillé trempéc",
       "item.cravings_mod.flour_sack": "Sac de farine",
       "item.cravings_mod.fabric": "Tissu",
       "item.cravings_mod.pitaya": "Pitaya",
@@ -2815,40 +3296,50 @@
       "item.cravings_mod.vodka": "Vodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Seau de lait caillé",
       "item.cravings_mod.grapes": "Raisin",
-      "item_group.cravings_mod.cravings": "Envies",
+      "item_group.cravings_mod.cravings": "Cravings",
       "block.cravings_mod.olive_sapling": "Jeune olivier",
-      "item.cravings_mod.tomato": "Lettuce",
+      "item.cravings_mod.tomato": "Tomate",
       "block.cravings_mod.tomato_crop": "Graines de tomates",
       "item.cravings_mod.potato_mash": "Bouteille de purée de pommes de terre",
       "item.cravings_mod.wine_bottle": "Bouteille de vin",
       "item.cravings_mod.bacon": "Bacon",
       "block.cravings_mod.cheese_wheel": "Meule de fromage",
       "item.cravings_mod.fermented_potato_mash": "Purée de pommes de terre fermentée",
-      "item.cravings_mod.bacon_cheeseburger": "Burger au bacon et au fromage",
+      "item.cravings_mod.bacon_cheeseburger": "Cheeseburger au bacon",
       "item.cravings_mod.cheese": "Fromage",
       "item.cravings_mod.lettuce": "Laitue",
       "item.cravings_mod.grape_juice": "Jus de Raisin",
       "block.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
       "item.cravings_mod.lemon": "Citron",
       "item.cravings_mod.must": "Moût de miel",
-      "item.cravings_mod.cut_buns": "Pains à hamburger séparés",
+      "item.cravings_mod.cut_buns": "Pain à burger (Séparé)",
       "block.cravings_mod.grape_crop": "Récolte de raisin",
       "item.cravings_mod.mead_bottle": "Bouteille d\u0027hydromel",
-      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
+      "item.cravings_mod.cheese_wheel": "Meule de fromage",
       "item.cravings_mod.fryer": "Fryer",
-      "item.cravings_mod.olive_leaves": "Olive Leaves",
-      "item.cravings_mod.olive_sapling": "Olive Sapling",
-      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
-      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.olive_leaves": "Feuilles d\u0027olivier",
+      "item.cravings_mod.olive_sapling": "Jeune abre de olivier",
+      "item.cravings_mod.lemon_leaves": "Feuilles de citron",
+      "item.cravings_mod.lemon_sapling": "jeune arbre de citron",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
       "item.cravings_mod.radish_crop": "Radish Crop",
-      "item.cravings_mod.green_bean_crop": "Tomato Crop",
-      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.green_bean_crop": "Graines de haricots verts",
+      "item.cravings_mod.green_beans": "Haricots verts",
       "item.cravings_mod.pitaya_crop": "Graines de pitaya",
       "item.cravings_mod.tomato_crop": "Graines de tomates",
-      "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
+      "item.cravings_mod.salt": "Sel",
+      "item.cravings_mod.butter": "Beurre",
+      "item.cravings_mod.sunflower_seeds": "Graines de tournesol",
+      "item.cravings_mod.toasted_sunflower_seeds": "Graines de tournesol grillées",
+      "item.cravings_mod.prickly_pear": "Raquettes de figuier de Barbarie",
+      "item.cravings_mod.prickly_crop": "Cultures de figuiers de Barbarie",
+      "item.cravings_mod.jalapeno": "Jalapeno",
+      "item.cravings_mod.jalapeno_crop": "Graines de jalapeno",
+      "item.cravings_mod.jalapeno_seeds": "Graines de jalapeno",
+      "item.cravings_mod.green_pepper": "Poivrons verts",
+      "item.cravings_mod.green_pepper_crop": "Grains de poivre vert",
+      "item.cravings_mod.green_pepper_seeds": "Jalapeno Seeds"
     },
     "de_de": {
       "item.cravings_mod.grilled_cheese": "Gegrilltes Käsesandwich",
@@ -2895,7 +3386,7 @@
       "item.cravings_mod.vodka": "Wodka",
       "item.cravings_mod.bucket_of_curdy_milk": "Eimer mit Quark",
       "item.cravings_mod.grapes": "Trauben",
-      "item_group.cravings_mod.cravings": "Heißhunger",
+      "item_group.cravings_mod.cravings": "Cravings",
       "block.cravings_mod.olive_sapling": "Olivensetzling",
       "item.cravings_mod.tomato": "Tomate",
       "block.cravings_mod.tomato_crop": "Tomatensamen",
@@ -2911,30 +3402,41 @@
       "block.cravings_mod.olive_leaves": "Olivenblätter",
       "item.cravings_mod.lemon": "Zitrone",
       "item.cravings_mod.must": "Honigwürzeflasche",
-      "item.cravings_mod.cut_buns": "Getrennte Burgerbrötchen",
+      "item.cravings_mod.cut_buns": "Burgerbrötchen (Getrennte)",
       "block.cravings_mod.grape_crop": "Weinernte",
       "item.cravings_mod.mead_bottle": "Metflasche",
-      "item.cravings_mod.cheese_wheel": "Cheese Wheel",
-      "item.cravings_mod.fryer": "Fryer",
-      "item.cravings_mod.olive_leaves": "Olive Leaves",
-      "item.cravings_mod.olive_sapling": "Olive Sapling",
-      "item.cravings_mod.lemon_leaves": "Lemon Leaves",
-      "item.cravings_mod.lemon_sapling": "Lemon Sapling",
+      "item.cravings_mod.cheese_wheel": "Käserad",
+      "item.cravings_mod.fryer": "Fritteuse",
+      "item.cravings_mod.olive_leaves": "Olivenblätter",
+      "item.cravings_mod.olive_sapling": "Olivensetzling",
+      "item.cravings_mod.lemon_leaves": "Zitronenblätter",
+      "item.cravings_mod.lemon_sapling": "Zitronensetzling",
       "item.cravings_mod.grape_crop": "Grape Crop",
       "item.cravings_mod.lettuce_crop": "Lettuce Crop",
       "item.cravings_mod.radish_crop": "Radish Crop",
-      "item.cravings_mod.green_bean_crop": "Tomato Crop",
-      "item.cravings_mod.green_beans": "Pitaya",
+      "item.cravings_mod.green_bean_crop": "Grünen Bohnen Samen",
+      "item.cravings_mod.green_beans": "Grünen Bohnen",
       "item.cravings_mod.pitaya_crop": "Pitaya-Samen",
       "item.cravings_mod.tomato_crop": "Tomatensamen",
-      "item.cravings_mod.salt": "Salt",
-      "item.cravings_mod.single_crop_generation": "Single Natural Crop"
+      "item.cravings_mod.salt": "Salz",
+      "item.cravings_mod.butter": "Butter",
+      "item.cravings_mod.sunflower_seeds": "Sonnenblumenkerne",
+      "item.cravings_mod.toasted_sunflower_seeds": "Sonnenblumenkerne (Getoastet)",
+      "item.cravings_mod.prickly_pear": "Blätter der Feigenkaktus",
+      "item.cravings_mod.prickly_crop": "Feigenkaktus",
+      "item.cravings_mod.jalapeno": "Jalapeno",
+      "item.cravings_mod.jalapeno_crop": "Jalapeno-Samen",
+      "item.cravings_mod.jalapeno_seeds": "Jalapeno-Samen",
+      "item.cravings_mod.green_pepper": "Grüner Pfeffer",
+      "item.cravings_mod.green_pepper_crop": "Green Pepper Crop",
+      "item.cravings_mod.green_pepper_seeds": "Grüner Pfeffer Samen"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/cravingsmod/CravingsModMod.java",
+      "src/main/java/net/mcreator/cravingsmod/init/CravingsModModModels.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/cravingsmod/init/CravingsModModTabs.java",
@@ -3084,10 +3586,10 @@
   "workspaceSettings": {
     "modid": "cravings_mod",
     "modName": "Cravings",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A mod for all your food needs!",
     "author": "UniPM",
-    "websiteURL": "https://en.wikipedia.org/wiki/Cheese",
+    "websiteURL": "https://modrinth.com/mod/cravings",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "updateURL": "https://pastebin.com/raw/8dqiTUxX",
@@ -3097,7 +3599,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.4",
-    "credits": "Made by UniPM",
+    "credits": "Developed by UniPM \u0026 p1ague_d0c",
     "modElementsPackage": "net.mcreator.cravingsmod"
   },
   "mcreatorVersion": 202500226612

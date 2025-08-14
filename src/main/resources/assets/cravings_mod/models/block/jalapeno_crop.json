@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cravings_mod:block/jalapeno_crop_0",
+    "particle": "cravings_mod:block/lemon_leaves"
+  },
+  "render_type": "cutout"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/crop",
-  "textures": {
-    "crop": "cravings_mod:block/lettuce_plant_6",
-    "particle": "cravings_mod:block/cropg_nan"
-  },
-  "render_type": "cutout"
-}

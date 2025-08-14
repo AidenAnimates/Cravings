@@ -4,12 +4,12 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="cravings_mod"
-version="0.3.0"
+version="0.4.0"
 displayName="Cravings"
 updateJSONURL="https://pastebin.com/raw/8dqiTUxX"
-displayURL="https://en.wikipedia.org/wiki/Cheese"
+displayURL="https://modrinth.com/mod/cravings"
 logoFile="logo.png"
-credits="Made by UniPM"
+credits="Developed by UniPM & p1ague_d0c"
 authors="UniPM"
 description="A mod for all your food needs!"
 

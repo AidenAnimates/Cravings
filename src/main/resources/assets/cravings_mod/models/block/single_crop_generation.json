@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "cravings_mod:block/cropg_nan",
-    "particle": "cravings_mod:block/cropg_nan"
-  },
-  "render_type": "cutout"
-}

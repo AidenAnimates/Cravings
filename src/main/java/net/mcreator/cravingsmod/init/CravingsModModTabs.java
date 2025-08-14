@@ -79,6 +79,14 @@ public class CravingsModModTabs {
 				tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
 				tabData.accept(CravingsModModItems.GREEN_BEANS.get());
 				tabData.accept(CravingsModModItems.SALT.get());
+				tabData.accept(CravingsModModItems.BUTTER.get());
+				tabData.accept(CravingsModModItems.SUNFLOWER_SEEDS.get());
+				tabData.accept(CravingsModModItems.TOASTED_SUNFLOWER_SEEDS.get());
+				tabData.accept(CravingsModModItems.PRICKLY_PEAR.get());
+				tabData.accept(CravingsModModItems.JALAPENO.get());
+				tabData.accept(CravingsModModItems.JALAPENO_SEEDS.get());
+				tabData.accept(CravingsModModItems.GREEN_PEPPER.get());
+				tabData.accept(CravingsModModItems.GREEN_PEPPER_SEEDS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -138,6 +146,12 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.PITAYA.get());
 			tabData.accept(CravingsModModItems.RADISH.get());
 			tabData.accept(CravingsModModItems.GREEN_BEANS.get());
+			tabData.accept(CravingsModModItems.BUTTER.get());
+			tabData.accept(CravingsModModItems.SUNFLOWER_SEEDS.get());
+			tabData.accept(CravingsModModItems.TOASTED_SUNFLOWER_SEEDS.get());
+			tabData.accept(CravingsModModItems.PRICKLY_PEAR.get());
+			tabData.accept(CravingsModModItems.JALAPENO.get());
+			tabData.accept(CravingsModModItems.GREEN_PEPPER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CravingsModModItems.FLOUR_SACK.get());
 			tabData.accept(CravingsModModItems.BUCKET_OF_OLIVE_OIL.get());
@@ -152,6 +166,8 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModBlocks.LEMON_LEAVES.get().asItem());
 			tabData.accept(CravingsModModBlocks.LEMON_SAPLING.get().asItem());
 			tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
+			tabData.accept(CravingsModModItems.JALAPENO_SEEDS.get());
+			tabData.accept(CravingsModModItems.GREEN_PEPPER_SEEDS.get());
 		}
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cravings_mod:heavy_cream",
+    "cravings_mod:salt"
+  ],
+  "result": {
+    "id": "cravings_mod:butter",
+    "count": 2
+  }
+}

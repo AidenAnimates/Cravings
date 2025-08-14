@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cravings_mod:jalapeno"
+  ],
+  "result": {
+    "id": "cravings_mod:jalapeno_seeds",
+    "count": 3
+  }
+}

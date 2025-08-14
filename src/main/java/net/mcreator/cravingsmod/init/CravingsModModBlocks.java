@@ -10,14 +10,16 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cravingsmod.block.TomatoCropBlock;
-import net.mcreator.cravingsmod.block.SingleCropGenerationBlock;
 import net.mcreator.cravingsmod.block.RadishCropBlock;
+import net.mcreator.cravingsmod.block.PricklyCropBlock;
 import net.mcreator.cravingsmod.block.PitayaCropBlock;
 import net.mcreator.cravingsmod.block.OliveSaplingBlock;
 import net.mcreator.cravingsmod.block.OliveLeavesBlock;
 import net.mcreator.cravingsmod.block.LettuceCropBlock;
 import net.mcreator.cravingsmod.block.LemonSaplingBlock;
 import net.mcreator.cravingsmod.block.LemonLeavesBlock;
+import net.mcreator.cravingsmod.block.JalapenoCropBlock;
+import net.mcreator.cravingsmod.block.GreenPepperCropBlock;
 import net.mcreator.cravingsmod.block.GreenBeanCropBlock;
 import net.mcreator.cravingsmod.block.GrapeCropBlock;
 import net.mcreator.cravingsmod.block.FryerBlock;
@@ -40,7 +42,9 @@ public class CravingsModModBlocks {
 	public static final DeferredBlock<Block> PITAYA_CROP = register("pitaya_crop", PitayaCropBlock::new);
 	public static final DeferredBlock<Block> RADISH_CROP = register("radish_crop", RadishCropBlock::new);
 	public static final DeferredBlock<Block> GREEN_BEAN_CROP = register("green_bean_crop", GreenBeanCropBlock::new);
-	public static final DeferredBlock<Block> SINGLE_CROP_GENERATION = register("single_crop_generation", SingleCropGenerationBlock::new);
+	public static final DeferredBlock<Block> PRICKLY_CROP = register("prickly_crop", PricklyCropBlock::new);
+	public static final DeferredBlock<Block> JALAPENO_CROP = register("jalapeno_crop", JalapenoCropBlock::new);
+	public static final DeferredBlock<Block> GREEN_PEPPER_CROP = register("green_pepper_crop", GreenPepperCropBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
