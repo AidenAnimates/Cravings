@@ -86,5 +86,10 @@
   "item.cravings_mod.jalapeno_seeds": "Graines de jalapeno",
   "item.cravings_mod.green_pepper": "Poivrons verts",
   "item.cravings_mod.green_pepper_crop": "Grains de poivre vert",
-  "item.cravings_mod.green_pepper_seeds": "Jalapeno Seeds"
+  "item.cravings_mod.green_pepper_seeds": "Jalapeno Seeds",
+  "subtitles.bellow": "",
+  "entity.cravings_mod.bison": "Bison",
+  "item.cravings_mod.bison_spawn_egg": "Bison Spawn Egg",
+  "item.cravings_mod.deer_spawn_egg": "Deer Spawn Egg",
+  "entity.cravings_mod.deer": "Deer"
 }

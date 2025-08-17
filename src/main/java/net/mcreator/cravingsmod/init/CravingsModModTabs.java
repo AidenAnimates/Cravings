@@ -168,6 +168,9 @@ public class CravingsModModTabs {
 			tabData.accept(CravingsModModItems.RADISH_SEEDS.get());
 			tabData.accept(CravingsModModItems.JALAPENO_SEEDS.get());
 			tabData.accept(CravingsModModItems.GREEN_PEPPER_SEEDS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(CravingsModModItems.BISON_SPAWN_EGG.get());
+			tabData.accept(CravingsModModItems.DEER_SPAWN_EGG.get());
 		}
 	}
 }

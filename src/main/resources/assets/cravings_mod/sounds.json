@@ -1,0 +1,10 @@
+{
+  "bellow": {
+    "sounds": [
+      {
+        "name": "cravings_mod:bellow",
+        "stream": false
+      }
+    ]
+  }
+}

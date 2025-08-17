@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "plains",
+  "spawners": {
+    "type": "cravings_mod:bison",
+    "weight": 10,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

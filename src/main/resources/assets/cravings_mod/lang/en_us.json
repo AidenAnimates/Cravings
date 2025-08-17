@@ -86,5 +86,10 @@
   "item.cravings_mod.jalapeno_seeds": "Jalapeno Seeds",
   "item.cravings_mod.green_pepper": "Green Pepper",
   "item.cravings_mod.green_pepper_crop": "Green Pepper Crop",
-  "item.cravings_mod.green_pepper_seeds": "Green Pepper Seeds"
+  "item.cravings_mod.green_pepper_seeds": "Green Pepper Seeds",
+  "subtitles.bellow": "",
+  "entity.cravings_mod.bison": "Bison",
+  "item.cravings_mod.bison_spawn_egg": "Bison Spawn Egg",
+  "item.cravings_mod.deer_spawn_egg": "Deer Spawn Egg",
+  "entity.cravings_mod.deer": "Deer"
 }

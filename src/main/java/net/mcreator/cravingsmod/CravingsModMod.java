@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.cravingsmod.init.CravingsModModTabs;
+import net.mcreator.cravingsmod.init.CravingsModModSounds;
 import net.mcreator.cravingsmod.init.CravingsModModMenus;
 import net.mcreator.cravingsmod.init.CravingsModModItems;
+import net.mcreator.cravingsmod.init.CravingsModModEntities;
 import net.mcreator.cravingsmod.init.CravingsModModBlocks;
 import net.mcreator.cravingsmod.init.CravingsModModBlockEntities;
 
@@ -41,11 +43,11 @@ public class CravingsModMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		CravingsModModSounds.REGISTRY.register(modEventBus);
 		CravingsModModBlocks.REGISTRY.register(modEventBus);
 		CravingsModModBlockEntities.REGISTRY.register(modEventBus);
 		CravingsModModItems.REGISTRY.register(modEventBus);
-
+		CravingsModModEntities.REGISTRY.register(modEventBus);
 		CravingsModModTabs.REGISTRY.register(modEventBus);
 
 		CravingsModModMenus.REGISTRY.register(modEventBus);

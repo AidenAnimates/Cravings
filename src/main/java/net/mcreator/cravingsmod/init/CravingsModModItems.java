@@ -12,6 +12,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
@@ -153,6 +154,8 @@ public class CravingsModModItems {
 	public static final DeferredItem<Item> JALAPENO_SEEDS = register("jalapeno_seeds", JalapenoSeedsItem::new);
 	public static final DeferredItem<Item> GREEN_PEPPER = register("green_pepper", GreenPepperItem::new);
 	public static final DeferredItem<Item> GREEN_PEPPER_SEEDS = register("green_pepper_seeds", GreenPepperSeedsItem::new);
+	public static final DeferredItem<Item> BISON_SPAWN_EGG = register("bison_spawn_egg", properties -> new SpawnEggItem(CravingsModModEntities.BISON.get(), properties));
+	public static final DeferredItem<Item> DEER_SPAWN_EGG = register("deer_spawn_egg", properties -> new SpawnEggItem(CravingsModModEntities.DEER.get(), properties));
 
 	// Start of user code block custom items
 	// End of user code block custom items
